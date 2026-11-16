@@ -1,0 +1,14 @@
+{
+  "author": "殷明骏",
+  "passed": true,
+  "records_recomputed": 270,
+  "suite_scores_verified": 9,
+  "actual_start_intervals_seconds": [
+    3601.0,
+    3599.0
+  ],
+  "cron_ancestry_verified": true,
+  "source_hashes_verified": true,
+  "summary_matches_original_logs": true,
+  "temporary_cron_removed": true
+}

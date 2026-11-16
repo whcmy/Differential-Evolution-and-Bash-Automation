@@ -1,0 +1,9 @@
+{
+  "author": "殷明骏",
+  "student_id": "202483890029",
+  "numpy": "2.3.5",
+  "count": 4200,
+  "passed": 4200,
+  "failures": [],
+  "max_abs_difference": 1.862645149230957e-09
+}

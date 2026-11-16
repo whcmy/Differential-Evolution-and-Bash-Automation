@@ -1,0 +1,8 @@
+{
+  "author": "殷明骏",
+  "sha256": {
+    "cron/scheduled.log": "abfc79882d2e2392fb9b5fcdf6c14bfa749b48f4f018d9501f193ba236e98151",
+    "cron/success_03.json": "919b5e699563c3ee3da54195924cc3854c420f1ddeeb7d7d24317730c2038a3f",
+    "output/cron_3_20261110T184422/experiment.log": "2b84b31ac70e0081b13aaed70679e432c2f2e520b09e4d40a3247223ca8dc4f0"
+  }
+}

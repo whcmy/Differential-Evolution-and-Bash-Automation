@@ -1,0 +1,58 @@
+{
+  "author": "殷明骏",
+  "complete_functions": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30
+  ],
+  "pending_functions": [
+    12
+  ],
+  "rank_sum": {
+    "DE": 151.5,
+    "DSPDE": 196.0,
+    "DLSDE": 102.0,
+    "PEMSDE": 99.0,
+    "TEAM": 155.0,
+    "APE": 120.5,
+    "DLC": 128.0,
+    "DUAL": 92.0
+  },
+  "scope": "Rank bounds during development only; every pending observation remains in the experiment",
+  "DLC": {
+    "known_rank_sum_gap_from_DLS": 26.0,
+    "largest_possible_recovery": 7.0,
+    "can_still_outrank_DLS": false
+  },
+  "DUAL": {
+    "known_rank_sum_gap_from_DLS": -10.0,
+    "largest_possible_recovery": 7.0,
+    "can_still_outrank_DLS": true
+  }
+}

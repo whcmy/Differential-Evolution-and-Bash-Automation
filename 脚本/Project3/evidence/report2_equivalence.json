@@ -1,0 +1,13 @@
+{
+  "author": "殷明骏",
+  "passed": true,
+  "function": 1,
+  "population": 100,
+  "budget": 300,
+  "seed": 2026111600,
+  "solution_exact": true,
+  "fitness_exact": true,
+  "history_exact": true,
+  "diagnostics_exact": true,
+  "original_sources_unchanged": true
+}

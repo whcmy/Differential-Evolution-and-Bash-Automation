@@ -1,0 +1,11 @@
+﻿candidate,control,mean_lower,mean_tied,mean_higher
+DLC,DE,17,4,9
+DLC,DLSDE,5,10,15
+DLC,PEMSDE,8,5,17
+DLC,TEAM,15,5,10
+DLC,APE,13,4,13
+DUAL,DE,19,4,7
+DUAL,DLSDE,15,8,7
+DUAL,PEMSDE,12,6,12
+DUAL,TEAM,22,5,3
+DUAL,APE,16,5,9

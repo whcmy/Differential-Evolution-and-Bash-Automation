@@ -1,0 +1,130 @@
+{
+  "author": "殷明骏",
+  "student_id": "202483890029",
+  "selected_runs": [
+    {
+      "algorithm": "DE",
+      "function": 9,
+      "run": 1,
+      "seed": 1367425161,
+      "nfev": 100000,
+      "checked_fields": [
+        "algorithm",
+        "suite",
+        "function",
+        "run",
+        "seed",
+        "optimum",
+        "error",
+        "signed_error",
+        "x",
+        "fun",
+        "nfev",
+        "history",
+        "diagnostics"
+      ],
+      "mismatches": [],
+      "verdict": "EXACT_MATCH"
+    },
+    {
+      "algorithm": "DSPDE",
+      "function": 9,
+      "run": 1,
+      "seed": 1367425161,
+      "nfev": 100000,
+      "checked_fields": [
+        "algorithm",
+        "suite",
+        "function",
+        "run",
+        "seed",
+        "optimum",
+        "error",
+        "signed_error",
+        "x",
+        "fun",
+        "nfev",
+        "history",
+        "diagnostics",
+        "generations",
+        "subgroup_size"
+      ],
+      "mismatches": [],
+      "verdict": "EXACT_MATCH"
+    },
+    {
+      "algorithm": "DLSDE",
+      "function": 9,
+      "run": 1,
+      "seed": 1367425161,
+      "nfev": 100000,
+      "checked_fields": [
+        "algorithm",
+        "suite",
+        "function",
+        "run",
+        "seed",
+        "optimum",
+        "error",
+        "signed_error",
+        "x",
+        "fun",
+        "nfev",
+        "history",
+        "diagnostics"
+      ],
+      "mismatches": [],
+      "verdict": "EXACT_MATCH"
+    },
+    {
+      "algorithm": "PEMSDE",
+      "function": 9,
+      "run": 1,
+      "seed": 1367425161,
+      "nfev": 100000,
+      "checked_fields": [
+        "algorithm",
+        "suite",
+        "function",
+        "run",
+        "seed",
+        "optimum",
+        "error",
+        "signed_error",
+        "x",
+        "fun",
+        "nfev",
+        "history",
+        "diagnostics"
+      ],
+      "mismatches": [],
+      "verdict": "EXACT_MATCH"
+    },
+    {
+      "algorithm": "TEAM",
+      "function": 9,
+      "run": 1,
+      "seed": 1367425161,
+      "nfev": 100000,
+      "checked_fields": [
+        "algorithm",
+        "suite",
+        "function",
+        "run",
+        "seed",
+        "optimum",
+        "error",
+        "signed_error",
+        "x",
+        "fun",
+        "nfev",
+        "history",
+        "diagnostics"
+      ],
+      "mismatches": [],
+      "verdict": "EXACT_MATCH"
+    }
+  ],
+  "passed": true,
+  "scope": "five selected full-budget F9/run1 replays; not every run replayed"
+}

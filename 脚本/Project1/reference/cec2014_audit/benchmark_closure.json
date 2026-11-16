@@ -1,0 +1,29 @@
+{
+  "author": "殷明骏",
+  "student_id": "202483890029",
+  "pointwise_probes": 660,
+  "mismatch_functions": [
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    29,
+    30
+  ],
+  "reference_records": 600,
+  "reference_solution_passes": 600,
+  "max_reference_absolute_difference": 0.0,
+  "optimizer_hash_matches": true,
+  "all_seeds_and_budgets_match": true,
+  "original_source_sha256": "4228bcf7d6d8da94bab3dfdb8837251edc26952f498ae9757da57ca4b1dbd650",
+  "portability_change": "Unused WINDOWS.H include removed and five fscanf %Lf specifiers corrected to %lf for double pointers on GCC; equations and original source unchanged",
+  "passed": true,
+  "scope": "Finite point and solution validation; optimizer trajectories were not all replayed under this newly compiled evaluator."
+}

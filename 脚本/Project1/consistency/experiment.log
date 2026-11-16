@@ -1,0 +1,85 @@
+In file included from /home/yinwhcmy/embedded system/project1/consistency/native/wrapper.cpp:1:
+/home/yinwhcmy/embedded system/project1/consistency/native/portable.cpp: In function ‘void cec14_test_func(double*, double*, int, int, int)’:
+/home/yinwhcmy/embedded system/project1/consistency/native/portable.cpp:114:39: warning: ignoring return value of ‘int fscanf(FILE*, const char*, ...)’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+  114 |                                 fscanf(fpt,"%lf",&M[i]);
+      |                                 ~~~~~~^~~~~~~~~~~~~~~~~
+/home/yinwhcmy/embedded system/project1/consistency/native/portable.cpp:124:39: warning: ignoring return value of ‘int fscanf(FILE*, const char*, ...)’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+  124 |                                 fscanf(fpt,"%lf",&M[i]);
+      |                                 ~~~~~~^~~~~~~~~~~~~~~~~
+/home/yinwhcmy/embedded system/project1/consistency/native/portable.cpp:144:39: warning: ignoring return value of ‘int fscanf(FILE*, const char*, ...)’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+  144 |                                 fscanf(fpt,"%lf",&OShift[i]);
+      |                                 ~~~~~~^~~~~~~~~~~~~~~~~~~~~~
+/home/yinwhcmy/embedded system/project1/consistency/native/portable.cpp:156:47: warning: ignoring return value of ‘int fscanf(FILE*, const char*, ...)’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+  156 |                                         fscanf(fpt,"%lf",&OShift[i*nx+j]);
+      |                                         ~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/yinwhcmy/embedded system/project1/consistency/native/portable.cpp:158:39: warning: ignoring return value of ‘int fscanf(FILE*, const char*, ...)’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+  158 |                                 fscanf(fpt,"%*[^\n]%*c");
+      |                                 ~~~~~~^~~~~~~~~~~~~~~~~~
+/home/yinwhcmy/embedded system/project1/consistency/native/portable.cpp:162:39: warning: ignoring return value of ‘int fscanf(FILE*, const char*, ...)’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+  162 |                                 fscanf(fpt,"%lf",&OShift[(cf_num-1)*nx+j]);
+      |                                 ~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/yinwhcmy/embedded system/project1/consistency/native/portable.cpp:184:39: warning: ignoring return value of ‘int fscanf(FILE*, const char*, ...)’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+  184 |                                 fscanf(fpt,"%d",&SS[i]);
+      |                                 ~~~~~~^~~~~~~~~~~~~~~~~
+/home/yinwhcmy/embedded system/project1/consistency/native/portable.cpp:201:39: warning: ignoring return value of ‘int fscanf(FILE*, const char*, ...)’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+  201 |                                 fscanf(fpt,"%d",&SS[i]);
+      |                                 ~~~~~~^~~~~~~~~~~~~~~~~
+20 1160 official 1 0.78
+40 1160 official 2 0.74
+60 1160 official 4 0.31
+80 1160 official 4 0.31
+100 1160 official 5 0.84
+120 1160 official 7 0.34
+140 1160 official 8 0.33
+160 1160 official 9 0.34
+180 1160 official 10 0.35
+200 1160 official 10 0.87
+220 1160 official 11 0.89
+240 1160 official 12 0.79
+260 1160 official 14 0.33
+280 1160 official 15 0.35
+300 1160 official 16 0.36
+320 1160 official 16 0.83
+340 1160 official 18 0.34
+360 1160 official 19 0.75
+380 1160 official 19 1.56
+400 1160 official 21 0.35
+420 1160 official 21 0.86
+440 1160 official 23 0.4
+460 1160 official 23 0.94
+480 1160 official 24 1.0
+500 1160 official 25 1.01
+520 1160 official 26 4.62
+540 1160 official 28 0.46
+560 1160 official 29 0.81
+580 1160 official 30 0.47
+600 1160 paper 1 0.69
+620 1160 paper 2 0.79
+640 1160 paper 2 1.04
+660 1160 paper 4 0.56
+680 1160 paper 5 0.53
+700 1160 paper 5 1.55
+720 1160 paper 7 0.54
+740 1160 paper 7 1.15
+760 1160 paper 11 0.87
+780 1160 paper 11 1.58
+800 1160 paper 12 1.56
+820 1160 paper 14 0.63
+840 1160 paper 15 0.54
+860 1160 paper 15 1.26
+880 1160 paper 17 0.8
+900 1160 paper 17 1.46
+920 1160 paper 19 0.76
+940 1160 paper 19 1.72
+960 1160 paper 20 1.6
+980 1160 paper 21 0.8
+1000 1160 paper 23 1.04
+1020 1160 paper 23 1.19
+1040 1160 paper 24 1.68
+1060 1160 paper 25 1.7
+1080 1160 paper 26 3.57
+1100 1160 paper 28 1.83
+1120 1160 paper 29 1.04
+1140 1160 paper 30 0.76
+1160 1160 paper 30 0.78
+COMPLETE; original data and optimizer hashes unchanged

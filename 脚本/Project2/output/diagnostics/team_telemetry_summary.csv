@@ -1,0 +1,9 @@
+﻿function,algorithm,metric,median_final,q25_final,q75_final
+11,TEAM,normalized_rms_diversity,0.12496488165637942,0.11116565853163687,0.1359060035456479
+11,TEAM_no_peg,normalized_rms_diversity,0.1443260393997755,0.1324556549444818,0.15795577105538477
+11,TEAM,boundary_fraction,0.1,0.0,0.125
+11,TEAM_no_peg,boundary_fraction,0.3,0.2,0.5
+29,TEAM,normalized_rms_diversity,2.370199470860531e-10,2.0511822152059833e-10,2.5060020954224585e-10
+29,TEAM_no_peg,normalized_rms_diversity,2.6317036317683416e-16,1.6786294705749246e-16,7.504451922684122e-12
+29,TEAM,boundary_fraction,70.0,70.0,70.0
+29,TEAM_no_peg,boundary_fraction,70.0,70.0,70.0

@@ -1,0 +1,25 @@
+{
+  "author": "殷明骏",
+  "passed": true,
+  "records": 90,
+  "summary_matches_log": true,
+  "saved_solutions_recomputed": true,
+  "score_definition": "mean(abs(obtained_fitness-known_optimum)) over F01-F30",
+  "parameter_combinations": [
+    {
+      "population": 50,
+      "score": 177161.32876887213,
+      "records": 30
+    },
+    {
+      "population": 100,
+      "score": 150134.08513406542,
+      "records": 30
+    },
+    {
+      "population": 150,
+      "score": 178710.59681841495,
+      "records": 30
+    }
+  ]
+}

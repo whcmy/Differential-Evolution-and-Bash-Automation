@@ -1,0 +1,32 @@
+{
+  "author": "殷明骏",
+  "source_sha256": {
+    "analyze_validation.py": "7d30ab75de570a954d065583e1bd9c735e8ab861cb0ad5832eec4a37dde01ae9",
+    "plot_validation.py": "03eb341d50efc247f92766f803cca36d8d630b9b5b9b60ec7aa73a5e4cac069c",
+    "run_validation.py": "36200cf2c8eeceff28cb4f8765f603d46e4f12e8bd067cc95eb9247d930c673d",
+    "source/de_vcr.preflight.json": "e7067d9987c69dd8f00539f9737e5d1ff11f56bef141ba8b0703cbce61035c37",
+    "source/CEC14_RIDE_unrot.java": "6b953690ed933223b6227a4dfc6f92af6e39398c678701950b744c17fdca2868",
+    "source/Corrections.java": "804cc7fe74197ba16ebb30fb62590f0af8942e15b3a1b039e0b819eca8ee0617",
+    "source/DE.java": "ef9b7a370dfa154356c8f87e969df222e28067cbf8e750836fda8dc23bb1cab2",
+    "source/rotation_extended.txt": "94c7753177ceadafa54f27316feec3ef67fa8ab613df6739db17f7a9bdb68661",
+    "source/MatLab.java": "3bceb90c787cbc11e066153a9a2c9aa20c897bf4e7fe399fd63318f3058945ef",
+    "source/DataBox.java": "d6eddad0d592870fb0f881fc6b9ca73fdf18b73cc6a05ec58bf95f16be4dd4bb",
+    "source/Algorithm.java": "2727328376752e40d85d6929f308fa10b039f1e8ba8f0b375e87d8b65e67c0dd",
+    "source/rotation_extended.preflight.json": "2bdf45883bc958616860f1cc7add734cc32abd07df4126ed52644dd93d37b186",
+    "source/SOS_LICENSE": "d53da9bfa7d102f866cd62913ac92072b99ca21d10e863cc5254934ada3d8f6e",
+    "source/rotation_extended.pdf": "c576e0ddf736de000fda5ef9e04c50c802dfd7127b139db84d739eaa656099b8",
+    "source/DEOp.java": "0b6eba0cbac14678078c62d01573644a64212690e25f83e47587574d90d9f850",
+    "java/utils/RunAndStore.java": "ad4b1c5ad179c3f37ca8f16d087f74c12404cc8adff8a46252e2d8f45aef6097",
+    "java/utils/benchmarks/ProblemsTransformations.java": "5808ba0cdb9f6c72d2449fa90749789fa0abfa647c1ecf6619650c9eb887a828",
+    "java/benchmarks/problemsImplementation/CEC2014/CEC2014TestFuncRotInvStudy.java": "293f54cffe1edc1f8257b73ebbbd968971024bf3c643d6ef16b2f083650ba283"
+  },
+  "compiler": "javac 21.0.12.1",
+  "source_changes": "Original published sources preserved; RunAndStore shim provides only path separator. C portability edits documented in PROTOCOL.md.",
+  "optimization_records": 1160,
+  "numerical_python": "3.12.3",
+  "numerical_versions": {
+    "numpy": "1.26.4",
+    "opfunu": "1.0.4",
+    "JPype1": "1.7.1"
+  }
+}

@@ -1,0 +1,8 @@
+﻿comparison,family,wins,not_detected,losses
+DE,primary,14,15,1
+DSPDE,other_paper,22,7,1
+DLSDE,primary,2,28,0
+PEMSDE,other_paper,6,22,2
+TEAM,primary,14,16,0
+DUAL_no_phase,ablation,0,30,0
+DUAL_no_learning,ablation,0,30,0

@@ -1,0 +1,5 @@
+/home/yinwhcmy/embedded system/project2_final/.venv/lib/python3.12/site-packages/opfunu/cec_based/cec.py:8: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+Running manual_20261110_np50: PGE-DE, NP=50, FEs=100000, seed=20261110, CEC2014 F01-F30
+Running manual_20261110_np100: PGE-DE, NP=100, FEs=100000, seed=20261110, CEC2014 F01-F30
+Running manual_20261110_np150: PGE-DE, NP=150, FEs=100000, seed=20261110, CEC2014 F01-F30

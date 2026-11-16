@@ -1,0 +1,51 @@
+{
+  "author": "殷明骏",
+  "files": [
+    {
+      "source": "/home/yinwhcmy/embedded system/project2_final/code/basic_de.py",
+      "copy": "code/basic_de.py",
+      "sha256": "9ee8743ffc023653080829a846cdbe99c630c7fca4962b8d6bbec0e482ab07bf"
+    },
+    {
+      "source": "/home/yinwhcmy/embedded system/project2_final/code/dls_de.py",
+      "copy": "code/dls_de.py",
+      "sha256": "4d4e9bd4b0b97a33c84dc8e14ddae487d6eb9e6374e476144bd6f45b987fdd86"
+    },
+    {
+      "source": "/home/yinwhcmy/embedded system/project2_final/code/dspde.py",
+      "copy": "code/dspde.py",
+      "sha256": "b4eca36c1a348e3e18f96aa3879e5238913caee9cf919da16fae6b7454c448ac"
+    },
+    {
+      "source": "/home/yinwhcmy/embedded system/project2_final/code/pems_de.py",
+      "copy": "code/pems_de.py",
+      "sha256": "887ed1e686837d71a38b6c8ffaf66c967f82a956d2cb64195839c9bebc2a64c1"
+    },
+    {
+      "source": "/home/yinwhcmy/embedded system/project2_final/code/run_project2.py",
+      "copy": "code/run_project2.py",
+      "sha256": "813e0f2fb138b0ef7e65cd8201fa13548eec2d37cd79ab9e69d88fa9326ac110"
+    },
+    {
+      "source": "/home/yinwhcmy/embedded system/project2_final/code/team_de.py",
+      "copy": "code/team_de.py",
+      "sha256": "7910d9a91689cbd0b15d8eba2f0e0b8e1d1176f6748a0053ef6bd1efb1b7b27c"
+    },
+    {
+      "source": "/home/yinwhcmy/embedded system/project2_final/code/test_invariants.py",
+      "copy": "code/test_invariants.py",
+      "sha256": "c7b312dfd771b60aa1a3a54afea9823091d8c8eb34a34c2f2506749cae228b6c"
+    },
+    {
+      "source": "/home/yinwhcmy/embedded system/project2_final/improvement_v2/dls_combined.py",
+      "copy": "code/dls_combined.py",
+      "sha256": "b0b4f29fd8cd7adf16241280e8409befc924e3738711dea6ab331f67a360364b"
+    },
+    {
+      "source": "/home/yinwhcmy/embedded system/project2_final/improvement_v2/run_experiments.py",
+      "copy": "code/run_dcde.py",
+      "source_sha256": "6bfc1f98cf32d8c66039c7c5401ce38efd7a3bc009724724de8161e58918526a",
+      "changes": "CLI population-size; retain exact optimizer; record benchmark hashes; local source paths"
+    }
+  ]
+}

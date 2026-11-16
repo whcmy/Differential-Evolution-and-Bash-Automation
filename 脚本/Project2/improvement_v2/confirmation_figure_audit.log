@@ -1,0 +1,164 @@
+/home/yinwhcmy/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/fitz/__init__.py:17: FutureWarning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+  warnings.warn(
+[
+  {
+    "figure": "journal_workflow",
+    "pdf_sha256": "79fff8160027438e9a2dc11e5de97ae2f4495534b74687ca365106bc8abfd831",
+    "font_code": 0,
+    "collision_code": 0,
+    "alignment": "NOT APPLICABLE",
+    "minimum_font_pt": 7.7,
+    "collision_warnings": 0,
+    "metadata_passed": true
+  },
+  {
+    "figure": "journal_mechanisms",
+    "pdf_sha256": "039e22ea1194eec5d2849cd63ddbf1e04f3aada36e28d8920c1b020317072499",
+    "font_code": 0,
+    "collision_code": 0,
+    "alignment": "PASS",
+    "minimum_font_pt": 7.2,
+    "collision_warnings": 0,
+    "metadata_passed": true
+  },
+  {
+    "figure": "revision_mechanism",
+    "pdf_sha256": "142c896fa7b788b26980c35d0ec90b128f95bb6cb14458f78dd0b194395e00f7",
+    "font_code": 0,
+    "collision_code": 0,
+    "alignment": "PASS",
+    "minimum_font_pt": 7.0,
+    "collision_warnings": 0,
+    "metadata_passed": true
+  },
+  {
+    "figure": "journal_02_evaluator",
+    "pdf_sha256": "4ecc2fec98f62add86336dcc897ccb18d004ee81ffa42c0a798f8482254ecedc",
+    "font_code": 0,
+    "collision_code": 0,
+    "alignment": "NOT APPLICABLE",
+    "minimum_font_pt": 7.0,
+    "collision_warnings": 0,
+    "metadata_passed": true
+  },
+  {
+    "figure": "journal_03_transfer",
+    "pdf_sha256": "4ed8dff777cfb7e7c5595d7e7c15726d75734671c654af7debc83bb13a3a23db",
+    "font_code": 0,
+    "collision_code": 0,
+    "alignment": "PASS",
+    "minimum_font_pt": 7.5,
+    "collision_warnings": 0,
+    "metadata_passed": true
+  },
+  {
+    "figure": "revision_performance",
+    "pdf_sha256": "e5edd85ae3d0fbeb9934264ee8e0a0e4fef6ef5a1bf04deaf35ca66990461df3",
+    "font_code": 0,
+    "collision_code": 0,
+    "alignment": "PASS",
+    "minimum_font_pt": 7.0,
+    "collision_warnings": 0,
+    "metadata_passed": true
+  },
+  {
+    "figure": "revision_distributions",
+    "pdf_sha256": "9bbb2680c633f1aa1112218ca7a5ca13a8361094223b6ebe05ce27a61b0df9a4",
+    "font_code": 0,
+    "collision_code": 0,
+    "alignment": "PASS",
+    "minimum_font_pt": 5.11,
+    "collision_warnings": 0,
+    "metadata_passed": true
+  },
+  {
+    "figure": "revision_ablation",
+    "pdf_sha256": "15093fd0f3c06384d7a1c3520bf1b8be7b75ca4fa2c43e3de79ccb90029175db",
+    "font_code": 0,
+    "collision_code": 0,
+    "alignment": "PASS",
+    "minimum_font_pt": 7.0,
+    "collision_warnings": 0,
+    "metadata_passed": true
+  },
+  {
+    "figure": "revision_curves_01_06",
+    "pdf_sha256": "f912ba88d9fe1d23e1bf45b0a702650ab12b0f685dc7889f88c93a55d9fe7a33",
+    "font_code": 0,
+    "collision_code": 0,
+    "alignment": "PASS",
+    "minimum_font_pt": 5.11,
+    "collision_warnings": 0,
+    "metadata_passed": true
+  },
+  {
+    "figure": "revision_curves_07_12",
+    "pdf_sha256": "81c762025ddfbcad46790e18b21d9a81830c5cf5847fabb66ae2d37ffa74d358",
+    "font_code": 0,
+    "collision_code": 0,
+    "alignment": "PASS",
+    "minimum_font_pt": 7.3,
+    "collision_warnings": 0,
+    "metadata_passed": true
+  },
+  {
+    "figure": "revision_curves_13_18",
+    "pdf_sha256": "9723763b7333167dd19d45655a5bb99476c7e4ddb41f812bac824cb498e542f5",
+    "font_code": 0,
+    "collision_code": 0,
+    "alignment": "PASS",
+    "minimum_font_pt": 5.11,
+    "collision_warnings": 0,
+    "metadata_passed": true
+  },
+  {
+    "figure": "revision_curves_19_24",
+    "pdf_sha256": "91feee9a657a6440a0ae8162c5e4ac681504eade1b935f43ca21cc23d29d53e4",
+    "font_code": 0,
+    "collision_code": 0,
+    "alignment": "PASS",
+    "minimum_font_pt": 5.11,
+    "collision_warnings": 0,
+    "metadata_passed": true
+  },
+  {
+    "figure": "revision_curves_25_30",
+    "pdf_sha256": "3e4e872596bb6e491ebaa6cae44616039656f4106cc049916e368af8c6ec4a42",
+    "font_code": 0,
+    "collision_code": 0,
+    "alignment": "PASS",
+    "minimum_font_pt": 5.11,
+    "collision_warnings": 0,
+    "metadata_passed": true
+  },
+  {
+    "figure": "journal_performance",
+    "pdf_sha256": "a554e5362706cb8e087a22635c1964a4301df821995ccdaee5dde1fc85e96866",
+    "font_code": 0,
+    "collision_code": 0,
+    "alignment": "PASS",
+    "minimum_font_pt": 7.0,
+    "collision_warnings": 5,
+    "metadata_passed": true
+  },
+  {
+    "figure": "journal_04_distributions",
+    "pdf_sha256": "f998311a2590bf9f789c8fafeb4c2b95e2598011f6978b96c1cef9915af66d74",
+    "font_code": 0,
+    "collision_code": 0,
+    "alignment": "PASS",
+    "minimum_font_pt": 5.25,
+    "collision_warnings": 0,
+    "metadata_passed": true
+  },
+  {
+    "figure": "journal_05_telemetry",
+    "pdf_sha256": "a948ca74cd35b232509b6b784aed70ca456502632731b630681ef33e6816b03d",
+    "font_code": 0,
+    "collision_code": 0,
+    "alignment": "PASS",
+    "minimum_font_pt": 7.5,
+    "collision_warnings": 0,
+    "metadata_passed": true
+  }
+]

@@ -1,0 +1,132 @@
+{
+  "author": "殷明骏",
+  "independent_runs_per_function": 20,
+  "formal_records": 4800,
+  "master_seed": 20261117,
+  "mean_ranks": [
+    {
+      "algorithm": "DE",
+      "mean_rank": 3.7
+    },
+    {
+      "algorithm": "DSPDE",
+      "mean_rank": 4.916666666666667
+    },
+    {
+      "algorithm": "DLSDE",
+      "mean_rank": 2.45
+    },
+    {
+      "algorithm": "PEMSDE",
+      "mean_rank": 3.0
+    },
+    {
+      "algorithm": "TEAM",
+      "mean_rank": 4.016666666666667
+    },
+    {
+      "algorithm": "APE",
+      "mean_rank": 2.9166666666666665
+    }
+  ],
+  "ablation_mean_ranks": [
+    {
+      "algorithm": "APE",
+      "mean_rank": 1.7166666666666666
+    },
+    {
+      "algorithm": "APE_no_potential",
+      "mean_rank": 1.6666666666666667
+    },
+    {
+      "algorithm": "APE_no_control",
+      "mean_rank": 2.6166666666666667
+    }
+  ],
+  "comparisons": [
+    {
+      "comparison": "DE",
+      "family": "primary",
+      "wins": 13,
+      "not_detected": 17,
+      "losses": 0
+    },
+    {
+      "comparison": "DSPDE",
+      "family": "paper_controls",
+      "wins": 20,
+      "not_detected": 10,
+      "losses": 0
+    },
+    {
+      "comparison": "DLSDE",
+      "family": "paper_controls",
+      "wins": 0,
+      "not_detected": 23,
+      "losses": 7
+    },
+    {
+      "comparison": "PEMSDE",
+      "family": "paper_controls",
+      "wins": 3,
+      "not_detected": 19,
+      "losses": 8
+    },
+    {
+      "comparison": "TEAM",
+      "family": "primary",
+      "wins": 6,
+      "not_detected": 22,
+      "losses": 2
+    },
+    {
+      "comparison": "APE_no_potential",
+      "family": "ablation",
+      "wins": 0,
+      "not_detected": 30,
+      "losses": 0
+    },
+    {
+      "comparison": "APE_no_control",
+      "family": "ablation",
+      "wins": 8,
+      "not_detected": 21,
+      "losses": 1
+    }
+  ],
+  "f01_f16_mean_ranks": [
+    {
+      "algorithm": "DE",
+      "mean_rank": 4.6875
+    },
+    {
+      "algorithm": "DSPDE",
+      "mean_rank": 5.1875
+    },
+    {
+      "algorithm": "DLSDE",
+      "mean_rank": 2.15625
+    },
+    {
+      "algorithm": "PEMSDE",
+      "mean_rank": 2.65625
+    },
+    {
+      "algorithm": "TEAM",
+      "mean_rank": 3.625
+    },
+    {
+      "algorithm": "APE",
+      "mean_rank": 2.6875
+    }
+  ],
+  "omnibus_friedman": {
+    "statistic": 36.871165644171796,
+    "p": 6.356416941910823e-07,
+    "scope": "Six methods over thirty functions; not a pairwise superiority test"
+  },
+  "primary_family_tests": 60,
+  "paper_control_family_tests": 90,
+  "ablation_family_tests": 60,
+  "caveat": "Mean ranks are descriptive. Corrected per-function tests support only the comparisons and functions actually detected."
+}

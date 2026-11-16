@@ -1,0 +1,3 @@
+2026-11-10T16:04:01+08:00 yinwhcmy-Legion-Y9000P-IRX9 CRON[9222]: (yinwhcmy) CMD (/bin/bash "/home/yinwhcmy/embedded system/project3/cron/run_scheduled.sh" >> "/home/yinwhcmy/embedded system/project3/cron/scheduled.log" 2>&1 # PROJECT3_YINMINGJUN_HOURLY)
+2026-11-10T17:04:01+08:00 yinwhcmy-Legion-Y9000P-IRX9 CRON[20016]: (yinwhcmy) CMD (/bin/bash "/home/yinwhcmy/embedded system/project3/cron/run_scheduled.sh" >> "/home/yinwhcmy/embedded system/project3/cron/scheduled.log" 2>&1 # PROJECT3_YINMINGJUN_HOURLY)
+2026-11-10T18:44:22+08:00 yinwhcmy-Legion-Y9000P-IRX9 CRON[27590]: (yinwhcmy) CMD (/bin/bash "/home/yinwhcmy/embedded system/project3/cron/run_scheduled.sh" >> "/home/yinwhcmy/embedded system/project3/cron/scheduled.log" 2>&1 # PROJECT3_YINMINGJUN_HOURLY)

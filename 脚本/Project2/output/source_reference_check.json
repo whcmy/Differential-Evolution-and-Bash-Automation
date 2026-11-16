@@ -1,0 +1,33 @@
+{
+  "author": "殷明骏",
+  "student_id": "202483890029",
+  "passed": true,
+  "method": "Direct inspection of the first page of each supplied full-text PDF",
+  "references": [
+    {
+      "paper": "DSPDE",
+      "authors": "Qu C, Yuan J, Zhang L, Zhang X, Huang Z",
+      "volume": 104,
+      "year": 2026,
+      "article": "102380",
+      "doi": "10.1016/j.swevo.2026.102380"
+    },
+    {
+      "paper": "DLS-DE",
+      "authors": "Chen J, Meng Z",
+      "volume": 100,
+      "year": 2026,
+      "article": "102247",
+      "doi": "10.1016/j.swevo.2025.102247",
+      "note": "Online publication 2025; issue year 2026"
+    },
+    {
+      "paper": "PEMS-DE",
+      "authors": "Sahu D, Gupta S",
+      "volume": 107,
+      "year": 2026,
+      "article": "102435",
+      "doi": "10.1016/j.swevo.2026.102435"
+    }
+  ]
+}

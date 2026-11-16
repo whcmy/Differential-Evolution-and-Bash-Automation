@@ -1,0 +1,24 @@
+{
+  "author": "殷明骏",
+  "passed": true,
+  "source_sha256": "b0b4f29fd8cd7adf16241280e8409befc924e3738711dea6ab331f67a360364b",
+  "scope": "Two complete CEC2014 fixed-NP backbone replays, separate from independent samples",
+  "replays": [
+    {
+      "function": 9,
+      "seed": 1367425161,
+      "nfev": 100000,
+      "fitness_exact": true,
+      "solution_exact": true,
+      "history_exact": true
+    },
+    {
+      "function": 30,
+      "seed": 85869031,
+      "nfev": 100000,
+      "fitness_exact": true,
+      "solution_exact": true,
+      "history_exact": true
+    }
+  ]
+}

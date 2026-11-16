@@ -1,0 +1,148 @@
+{
+  "author": "殷明骏",
+  "selected_algorithm": "DUAL",
+  "master_seed": 20261118,
+  "independent_runs": 20,
+  "records": 4800,
+  "main_methods": [
+    "DE",
+    "DSPDE",
+    "DLSDE",
+    "PEMSDE",
+    "TEAM",
+    "DUAL"
+  ],
+  "ablation_methods": [
+    "DUAL",
+    "DLSDE",
+    "DUAL_no_phase",
+    "DUAL_no_learning"
+  ],
+  "mean_ranks": [
+    {
+      "algorithm": "DE",
+      "mean_rank": 3.8
+    },
+    {
+      "algorithm": "DSPDE",
+      "mean_rank": 4.833333333333333
+    },
+    {
+      "algorithm": "DLSDE",
+      "mean_rank": 2.966666666666667
+    },
+    {
+      "algorithm": "PEMSDE",
+      "mean_rank": 2.9166666666666665
+    },
+    {
+      "algorithm": "TEAM",
+      "mean_rank": 4.116666666666666
+    },
+    {
+      "algorithm": "DUAL",
+      "mean_rank": 2.3666666666666667
+    }
+  ],
+  "ablation_mean_ranks": [
+    {
+      "algorithm": "DUAL",
+      "mean_rank": 2.216666666666667
+    },
+    {
+      "algorithm": "DLSDE",
+      "mean_rank": 2.95
+    },
+    {
+      "algorithm": "DUAL_no_phase",
+      "mean_rank": 2.816666666666667
+    },
+    {
+      "algorithm": "DUAL_no_learning",
+      "mean_rank": 2.0166666666666666
+    }
+  ],
+  "comparisons": [
+    {
+      "comparison": "DE",
+      "family": "primary",
+      "wins": 14,
+      "not_detected": 15,
+      "losses": 1
+    },
+    {
+      "comparison": "DSPDE",
+      "family": "other_paper",
+      "wins": 22,
+      "not_detected": 7,
+      "losses": 1
+    },
+    {
+      "comparison": "DLSDE",
+      "family": "primary",
+      "wins": 2,
+      "not_detected": 28,
+      "losses": 0
+    },
+    {
+      "comparison": "PEMSDE",
+      "family": "other_paper",
+      "wins": 6,
+      "not_detected": 22,
+      "losses": 2
+    },
+    {
+      "comparison": "TEAM",
+      "family": "primary",
+      "wins": 14,
+      "not_detected": 16,
+      "losses": 0
+    },
+    {
+      "comparison": "DUAL_no_phase",
+      "family": "ablation",
+      "wins": 0,
+      "not_detected": 30,
+      "losses": 0
+    },
+    {
+      "comparison": "DUAL_no_learning",
+      "family": "ablation",
+      "wins": 0,
+      "not_detected": 30,
+      "losses": 0
+    }
+  ],
+  "f01_f16_mean_ranks": [
+    {
+      "algorithm": "DE",
+      "mean_rank": 4.75
+    },
+    {
+      "algorithm": "DSPDE",
+      "mean_rank": 5.09375
+    },
+    {
+      "algorithm": "DLSDE",
+      "mean_rank": 2.375
+    },
+    {
+      "algorithm": "PEMSDE",
+      "mean_rank": 2.90625
+    },
+    {
+      "algorithm": "TEAM",
+      "mean_rank": 3.75
+    },
+    {
+      "algorithm": "DUAL",
+      "mean_rank": 2.125
+    }
+  ],
+  "first_descriptive_rank": true,
+  "primary_tests": 90,
+  "other_paper_tests": 60,
+  "additional_ablation_tests": 60,
+  "baseline_as_ablation": "DLSDE is the shared no-added-strategy control; its canonical primary comparison is reused, never retested under another correction family.",
+  "scope": "Complete fixed CEC2014 10D benchmark; mean ranks are descriptive, not proof of superiority on arbitrary tasks."
+}

@@ -1,0 +1,71 @@
+{
+  "config": {
+    "algorithms": [
+      "dls_de"
+    ],
+    "functions": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30
+    ],
+    "runs": 20,
+    "dimension": 10,
+    "max_fes": 100000,
+    "population_size": 182,
+    "seed": 20261030,
+    "gate": "pseudocode",
+    "suite": "CEC2014",
+    "H": 6,
+    "p": 0.11,
+    "archive_ratio": 1.6,
+    "NP_min": 4,
+    "lambda_sigma": 0.1,
+    "ST": 30,
+    "tau": 0.3,
+    "sigma_initial": 0.05,
+    "SR_initial": 0.5,
+    "phase_fraction": 0.3,
+    "boundary": "parent-bound midpoint",
+    "selection": "<=",
+    "versions": {
+      "numpy": "2.3.5",
+      "opfunu": "1.0.4"
+    },
+    "python": "3.12.14",
+    "source_sha256": {
+      "dls_de.py": "4d4e9bd4b0b97a33c84dc8e14ddae487d6eb9e6374e476144bd6f45b987fdd86",
+      "run_experiments.py": "63723dc82169b31877911e9843e0c6d534cd68c38376610bf501c5c1bc4ddb00",
+      "bootstrap.py": "82ce7fdd9cfa288ff30a5df4cda9bec6c6b4e015a87aa5cea2012072b3dfae94"
+    }
+  },
+  "started_utc": "2026-10-30T02:50:28.965571+00:00",
+  "completed_utc": "2026-10-30T03:07:13.450597+00:00",
+  "result_count": 600
+}

@@ -1,0 +1,13 @@
+{
+  "author": "殷明骏",
+  "passed": true,
+  "records": 450,
+  "complete_matrix": true,
+  "all_budgets_exact": true,
+  "all_solutions_reevaluated": true,
+  "all_histories_checked": true,
+  "all_seeds_checked": true,
+  "source_hashes_match": true,
+  "frozen_original_files_unchanged": 8151,
+  "max_absolute_reevaluation_difference": 0.0
+}

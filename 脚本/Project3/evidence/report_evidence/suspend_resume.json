@@ -1,0 +1,9 @@
+{
+  "author": "殷明骏",
+  "source": "system journal for current boot, retained in suspend_resume.log",
+  "lid_closed": "2026-11-10T17:27:37+08:00",
+  "suspended_at": "2026-11-10T17:28:10+08:00",
+  "resumed_at": "2026-11-10T18:43:35+08:00",
+  "execution3_started_at": "2026-11-10T18:44:22+08:00",
+  "execution3_completed_at": "2026-11-10T18:48:33+08:00"
+}

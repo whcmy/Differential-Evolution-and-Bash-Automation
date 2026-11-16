@@ -1,0 +1,16 @@
+{
+  "title": "An Adaptive Differential Evolution Algorithm with Exponential Crossover Based on a Learning Strategy Within the Difference Vector",
+  "authors": [
+    "Junpeng Chen",
+    "Zhenyu Meng"
+  ],
+  "doi": "10.1016/j.swevo.2025.102247",
+  "pdf_sha256": "bc6de2cb6a05a3f9b099be7f89f96f50d459cee4e825919be5f8e19fdad6419e",
+  "table": 12,
+  "pdf_page": 14,
+  "suite": "CEC2014",
+  "dimension": 10,
+  "runs": 51,
+  "max_fes": 100000,
+  "cross_checked_table": 14
+}

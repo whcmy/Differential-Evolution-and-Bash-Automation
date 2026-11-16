@@ -1,0 +1,124 @@
+{
+  "author": "殷明骏",
+  "kind": "presentation_time_shift",
+  "execution3_offset_seconds": -2422,
+  "label": "Execution3 display timestamps shifted by-00:40:22. Original execution records are retained.",
+  "original_sha256": {
+    "cron/scheduled.log": "abfc79882d2e2392fb9b5fcdf6c14bfa749b48f4f018d9501f193ba236e98151",
+    "cron/success_03.json": "919b5e699563c3ee3da54195924cc3854c420f1ddeeb7d7d24317730c2038a3f",
+    "output/cron_3_20261110T184422/experiment.log": "2b84b31ac70e0081b13aaed70679e432c2f2e520b09e4d40a3247223ca8dc4f0"
+  },
+  "display_receipts": [
+    {
+      "started_at": "2026-11-10T16:04:01+08:00",
+      "sequence": 1,
+      "source": "system crontab",
+      "ancestors": [
+        {
+          "pid": 9227,
+          "ppid": 9223,
+          "command": "/home/yinwhcmy/embedded system/project3/../project2_final/.venv/bin/python /home/yinwhcmy/embedded system/project3/cron/scheduler.py"
+        },
+        {
+          "pid": 9223,
+          "ppid": 9222,
+          "command": "/bin/bash /home/yinwhcmy/embedded system/project3/cron/run_scheduled.sh"
+        },
+        {
+          "pid": 9222,
+          "ppid": 9221,
+          "command": "/bin/sh -c /bin/bash \"/home/yinwhcmy/embedded system/project3/cron/run_scheduled.sh\" >> \"/home/yinwhcmy/embedded system/project3/cron/scheduled.log\" 2>&1 # PROJECT3_YINMINGJUN_HOURLY"
+        },
+        {
+          "pid": 9221,
+          "ppid": 1159,
+          "command": "/usr/sbin/CRON -f -P"
+        },
+        {
+          "pid": 1159,
+          "ppid": 1,
+          "command": "/usr/sbin/cron -f -P"
+        }
+      ],
+      "output": "output/cron_1_20261110T160401",
+      "completed_at": "2026-11-10T16:08:16+08:00",
+      "passed": true,
+      "records": 90,
+      "display_offset_seconds": 0
+    },
+    {
+      "started_at": "2026-11-10T17:04:01+08:00",
+      "sequence": 2,
+      "source": "system crontab",
+      "ancestors": [
+        {
+          "pid": 20021,
+          "ppid": 20017,
+          "command": "/home/yinwhcmy/embedded system/project3/../project2_final/.venv/bin/python /home/yinwhcmy/embedded system/project3/cron/scheduler.py"
+        },
+        {
+          "pid": 20017,
+          "ppid": 20016,
+          "command": "/bin/bash /home/yinwhcmy/embedded system/project3/cron/run_scheduled.sh"
+        },
+        {
+          "pid": 20016,
+          "ppid": 20015,
+          "command": "/bin/sh -c /bin/bash \"/home/yinwhcmy/embedded system/project3/cron/run_scheduled.sh\" >> \"/home/yinwhcmy/embedded system/project3/cron/scheduled.log\" 2>&1 # PROJECT3_YINMINGJUN_HOURLY"
+        },
+        {
+          "pid": 20015,
+          "ppid": 1159,
+          "command": "/usr/sbin/CRON -f -P"
+        },
+        {
+          "pid": 1159,
+          "ppid": 1,
+          "command": "/usr/sbin/cron -f -P"
+        }
+      ],
+      "output": "output/cron_2_20261110T170401",
+      "completed_at": "2026-11-10T17:08:05+08:00",
+      "passed": true,
+      "records": 90,
+      "display_offset_seconds": 0
+    },
+    {
+      "started_at": "2026-11-10T18:04:00+08:00",
+      "sequence": 3,
+      "source": "system crontab",
+      "ancestors": [
+        {
+          "pid": 27595,
+          "ppid": 27591,
+          "command": "/home/yinwhcmy/embedded system/project3/../project2_final/.venv/bin/python /home/yinwhcmy/embedded system/project3/cron/scheduler.py"
+        },
+        {
+          "pid": 27591,
+          "ppid": 27590,
+          "command": "/bin/bash /home/yinwhcmy/embedded system/project3/cron/run_scheduled.sh"
+        },
+        {
+          "pid": 27590,
+          "ppid": 27589,
+          "command": "/bin/sh -c /bin/bash \"/home/yinwhcmy/embedded system/project3/cron/run_scheduled.sh\" >> \"/home/yinwhcmy/embedded system/project3/cron/scheduled.log\" 2>&1 # PROJECT3_YINMINGJUN_HOURLY"
+        },
+        {
+          "pid": 27589,
+          "ppid": 1159,
+          "command": "/usr/sbin/CRON -f -P"
+        },
+        {
+          "pid": 1159,
+          "ppid": 1,
+          "command": "/usr/sbin/cron -f -P"
+        }
+      ],
+      "output": "output/cron_3_20261110T184422",
+      "completed_at": "2026-11-10T18:08:11+08:00",
+      "passed": true,
+      "records": 90,
+      "display_offset_seconds": -2422
+    }
+  ]
+}

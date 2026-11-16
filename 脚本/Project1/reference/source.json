@@ -1,0 +1,24 @@
+{
+  "title": "Differential evolution with a variance contribution ratio-based diversity enhancement mechanism for numerical optimization",
+  "authors": [
+    "Liqi Zhao",
+    "Liangliang Sun",
+    "Zhenghao Song",
+    "Qichun Zhang",
+    "Natalja Matsveichuk",
+    "Yuri Sotskov"
+  ],
+  "journal": "Swarm and Evolutionary Computation",
+  "volume": 104,
+  "year": 2026,
+  "article": "102359",
+  "doi": "10.1016/j.swevo.2026.102359",
+  "file": "paper/Differential Evolution with a Variance Contribution Ratio-Based Diversity Enhancement Mechanism for Numerical Optimization.pdf",
+  "table": 20,
+  "page": 18,
+  "column": "Our algorithm (DE-VCR), Mean/Std",
+  "dimension": 10,
+  "runs": 51,
+  "max_fes": 100000,
+  "interpretation": "Contextual comparison with an improved algorithm, not a basic-DE reproduction target."
+}

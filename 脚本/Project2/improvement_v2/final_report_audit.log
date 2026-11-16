@@ -1,0 +1,32 @@
+/home/yinwhcmy/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/fitz/__init__.py:17: FutureWarning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+  warnings.warn(
+{
+  "author": "殷明骏",
+  "passed": true,
+  "pages": 38,
+  "independent_records": 4800,
+  "raw_statistic_cells_recomputed": 1200,
+  "independently_recomputed_mean_ranks": {
+    "DE": 3.8,
+    "DSPDE": 4.833333333333333,
+    "DLSDE": 2.966666666666667,
+    "PEMSDE": 2.9166666666666665,
+    "TEAM": 4.116666666666666,
+    "DUAL": 2.3666666666666667
+  },
+  "first_descriptive_rank_verified": true,
+  "original_numerical_rows": 810,
+  "new_numerical_rows": 300,
+  "complete_cover_xml_and_pdf_preserved": true,
+  "metadata_passed": true,
+  "body_columns": 1,
+  "selected_curve_runs_verified": 180,
+  "all_curve_checkpoints_verified": true,
+  "geometric_clipping_passed": true,
+  "table_captions": 43,
+  "figure_captions": 16,
+  "docx_sha256": "45bc51fd2658426c3aaef240cac8210304ca59754ccf1571cb2502deb838ed32",
+  "pdf_sha256": "2a899db1a3a39f9822f92ebe543de0fab647d106f72b03260179045e3c4fc195",
+  "visual_acceptance_required": false,
+  "visual_acceptance_verified": true
+}

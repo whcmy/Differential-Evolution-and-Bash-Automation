@@ -1,0 +1,1 @@
+4 16-22 * * * /bin/bash "/home/yinwhcmy/embedded system/project3/cron/run_scheduled.sh" >> "/home/yinwhcmy/embedded system/project3/cron/scheduled.log" 2>&1 # PROJECT3_YINMINGJUN_HOURLY

@@ -1,0 +1,111 @@
+{
+  "author": "殷明骏",
+  "algorithm": "DC-DE",
+  "successful_executions": 3,
+  "expected_records": 270,
+  "records": 270,
+  "complete": true,
+  "start_intervals_seconds": [
+    3601.0,
+    3599.0
+  ],
+  "hourly_timing_passed": true,
+  "batches": [
+    {
+      "sequence": 1,
+      "output": "output/cron_1_20261116T202001",
+      "started_at": "2026-11-16T20:20:01+08:00",
+      "planned_at": "2026-11-16T20:20:00+08:00",
+      "lateness_seconds": 1.975855,
+      "validation": {
+        "author": "殷明骏",
+        "passed": true,
+        "records": 90,
+        "summary_matches_log": true,
+        "saved_solutions_recomputed": true,
+        "score_definition": "mean(abs(obtained_fitness-known_optimum)) over F01-F30",
+        "parameter_combinations": [
+          {
+            "population": 50,
+            "score": 177162.01383269703,
+            "records": 30
+          },
+          {
+            "population": 100,
+            "score": 178720.20633880905,
+            "records": 30
+          },
+          {
+            "population": 150,
+            "score": 228829.69536238365,
+            "records": 30
+          }
+        ]
+      }
+    },
+    {
+      "sequence": 2,
+      "output": "output/cron_2_20261116T212002",
+      "started_at": "2026-11-16T21:20:02+08:00",
+      "planned_at": "2026-11-16T21:20:00+08:00",
+      "lateness_seconds": 2.021014,
+      "validation": {
+        "author": "殷明骏",
+        "passed": true,
+        "records": 90,
+        "summary_matches_log": true,
+        "saved_solutions_recomputed": true,
+        "score_definition": "mean(abs(obtained_fitness-known_optimum)) over F01-F30",
+        "parameter_combinations": [
+          {
+            "population": 50,
+            "score": 179100.2119057263,
+            "records": 30
+          },
+          {
+            "population": 100,
+            "score": 177151.6740646734,
+            "records": 30
+          },
+          {
+            "population": 150,
+            "score": 150113.45434227187,
+            "records": 30
+          }
+        ]
+      }
+    },
+    {
+      "sequence": 3,
+      "output": "output/cron_3_20261116T222001",
+      "started_at": "2026-11-16T22:20:01+08:00",
+      "planned_at": "2026-11-16T22:20:00+08:00",
+      "lateness_seconds": 1.688466,
+      "validation": {
+        "author": "殷明骏",
+        "passed": true,
+        "records": 90,
+        "summary_matches_log": true,
+        "saved_solutions_recomputed": true,
+        "score_definition": "mean(abs(obtained_fitness-known_optimum)) over F01-F30",
+        "parameter_combinations": [
+          {
+            "population": 50,
+            "score": 177161.32876887213,
+            "records": 30
+          },
+          {
+            "population": 100,
+            "score": 150134.08513406542,
+            "records": 30
+          },
+          {
+            "population": 150,
+            "score": 178710.59681841495,
+            "records": 30
+          }
+        ]
+      }
+    }
+  ]
+}

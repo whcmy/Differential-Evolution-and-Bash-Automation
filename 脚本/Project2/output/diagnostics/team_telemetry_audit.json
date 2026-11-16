@@ -1,0 +1,13 @@
+{
+  "author": "殷明骏",
+  "student_id": "202483890029",
+  "replays": 80,
+  "all_exact": true,
+  "functions": [
+    11,
+    29
+  ],
+  "runs_per_group": 20,
+  "selection": "Post hoc largest absolute TEAM-versus-DE mean gain and loss; original outcomes retained",
+  "interpretation": "Observational telemetry supports a bounded process diagnosis; no parameter tuning or independent generalization claim"
+}

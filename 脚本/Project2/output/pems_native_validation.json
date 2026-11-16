@@ -1,0 +1,23 @@
+{
+  "author": "殷明骏",
+  "student_id": "202483890029",
+  "datasets": [
+    {
+      "directory": "results/pems_native_reference",
+      "numpy": "2.3.5",
+      "expected_count": 580,
+      "observed_count": 580,
+      "counts": {
+        "PEMSDE": 580
+      },
+      "missing": [],
+      "extra": [],
+      "duplicates": 0,
+      "record_issues": [],
+      "max_abs_recompute_difference": 0.0,
+      "manifest_complete": true,
+      "passed": true
+    }
+  ],
+  "passed": true
+}

@@ -1,0 +1,6 @@
+2026-11-10T17:27:37+08:00 yinwhcmy-Legion-Y9000P-IRX9 systemd-logind[1165]: Lid closed.
+2026-11-10T17:27:37+08:00 yinwhcmy-Legion-Y9000P-IRX9 systemd-logind[1165]: Suspending...
+2026-11-10T17:28:10+08:00 yinwhcmy-Legion-Y9000P-IRX9 systemd-sleep[25197]: Performing sleep operation 'suspend'...
+2026-11-10T18:43:35+08:00 yinwhcmy-Legion-Y9000P-IRX9 systemd-logind[1165]: Lid opened.
+2026-11-10T18:43:35+08:00 yinwhcmy-Legion-Y9000P-IRX9 systemd-sleep[25197]: System returned from sleep operation 'suspend'.
+2026-11-10T18:43:35+08:00 yinwhcmy-Legion-Y9000P-IRX9 systemd-logind[1165]: Operation 'suspend' finished.

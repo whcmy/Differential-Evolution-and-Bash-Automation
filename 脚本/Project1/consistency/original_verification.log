@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "functions": 30,
+  "dimensions": 10,
+  "independent_runs": 600,
+  "fes_per_run": 100000,
+  "total_fes": 60000000,
+  "saved_solutions_reevaluated": 600,
+  "statistics_cells_checked": 360,
+  "log_records_checked": 600,
+  "source_hashes_checked": true,
+  "raw_record_hashes_checked": true,
+  "history_monotonicity_checked": true,
+  "scope": "Record integrity and consistency with opfunu 1.0.4; not official CEC equivalence or paper reproduction."
+}

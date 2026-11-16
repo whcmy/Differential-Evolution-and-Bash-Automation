@@ -1,0 +1,45 @@
+{
+  "author": "殷明骏",
+  "student_id": "202483890029",
+  "datasets": [
+    {
+      "directory": "legacy/dsp_native",
+      "numpy": "1.26.4",
+      "expected_count": 480,
+      "observed_count": 480,
+      "counts": {
+        "DE": 240,
+        "DSPDE": 240
+      },
+      "missing": [],
+      "extra": [],
+      "duplicates": 0,
+      "record_issues": [],
+      "max_abs_recompute_difference": 0.0,
+      "manifest_complete": true,
+      "passed": true
+    },
+    {
+      "directory": "legacy/dsp_ablation",
+      "numpy": "1.26.4",
+      "expected_count": 3600,
+      "observed_count": 3600,
+      "counts": {
+        "DE": 600,
+        "DSPDE": 600,
+        "frozen_roles": 600,
+        "without_escape": 600,
+        "without_linnik": 600,
+        "without_social": 600
+      },
+      "missing": [],
+      "extra": [],
+      "duplicates": 0,
+      "record_issues": [],
+      "max_abs_recompute_difference": 0.0,
+      "manifest_complete": true,
+      "passed": true
+    }
+  ],
+  "passed": true
+}

@@ -1,0 +1,110 @@
+{
+  "author": "殷明骏",
+  "scope": "All thirty functions, five historical development seeds; no confirmation or significance claim",
+  "rankings": [
+    {
+      "algorithm": "DUAL",
+      "mean_rank": 3.1333333333333333
+    },
+    {
+      "algorithm": "DLSDE",
+      "mean_rank": 3.433333333333333
+    },
+    {
+      "algorithm": "PEMSDE",
+      "mean_rank": 3.5
+    },
+    {
+      "algorithm": "APE",
+      "mean_rank": 4.116666666666666
+    },
+    {
+      "algorithm": "DLC",
+      "mean_rank": 4.533333333333333
+    },
+    {
+      "algorithm": "DE",
+      "mean_rank": 5.283333333333333
+    },
+    {
+      "algorithm": "TEAM",
+      "mean_rank": 5.3
+    },
+    {
+      "algorithm": "DSPDE",
+      "mean_rank": 6.7
+    }
+  ],
+  "comparisons": [
+    {
+      "candidate": "DLC",
+      "control": "DE",
+      "mean_lower": 17,
+      "mean_tied": 4,
+      "mean_higher": 9
+    },
+    {
+      "candidate": "DLC",
+      "control": "DLSDE",
+      "mean_lower": 5,
+      "mean_tied": 10,
+      "mean_higher": 15
+    },
+    {
+      "candidate": "DLC",
+      "control": "PEMSDE",
+      "mean_lower": 8,
+      "mean_tied": 5,
+      "mean_higher": 17
+    },
+    {
+      "candidate": "DLC",
+      "control": "TEAM",
+      "mean_lower": 15,
+      "mean_tied": 5,
+      "mean_higher": 10
+    },
+    {
+      "candidate": "DLC",
+      "control": "APE",
+      "mean_lower": 13,
+      "mean_tied": 4,
+      "mean_higher": 13
+    },
+    {
+      "candidate": "DUAL",
+      "control": "DE",
+      "mean_lower": 19,
+      "mean_tied": 4,
+      "mean_higher": 7
+    },
+    {
+      "candidate": "DUAL",
+      "control": "DLSDE",
+      "mean_lower": 15,
+      "mean_tied": 8,
+      "mean_higher": 7
+    },
+    {
+      "candidate": "DUAL",
+      "control": "PEMSDE",
+      "mean_lower": 12,
+      "mean_tied": 6,
+      "mean_higher": 12
+    },
+    {
+      "candidate": "DUAL",
+      "control": "TEAM",
+      "mean_lower": 22,
+      "mean_tied": 5,
+      "mean_higher": 3
+    },
+    {
+      "candidate": "DUAL",
+      "control": "APE",
+      "mean_lower": 16,
+      "mean_tied": 5,
+      "mean_higher": 9
+    }
+  ]
+}

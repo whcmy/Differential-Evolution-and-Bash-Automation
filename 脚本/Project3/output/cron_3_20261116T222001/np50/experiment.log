@@ -1,0 +1,32 @@
+PENDING 30 workers=6
+RESULT algorithm=DUAL function=F25 run=01 seed=1292966132 fes=100000 error=2.004072954876e+02 completed=1/30
+RESULT algorithm=DUAL function=F24 run=01 seed=413432105 fes=100000 error=1.000000000000e+02 completed=2/30
+RESULT algorithm=DUAL function=F29 run=01 seed=2989022171 fes=100000 error=5.311033843405e+06 completed=3/30
+RESULT algorithm=DUAL function=F28 run=01 seed=3861378476 fes=100000 error=3.721138354015e+02 completed=4/30
+RESULT algorithm=DUAL function=F23 run=01 seed=3065210884 fes=100000 error=2.422283797499e+02 completed=5/30
+RESULT algorithm=DUAL function=F21 run=01 seed=4230090674 fes=100000 error=6.669643336336e-01 completed=6/30
+RESULT algorithm=DUAL function=F26 run=01 seed=3477429017 fes=100000 error=1.000387181856e+02 completed=7/30
+RESULT algorithm=DUAL function=F27 run=01 seed=3148966086 fes=100000 error=4.000999209734e+02 completed=8/30
+RESULT algorithm=DUAL function=F20 run=01 seed=3234261719 fes=100000 error=7.835272886280e-01 completed=9/30
+RESULT algorithm=DUAL function=F18 run=01 seed=840464182 fes=100000 error=1.611496287765e-01 completed=10/30
+RESULT algorithm=DUAL function=F30 run=01 seed=2659088280 fes=100000 error=2.315169068525e+03 completed=11/30
+RESULT algorithm=DUAL function=F14 run=01 seed=1062119964 fes=100000 error=1.732118166481e-01 completed=12/30
+RESULT algorithm=DUAL function=F17 run=01 seed=1509584758 fes=100000 error=9.949590570934e-01 completed=13/30
+RESULT algorithm=DUAL function=F15 run=01 seed=290496360 fes=100000 error=3.814471812161e-01 completed=14/30
+RESULT algorithm=DUAL function=F13 run=01 seed=1294558602 fes=100000 error=3.203195685296e-02 completed=15/30
+RESULT algorithm=DUAL function=F22 run=01 seed=3107965072 fes=100000 error=2.060901722465e+01 completed=16/30
+RESULT algorithm=DUAL function=F19 run=01 seed=3736316826 fes=100000 error=9.999727418208e-01 completed=17/30
+RESULT algorithm=DUAL function=F09 run=01 seed=3549377396 fes=100000 error=0.000000000000e+00 completed=18/30
+RESULT algorithm=DUAL function=F08 run=01 seed=3480441113 fes=100000 error=0.000000000000e+00 completed=19/30
+RESULT algorithm=DUAL function=F11 run=01 seed=2062392723 fes=100000 error=1.518452611522e+01 completed=20/30
+RESULT algorithm=DUAL function=F16 run=01 seed=3675949065 fes=100000 error=1.185469591122e+00 completed=21/30
+RESULT algorithm=DUAL function=F10 run=01 seed=1232378018 fes=100000 error=9.094947017729e-13 completed=22/30
+RESULT algorithm=DUAL function=F07 run=01 seed=1877866837 fes=100000 error=9.864672060985e-03 completed=23/30
+RESULT algorithm=DUAL function=F05 run=01 seed=4170433432 fes=100000 error=5.684341886081e-14 completed=24/30
+RESULT algorithm=DUAL function=F04 run=01 seed=1897174934 fes=100000 error=3.478027487472e+01 completed=25/30
+RESULT algorithm=DUAL function=F03 run=01 seed=1654262705 fes=100000 error=0.000000000000e+00 completed=26/30
+RESULT algorithm=DUAL function=F02 run=01 seed=2776250445 fes=100000 error=0.000000000000e+00 completed=27/30
+RESULT algorithm=DUAL function=F01 run=01 seed=4147769817 fes=100000 error=0.000000000000e+00 completed=28/30
+RESULT algorithm=DUAL function=F06 run=01 seed=2756119986 fes=100000 error=0.000000000000e+00 completed=29/30
+RESULT algorithm=DUAL function=F12 run=01 seed=881750952 fes=100000 error=2.662415454324e-05 completed=30/30
+COMPLETE 30

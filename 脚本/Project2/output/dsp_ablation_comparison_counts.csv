@@ -1,0 +1,5 @@
+﻿comparison,reference_wins,no_difference_detected,reference_losses,mean_better,mean_worse
+without_escape,12,18,0,21,9
+without_linnik,7,20,3,20,9
+without_social,0,19,11,4,25
+frozen_roles,7,23,0,20,10

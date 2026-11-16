@@ -1,0 +1,59 @@
+{
+  "config": {
+    "dimension": 10,
+    "population_size": 100,
+    "max_fes": 100000,
+    "f": 0.5,
+    "cr": 0.9,
+    "seed": 20261026,
+    "runs": 20,
+    "functions": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30
+    ],
+    "algorithm": "DE/rand/1/bin",
+    "boundary": "clip",
+    "selection": "strict",
+    "updating": "generational",
+    "versions": {
+      "numpy": "1.26.4",
+      "opfunu": "1.0.4"
+    },
+    "python": "3.12.3",
+    "source_sha256": {
+      "de.py": "9ee8743ffc023653080829a846cdbe99c630c7fca4962b8d6bbec0e482ab07bf",
+      "run_experiments.py": "b8a3693b04fd4e47e0b5b6cf7a22994aef94986dca9f1f766b1a9a8e65f12e5e"
+    }
+  },
+  "workers": 16,
+  "started_utc": "2026-10-26T12:15:45.979054+00:00",
+  "completed_utc": "2026-10-26T12:46:40.067247+00:00"
+}

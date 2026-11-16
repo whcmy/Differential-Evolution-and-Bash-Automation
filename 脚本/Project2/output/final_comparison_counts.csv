@@ -1,0 +1,5 @@
+﻿comparison,reference_wins,no_difference_detected,reference_losses,mean_better,mean_worse
+DE,11,12,7,14,13
+DSPDE,16,12,2,22,8
+DLSDE,0,18,12,3,23
+PEMSDE,1,18,11,5,20

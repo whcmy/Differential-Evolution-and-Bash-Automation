@@ -1,0 +1,27 @@
+{
+  "author": "殷明骏",
+  "installed_at": "2026-11-16T20:18:58+08:00",
+  "timezone": "Asia/Shanghai",
+  "first_due": "2026-11-16T20:20:00+08:00",
+  "deadline": "2026-11-16T23:20:00+08:00",
+  "target_successes": 3,
+  "budget": 100000,
+  "populations": [
+    50,
+    100,
+    150
+  ],
+  "expected_times": [
+    "2026-11-16T20:20:00+08:00",
+    "2026-11-16T21:20:00+08:00",
+    "2026-11-16T22:20:00+08:00"
+  ],
+  "algorithm": "DC-DE",
+  "internal_algorithm": "DUAL",
+  "dimension": 10,
+  "runs_per_function": 1,
+  "workers": 6,
+  "seed_base": 2026111600,
+  "lateness_tolerance_seconds": 60,
+  "timeout_seconds": 1800
+}

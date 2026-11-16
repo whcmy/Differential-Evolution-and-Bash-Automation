@@ -1,0 +1,76 @@
+{
+  "config": {
+    "suite": "cec2014",
+    "algorithms": [
+      "DE",
+      "DSPDE",
+      "without_escape",
+      "without_linnik",
+      "without_social",
+      "frozen_roles"
+    ],
+    "functions": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30
+    ],
+    "runs": 20,
+    "dimension": 10,
+    "seed": 20261027,
+    "settings": {
+      "population_size": 50,
+      "max_fes": 75000,
+      "elite_weight": 0.7,
+      "regularization": 1e-06,
+      "gradient_probability": 0.7,
+      "linnik_alpha": 1.0,
+      "linnik_v": 0.5,
+      "baseline_f": 0.5,
+      "baseline_cr": 0.9
+    },
+    "source_sha256": {
+      "dspde.py": "b4eca36c1a348e3e18f96aa3879e5238913caee9cf919da16fae6b7454c448ac",
+      "basic_de.py": "9ee8743ffc023653080829a846cdbe99c630c7fca4962b8d6bbec0e482ab07bf",
+      "run_experiments.py": "8b9e4b459c743660cf6554bdf2b1f95d8d7666edb32d12894e43c8622d68ba13"
+    },
+    "python": "3.12.3",
+    "versions": {
+      "numpy": "1.26.4",
+      "opfunu": "1.0.4"
+    },
+    "boundary": "clip",
+    "updating": "generational",
+    "strict_selection": true,
+    "fidelity": "paper-grounded reconstruction with declared unresolved details"
+  },
+  "workers": 16,
+  "started_utc": "2026-10-27T08:54:36.755592+00:00",
+  "completed_utc": "2026-10-27T15:29:30.731505+00:00"
+}

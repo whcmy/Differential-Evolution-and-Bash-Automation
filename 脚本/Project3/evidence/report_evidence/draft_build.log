@@ -1,0 +1,12 @@
+/home/yinwhcmy/embedded system/project2_final/.venv/lib/python3.12/site-packages/opfunu/cec_based/cec.py:8: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+VALIDATION_SUCCESS records=90 summary_matches_log=true solutions_recomputed=true
+VALIDATION_SUCCESS records=90 summary_matches_log=true solutions_recomputed=true
+VALIDATION_SUCCESS records=90 summary_matches_log=true solutions_recomputed=true
+AUDIT complete=False scheduled_successes=2 records=270
+Saved 6 evidence screenshots
+/home/yinwhcmy/embedded system/project3/output/Project3_Report.docx
+Pages rendered to /home/yinwhcmy/embedded system/project3/template_work/draft_172428_01
+/home/yinwhcmy/embedded system/project3/output/Project3_Report.docx
+Pages rendered to /home/yinwhcmy/embedded system/project3/template_work/draft_172428_02
+RENDER_COMPLETE /home/yinwhcmy/embedded system/project3/template_work/draft_172428_02

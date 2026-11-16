@@ -1,0 +1,5 @@
+﻿comparison,reference_wins,no_difference_detected,reference_losses,mean_better,mean_worse
+PEMS_no_peg,8,20,2,19,7
+PEMS_no_mml,1,28,1,14,11
+PEMS_no_ers,0,30,0,12,12
+PEMS_no_cls,8,20,2,13,11

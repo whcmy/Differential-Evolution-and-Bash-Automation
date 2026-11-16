@@ -1,0 +1,6 @@
+﻿comparison,reference_wins,no_difference_detected,reference_losses,mean_better,mean_worse
+no_learning,1,29,0,12,8
+no_two_phase,0,30,0,17,8
+fixed_sigma,3,27,0,12,7
+fitness_weights,0,30,0,12,13
+binomial,1,29,0,15,11

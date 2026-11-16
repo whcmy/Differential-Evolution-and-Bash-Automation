@@ -1,0 +1,8 @@
+﻿comparison,family,wins,not_detected,losses
+DE,primary,13,17,0
+DSPDE,paper_controls,20,10,0
+DLSDE,paper_controls,0,23,7
+PEMSDE,paper_controls,3,19,8
+TEAM,primary,6,22,2
+APE_no_potential,ablation,0,30,0
+APE_no_control,ablation,8,21,1

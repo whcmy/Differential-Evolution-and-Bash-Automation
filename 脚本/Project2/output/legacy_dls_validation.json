@@ -1,0 +1,71 @@
+{
+  "author": "殷明骏",
+  "student_id": "202483890029",
+  "datasets": [
+    {
+      "directory": "legacy/dls_native/results",
+      "numpy": "2.3.5",
+      "expected_count": 600,
+      "observed_count": 600,
+      "counts": {
+        "dls_de": 600
+      },
+      "missing": [],
+      "extra": [],
+      "duplicates": 0,
+      "record_issues": [],
+      "max_abs_recompute_difference": 4.547473508864641e-13,
+      "manifest_complete": true,
+      "passed": true
+    },
+    {
+      "directory": "legacy/dls_native/results_ablation",
+      "numpy": "2.3.5",
+      "expected_count": 3600,
+      "observed_count": 3600,
+      "counts": {
+        "binomial": 600,
+        "de": 600,
+        "fitness_weights": 600,
+        "fixed_sigma": 600,
+        "no_learning": 600,
+        "no_two_phase": 600
+      },
+      "missing": [],
+      "extra": [],
+      "duplicates": 0,
+      "record_issues": [],
+      "max_abs_recompute_difference": 1.862645149230957e-09,
+      "manifest_complete": true,
+      "passed": true
+    },
+    {
+      "directory": "results/smoke",
+      "numpy": "2.3.5",
+      "expected_count": 360,
+      "observed_count": 360,
+      "counts": {
+        "DE": 30,
+        "DLSDE": 30,
+        "DSPDE": 30,
+        "PEMSDE": 30,
+        "PEMS_no_cls": 30,
+        "PEMS_no_ers": 30,
+        "PEMS_no_mml": 30,
+        "PEMS_no_peg": 30,
+        "TEAM": 30,
+        "TEAM_no_escape": 30,
+        "TEAM_no_peg": 30,
+        "TEAM_no_phase": 30
+      },
+      "missing": [],
+      "extra": [],
+      "duplicates": 0,
+      "record_issues": [],
+      "max_abs_recompute_difference": 0.0,
+      "manifest_complete": true,
+      "passed": true
+    }
+  ],
+  "passed": true
+}

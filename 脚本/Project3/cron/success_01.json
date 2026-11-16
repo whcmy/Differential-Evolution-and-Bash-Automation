@@ -1,0 +1,38 @@
+{
+  "started_at": "2026-11-16T20:20:01+08:00",
+  "planned_at": "2026-11-16T20:20:00+08:00",
+  "lateness_seconds": 1.975855,
+  "sequence": 1,
+  "source": "system crontab",
+  "ancestors": [
+    {
+      "pid": 42211,
+      "ppid": 42207,
+      "command": "/home/yinwhcmy/embedded system/project3/rerun_20261116/../../project2_final/.venv/bin/python /home/yinwhcmy/embedded system/project3/rerun_20261116/cron/scheduler.py"
+    },
+    {
+      "pid": 42207,
+      "ppid": 42206,
+      "command": "/bin/bash /home/yinwhcmy/embedded system/project3/rerun_20261116/cron/run_scheduled.sh"
+    },
+    {
+      "pid": 42206,
+      "ppid": 42205,
+      "command": "/bin/sh -c /bin/bash \"/home/yinwhcmy/embedded system/project3/rerun_20261116/cron/run_scheduled.sh\" >> \"/home/yinwhcmy/embedded system/project3/rerun_20261116/cron/scheduled.log\" 2>&1 # PROJECT3_DCDE_20261116_HOURLY"
+    },
+    {
+      "pid": 42205,
+      "ppid": 1180,
+      "command": "/usr/sbin/CRON -f -P"
+    },
+    {
+      "pid": 1180,
+      "ppid": 1,
+      "command": "/usr/sbin/cron -f -P"
+    }
+  ],
+  "output": "output/cron_1_20261116T202001",
+  "completed_at": "2026-11-16T20:23:39+08:00",
+  "passed": true,
+  "records": 90
+}

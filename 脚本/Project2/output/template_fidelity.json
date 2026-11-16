@@ -1,0 +1,29 @@
+{
+  "author": "殷明骏",
+  "student_id": "202483890029",
+  "header_only": false,
+  "retained_template_unchanged": true,
+  "title_xml_unchanged": true,
+  "section_geometry_unchanged": false,
+  "preserve_only_parts": [
+    "_rels/.rels",
+    "word/footnotes.xml",
+    "word/endnotes.xml",
+    "word/theme/theme1.xml",
+    "word/numbering.xml",
+    "word/webSettings.xml",
+    "word/fontTable.xml"
+  ],
+  "template_sha256": "9772415a7b7c10ba5f8ad52e5df2b5664b667576f10bc0a9ea5ae3be4c473fed",
+  "intentional_changes": [
+    "Only the first page is locked",
+    "Single-column body selected after rendered comparison",
+    "Full-width figures and tables",
+    "Black ruled numerical tables",
+    "No contents page or appendices"
+  ],
+  "cover_geometry_unchanged": true,
+  "body_geometry_user_authorized": true,
+  "body_columns": 1,
+  "body_margin_mm": 18
+}

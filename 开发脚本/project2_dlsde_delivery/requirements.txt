@@ -1,0 +1,9 @@
+# Recommended: Python 3.11 (opfunu 1.0.4 declares Python <3.12).
+numpy>=1.24,<2.4
+opfunu==1.0.4
+setuptools==80.9.0
+requests>=2.31,<3
+matplotlib>=3.10,<4
+scipy>=1.15,<2
+reportlab>=4,<5
+pypdfium2>=4,<6

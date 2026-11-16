@@ -1,0 +1,72 @@
+{
+  "author": "殷明骏",
+  "scope": "development only, first five observed seeds; no superiority test",
+  "mean_ranks": [
+    {
+      "algorithm": "DLSDE",
+      "mean_rank": 3.183333333333333
+    },
+    {
+      "algorithm": "PEMSDE",
+      "mean_rank": 3.683333333333333
+    },
+    {
+      "algorithm": "APE",
+      "mean_rank": 3.933333333333333
+    },
+    {
+      "algorithm": "APE_no_potential",
+      "mean_rank": 4.166666666666667
+    },
+    {
+      "algorithm": "TEAM_no_peg",
+      "mean_rank": 4.933333333333334
+    },
+    {
+      "algorithm": "TEAM",
+      "mean_rank": 5.483333333333333
+    },
+    {
+      "algorithm": "DE",
+      "mean_rank": 5.85
+    },
+    {
+      "algorithm": "APE_no_control",
+      "mean_rank": 6.266666666666667
+    },
+    {
+      "algorithm": "DSPDE",
+      "mean_rank": 7.5
+    }
+  ],
+  "DE": {
+    "lower": 19,
+    "tied": 4,
+    "higher": 7
+  },
+  "DLSDE": {
+    "lower": 7,
+    "tied": 6,
+    "higher": 17
+  },
+  "TEAM": {
+    "lower": 18,
+    "tied": 4,
+    "higher": 8
+  },
+  "TEAM_no_peg": {
+    "lower": 18,
+    "tied": 5,
+    "higher": 7
+  },
+  "APE_no_potential": {
+    "lower": 13,
+    "tied": 7,
+    "higher": 10
+  },
+  "APE_no_control": {
+    "lower": 23,
+    "tied": 4,
+    "higher": 3
+  }
+}

@@ -1,0 +1,380 @@
+{
+  "author": "殷明骏",
+  "student_id": "202483890029",
+  "summaries": {
+    "final": {
+      "algorithms": [
+        "DE",
+        "DSPDE",
+        "DLSDE",
+        "PEMSDE",
+        "TEAM"
+      ],
+      "average_ranks": [
+        {
+          "algorithm": "DE",
+          "mean_rank": 3.2333333333333334
+        },
+        {
+          "algorithm": "DSPDE",
+          "mean_rank": 4.016666666666667
+        },
+        {
+          "algorithm": "DLSDE",
+          "mean_rank": 2.066666666666667
+        },
+        {
+          "algorithm": "PEMSDE",
+          "mean_rank": 2.35
+        },
+        {
+          "algorithm": "TEAM",
+          "mean_rank": 3.3333333333333335
+        }
+      ]
+    },
+    "pems_ablation": {
+      "algorithms": [
+        "PEMSDE",
+        "PEMS_no_peg",
+        "PEMS_no_mml",
+        "PEMS_no_ers",
+        "PEMS_no_cls"
+      ],
+      "average_ranks": [
+        {
+          "algorithm": "PEMSDE",
+          "mean_rank": 2.716666666666667
+        },
+        {
+          "algorithm": "PEMS_no_peg",
+          "mean_rank": 3.6166666666666667
+        },
+        {
+          "algorithm": "PEMS_no_mml",
+          "mean_rank": 2.966666666666667
+        },
+        {
+          "algorithm": "PEMS_no_ers",
+          "mean_rank": 2.75
+        },
+        {
+          "algorithm": "PEMS_no_cls",
+          "mean_rank": 2.95
+        }
+      ]
+    },
+    "team_ablation": {
+      "algorithms": [
+        "TEAM",
+        "TEAM_no_peg",
+        "TEAM_no_phase",
+        "TEAM_no_escape"
+      ],
+      "average_ranks": [
+        {
+          "algorithm": "TEAM",
+          "mean_rank": 2.533333333333333
+        },
+        {
+          "algorithm": "TEAM_no_peg",
+          "mean_rank": 1.95
+        },
+        {
+          "algorithm": "TEAM_no_phase",
+          "mean_rank": 2.966666666666667
+        },
+        {
+          "algorithm": "TEAM_no_escape",
+          "mean_rank": 2.55
+        }
+      ]
+    },
+    "dsp_ablation": {
+      "algorithms": [
+        "DE",
+        "DSPDE",
+        "without_escape",
+        "without_linnik",
+        "without_social",
+        "frozen_roles"
+      ],
+      "average_ranks": [
+        {
+          "algorithm": "DE",
+          "mean_rank": 2.2333333333333334
+        },
+        {
+          "algorithm": "DSPDE",
+          "mean_rank": 3.6166666666666667
+        },
+        {
+          "algorithm": "without_escape",
+          "mean_rank": 4.533333333333333
+        },
+        {
+          "algorithm": "without_linnik",
+          "mean_rank": 4.516666666666667
+        },
+        {
+          "algorithm": "without_social",
+          "mean_rank": 2.1666666666666665
+        },
+        {
+          "algorithm": "frozen_roles",
+          "mean_rank": 3.933333333333333
+        }
+      ]
+    },
+    "dls_ablation": {
+      "algorithms": [
+        "dls_de",
+        "no_learning",
+        "no_two_phase",
+        "fixed_sigma",
+        "fitness_weights",
+        "binomial",
+        "de"
+      ],
+      "average_ranks": [
+        {
+          "algorithm": "dls_de",
+          "mean_rank": 3.433333333333333
+        },
+        {
+          "algorithm": "no_learning",
+          "mean_rank": 3.716666666666667
+        },
+        {
+          "algorithm": "no_two_phase",
+          "mean_rank": 4.233333333333333
+        },
+        {
+          "algorithm": "fixed_sigma",
+          "mean_rank": 3.8333333333333335
+        },
+        {
+          "algorithm": "fitness_weights",
+          "mean_rank": 3.4833333333333334
+        },
+        {
+          "algorithm": "binomial",
+          "mean_rank": 4.0
+        },
+        {
+          "algorithm": "de",
+          "mean_rank": 5.3
+        }
+      ]
+    },
+    "pems_native": {
+      "algorithms": [
+        "PEMSDE"
+      ],
+      "average_ranks": [
+        {
+          "algorithm": "PEMSDE",
+          "mean_rank": 1.0
+        }
+      ]
+    },
+    "dsp_native": {
+      "algorithms": [
+        "DSPDE"
+      ],
+      "average_ranks": [
+        {
+          "algorithm": "DSPDE",
+          "mean_rank": 1.0
+        }
+      ]
+    },
+    "dls_native": {
+      "algorithms": [
+        "dls_de"
+      ],
+      "average_ranks": [
+        {
+          "algorithm": "dls_de",
+          "mean_rank": 1.0
+        }
+      ]
+    }
+  },
+  "comparisons": {
+    "final": [
+      {
+        "comparison": "DE",
+        "reference_wins": 11,
+        "no_difference_detected": 12,
+        "reference_losses": 7,
+        "mean_better": 14,
+        "mean_worse": 13
+      },
+      {
+        "comparison": "DSPDE",
+        "reference_wins": 16,
+        "no_difference_detected": 12,
+        "reference_losses": 2,
+        "mean_better": 22,
+        "mean_worse": 8
+      },
+      {
+        "comparison": "DLSDE",
+        "reference_wins": 0,
+        "no_difference_detected": 18,
+        "reference_losses": 12,
+        "mean_better": 3,
+        "mean_worse": 23
+      },
+      {
+        "comparison": "PEMSDE",
+        "reference_wins": 1,
+        "no_difference_detected": 18,
+        "reference_losses": 11,
+        "mean_better": 5,
+        "mean_worse": 20
+      }
+    ],
+    "pems_ablation": [
+      {
+        "comparison": "PEMS_no_peg",
+        "reference_wins": 8,
+        "no_difference_detected": 20,
+        "reference_losses": 2,
+        "mean_better": 19,
+        "mean_worse": 7
+      },
+      {
+        "comparison": "PEMS_no_mml",
+        "reference_wins": 1,
+        "no_difference_detected": 28,
+        "reference_losses": 1,
+        "mean_better": 14,
+        "mean_worse": 11
+      },
+      {
+        "comparison": "PEMS_no_ers",
+        "reference_wins": 0,
+        "no_difference_detected": 30,
+        "reference_losses": 0,
+        "mean_better": 12,
+        "mean_worse": 12
+      },
+      {
+        "comparison": "PEMS_no_cls",
+        "reference_wins": 8,
+        "no_difference_detected": 20,
+        "reference_losses": 2,
+        "mean_better": 13,
+        "mean_worse": 11
+      }
+    ],
+    "team_ablation": [
+      {
+        "comparison": "TEAM_no_peg",
+        "reference_wins": 0,
+        "no_difference_detected": 26,
+        "reference_losses": 4,
+        "mean_better": 8,
+        "mean_worse": 19
+      },
+      {
+        "comparison": "TEAM_no_phase",
+        "reference_wins": 0,
+        "no_difference_detected": 30,
+        "reference_losses": 0,
+        "mean_better": 18,
+        "mean_worse": 7
+      },
+      {
+        "comparison": "TEAM_no_escape",
+        "reference_wins": 0,
+        "no_difference_detected": 30,
+        "reference_losses": 0,
+        "mean_better": 12,
+        "mean_worse": 14
+      }
+    ],
+    "dsp_ablation": [
+      {
+        "comparison": "without_escape",
+        "reference_wins": 12,
+        "no_difference_detected": 18,
+        "reference_losses": 0,
+        "mean_better": 21,
+        "mean_worse": 9
+      },
+      {
+        "comparison": "without_linnik",
+        "reference_wins": 7,
+        "no_difference_detected": 20,
+        "reference_losses": 3,
+        "mean_better": 20,
+        "mean_worse": 9
+      },
+      {
+        "comparison": "without_social",
+        "reference_wins": 0,
+        "no_difference_detected": 19,
+        "reference_losses": 11,
+        "mean_better": 4,
+        "mean_worse": 25
+      },
+      {
+        "comparison": "frozen_roles",
+        "reference_wins": 7,
+        "no_difference_detected": 23,
+        "reference_losses": 0,
+        "mean_better": 20,
+        "mean_worse": 10
+      }
+    ],
+    "dls_ablation": [
+      {
+        "comparison": "no_learning",
+        "reference_wins": 1,
+        "no_difference_detected": 29,
+        "reference_losses": 0,
+        "mean_better": 12,
+        "mean_worse": 8
+      },
+      {
+        "comparison": "no_two_phase",
+        "reference_wins": 0,
+        "no_difference_detected": 30,
+        "reference_losses": 0,
+        "mean_better": 17,
+        "mean_worse": 8
+      },
+      {
+        "comparison": "fixed_sigma",
+        "reference_wins": 3,
+        "no_difference_detected": 27,
+        "reference_losses": 0,
+        "mean_better": 12,
+        "mean_worse": 7
+      },
+      {
+        "comparison": "fitness_weights",
+        "reference_wins": 0,
+        "no_difference_detected": 30,
+        "reference_losses": 0,
+        "mean_better": 12,
+        "mean_worse": 13
+      },
+      {
+        "comparison": "binomial",
+        "reference_wins": 1,
+        "no_difference_detected": 29,
+        "reference_losses": 0,
+        "mean_better": 15,
+        "mean_worse": 11
+      }
+    ]
+  },
+  "new_formal_runs": 7780,
+  "legacy_runs": 8280,
+  "final_comparison_runs": 3000,
+  "numpy": "2.3.5"
+}

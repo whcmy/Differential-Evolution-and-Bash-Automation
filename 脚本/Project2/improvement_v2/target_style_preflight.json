@@ -1,0 +1,17 @@
+{
+  "author": "殷明骏",
+  "target": "Retained English course template and supplied Elsevier-style paper exemplars",
+  "raw_static_log": "figure_source_preflight.log",
+  "raw_static_verdict": "FIX BEFORE DELIVERY",
+  "interpretation": {
+    "font_family": "The generic Nature checker expects sans-serif. The explicit retained paper-style contract specifies serif figures; preserve that target rather than silently substituting another font.",
+    "dimensions": "6.8504 inches matches the retained report body width; generic 89/183 mm defaults do not control this course template.",
+    "export": "Editable PDF/SVG figures and 400 dpi PNG Word previews; TIFF is not an intended submission artifact.",
+    "positivity": "Objective histories assert all values > 0 before logarithmic axes. Error distributions use an explicit 1e-8 display floor.",
+    "uncertainty": "Mean rank describes a fixed benchmark; function counts are exact counts. The two distributions show every paired seed. Best-run histories are single selected runs, not mean estimates."
+  },
+  "evidence": "protocol/paper_style_contract_20261116.md and improvement_v2/artifact.md; rendered font, alignment and collision audits remain mandatory.",
+  "rendered_acceptance": "All 16 active sheets reviewed; font and alignment checks pass (single-panel workflow alignment is not applicable). Five retained historical white-axes-edge warnings are resolved by full-size visual review. Complete report: 26 pages, single-column body; exact cover preserved.",
+  "figure_audit": "output/confirmation_figure_audit.json",
+  "visual_review": "output/qa/visual_acceptance.json"
+}

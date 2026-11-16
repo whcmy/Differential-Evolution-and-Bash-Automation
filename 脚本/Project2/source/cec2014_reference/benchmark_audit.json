@@ -1,0 +1,44 @@
+{
+  "opfunu": "1.0.4",
+  "minionpy": "1.9.1",
+  "seed": 2014,
+  "dimension": 10,
+  "random_points": 20,
+  "additional_points": [
+    "zero",
+    "opfunu.x_global"
+  ],
+  "rtol": 1e-10,
+  "atol": 1e-08,
+  "functions_with_mismatches": [
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    29,
+    30
+  ],
+  "structural": {
+    "F29_component_rotation_matches_own_M29_block": [
+      false,
+      false,
+      false
+    ],
+    "official_cf07_lines": "reference/official_cec14_test_func.cpp:1137-1150",
+    "opfunu_lines": ".vendor/opfunu/cec_based/cec2014.py:1188-1197",
+    "official_source_url": "https://github.com/P-N-Suganthan/CEC2014/blob/master/cec14-c-code.zip"
+  },
+  "source_sha256": {
+    "reference\\cec14-c-code.zip": "1a210560398ca7a50be6adf1e5e90602222519ef23b6e31aba8847e109761876",
+    "reference\\official_cec14_test_func.cpp": "4228bcf7d6d8da94bab3dfdb8837251edc26952f498ae9757da57ca4b1dbd650",
+    ".vendor\\opfunu\\cec_based\\cec2014.py": "bbbced068152e395ae8b0a08c8d3f440e0a01744d2e2b04636c56c69b26d69fd"
+  },
+  "limitation": "Finite point probes are not a proof of global equivalence; the C++ evaluator is MinionPy's packaged reference, not the paper authors' MATLAB run."
+}
