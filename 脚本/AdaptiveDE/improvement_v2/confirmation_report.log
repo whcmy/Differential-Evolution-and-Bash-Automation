@@ -1,0 +1,9 @@
+/home/yinwhcmy/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/fitz/__init__.py:17: FutureWarning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+  warnings.warn(
+Confirmation integrated into retained Word report
+Pages rendered to /home/yinwhcmy/differential_evolution/adaptive_de/template_work/algorithm_confirmation_20261116_191211
+{
+  "pages": 38,
+  "vector_figures": 16
+}
+Rendered report requires page-by-page visual acceptance before packaging.

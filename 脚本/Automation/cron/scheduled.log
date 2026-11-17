@@ -1,0 +1,40 @@
+CRON_START timestamp=2026-11-16T20:20:01+08:00 sequence=1 directory=cron_1_20261116T202001
+/home/yinwhcmy/differential_evolution/adaptive_de/.venv/lib/python3.12/site-packages/opfunu/cec_based/cec.py:8: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+Running cron_1_20261116T202001_np50: DC-DE, NP=50, FEs=100000, seed=2026111601, CEC2014 F01-F30
+Running cron_1_20261116T202001_np100: DC-DE, NP=100, FEs=100000, seed=2026111601, CEC2014 F01-F30
+Running cron_1_20261116T202001_np150: DC-DE, NP=150, FEs=100000, seed=2026111601, CEC2014 F01-F30
+Automation mean absolute errors across CEC2014 F01-F30
+run_id population budget seed functions mean_absolute_error
+cron_1_20261116T202001_np50 50 100000 2026111601 30 1.77162013832697034e+05
+cron_1_20261116T202001_np100 100 100000 2026111601 30 1.78720206338809046e+05
+cron_1_20261116T202001_np150 150 100000 2026111601 30 2.28829695362383645e+05
+Validated batch: /home/yinwhcmy/differential_evolution/automation/rerun_20261116/output/cron_1_20261116T202001
+CRON_SUCCESS timestamp=2026-11-16T20:23:39+08:00 sequence=1 validated_records=90
+CRON_START timestamp=2026-11-16T21:20:02+08:00 sequence=2 directory=cron_2_20261116T212002
+/home/yinwhcmy/differential_evolution/adaptive_de/.venv/lib/python3.12/site-packages/opfunu/cec_based/cec.py:8: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+Running cron_2_20261116T212002_np50: DC-DE, NP=50, FEs=100000, seed=2026111602, CEC2014 F01-F30
+Running cron_2_20261116T212002_np100: DC-DE, NP=100, FEs=100000, seed=2026111602, CEC2014 F01-F30
+Running cron_2_20261116T212002_np150: DC-DE, NP=150, FEs=100000, seed=2026111602, CEC2014 F01-F30
+Automation mean absolute errors across CEC2014 F01-F30
+run_id population budget seed functions mean_absolute_error
+cron_2_20261116T212002_np50 50 100000 2026111602 30 1.79100211905726290e+05
+cron_2_20261116T212002_np100 100 100000 2026111602 30 1.77151674064673396e+05
+cron_2_20261116T212002_np150 150 100000 2026111602 30 1.50113454342271871e+05
+Validated batch: /home/yinwhcmy/differential_evolution/automation/rerun_20261116/output/cron_2_20261116T212002
+CRON_SUCCESS timestamp=2026-11-16T21:23:28+08:00 sequence=2 validated_records=90
+CRON_START timestamp=2026-11-16T22:20:01+08:00 sequence=3 directory=cron_3_20261116T222001
+/home/yinwhcmy/differential_evolution/adaptive_de/.venv/lib/python3.12/site-packages/opfunu/cec_based/cec.py:8: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+Running cron_3_20261116T222001_np50: DC-DE, NP=50, FEs=100000, seed=2026111603, CEC2014 F01-F30
+Running cron_3_20261116T222001_np100: DC-DE, NP=100, FEs=100000, seed=2026111603, CEC2014 F01-F30
+Running cron_3_20261116T222001_np150: DC-DE, NP=150, FEs=100000, seed=2026111603, CEC2014 F01-F30
+Automation mean absolute errors across CEC2014 F01-F30
+run_id population budget seed functions mean_absolute_error
+cron_3_20261116T222001_np50 50 100000 2026111603 30 1.77161328768872132e+05
+cron_3_20261116T222001_np100 100 100000 2026111603 30 1.50134085134065419e+05
+cron_3_20261116T222001_np150 150 100000 2026111603 30 1.78710596818414953e+05
+Validated batch: /home/yinwhcmy/differential_evolution/automation/rerun_20261116/output/cron_3_20261116T222001
+CRON_SUCCESS timestamp=2026-11-16T22:23:27+08:00 sequence=3 validated_records=90
+SCHEDULE_COMPLETE timestamp=2026-11-16T22:23:27+08:00 successful_executions=3

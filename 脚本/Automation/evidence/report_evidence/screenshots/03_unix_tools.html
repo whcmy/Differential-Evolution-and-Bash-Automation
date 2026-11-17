@@ -1,0 +1,17 @@
+<!doctype html><meta charset="utf-8"><title>Unix tools and input validation</title><style>
+      body{font:24px Georgia,serif;margin:28px;color:#152331;background:#fff}h1{font-size:32px;margin:0 0 12px}p{margin:0 0 22px;color:#425466}h2{font:600 24px Arial;margin:24px 0 10px}pre{font:24px/1.35 monospace;white-space:pre-wrap;overflow-wrap:anywhere;background:#f3f5f7;border:1px solid #d9dfe5;padding:16px;margin:0}footer{margin-top:24px;font-size:18px;color:#425466}
+      </style><h1>Unix tools and input validation</h1><p>Automation | Three DC-DE scheduled executions validated</p>
+      <h2>Actual permission and Bash help output</h2><pre>$ /bin/ls -l run_experiments.sh cron/run_scheduled.sh
+-rwxrwxr-x 1 yinwhcmy yinwhcmy  352 Nov 16 20:18 cron/run_scheduled.sh
+-rwxrwxr-x 1 yinwhcmy yinwhcmy 4081 Nov 16 20:17 run_experiments.sh
+$ /bin/bash -c help for; help echo
+for: for NAME [in WORDS ... ] ; do COMMANDS; done
+    Execute commands for each member in a list.
+    
+    The `for' loop executes a sequence of commands for each member in a
+    list of items.  If `in WORDS ...;' is not present, then `in "$@"' is
+    assumed.  For each element in WORDS, NAME is set to that element, and
+    the COMMANDS are executed.
+    
+    Exit Status:
+    Returns the status of the last command executed.</pre><h2>Recorded editor session</h2><pre>rerun_20261116/evidence/editor.typescript retains the actual vi session, the /SUITE_RESULT search and :q! exit.</pre><footer>Reformatted saved execution records; workspace paths normalized.</footer>

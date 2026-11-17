@@ -1,0 +1,50 @@
+[
+  {
+    "figure": "05_evaluator",
+    "tool": "audit_pdf_text",
+    "exit_code": 0,
+    "output": "{\n  \"pdf\": \"/home/yinwhcmy/differential_evolution/basic_de/output/figures/05_evaluator.pdf\",\n  \"auditable\": true,\n  \"minimum_required_pt\": 5.0,\n  \"minimum_found_pt\": 7.0,\n  \"text_run_count\": 79,\n  \"below_minimum_count\": 0,\n  \"below_minimum\": [],\n  \"warnings\": []\n}\n"
+  },
+  {
+    "figure": "05_evaluator",
+    "tool": "audit_figure_collisions",
+    "exit_code": 0,
+    "output": "Nature Figure Rendered Collision Audit\npdf: /home/yinwhcmy/differential_evolution/basic_de/output/figures/05_evaluator.pdf\npages: 1\nvisible text boxes: 35\nstroke paths: 207\n\n\nsummary: 0 fail, 0 warn, 0 contained fill overlays, 0 contained image overlays\nverdict: PASS\nnote: contained overlays can be intentional; WARN findings need final-size visual review\n"
+  },
+  {
+    "figure": "06_matched_paper",
+    "tool": "audit_pdf_text",
+    "exit_code": 0,
+    "output": "{\n  \"pdf\": \"/home/yinwhcmy/differential_evolution/basic_de/output/figures/06_matched_paper.pdf\",\n  \"auditable\": true,\n  \"minimum_required_pt\": 5.0,\n  \"minimum_found_pt\": 7.0,\n  \"text_run_count\": 79,\n  \"below_minimum_count\": 0,\n  \"below_minimum\": [],\n  \"warnings\": []\n}\n"
+  },
+  {
+    "figure": "06_matched_paper",
+    "tool": "audit_figure_collisions",
+    "exit_code": 0,
+    "output": "Nature Figure Rendered Collision Audit\npdf: /home/yinwhcmy/differential_evolution/basic_de/output/figures/06_matched_paper.pdf\npages: 1\nvisible text boxes: 74\nstroke paths: 231\n\n\nsummary: 0 fail, 0 warn, 0 contained fill overlays, 0 contained image overlays\nverdict: PASS\nnote: contained overlays can be intentional; WARN findings need final-size visual review\n"
+  },
+  {
+    "figure": "paper_curves_1",
+    "tool": "audit_pdf_text",
+    "exit_code": 0,
+    "output": "{\n  \"pdf\": \"/home/yinwhcmy/differential_evolution/basic_de/output/figures/paper_curves_1.pdf\",\n  \"auditable\": true,\n  \"minimum_required_pt\": 5.0,\n  \"minimum_found_pt\": 6.5,\n  \"text_run_count\": 106,\n  \"below_minimum_count\": 0,\n  \"below_minimum\": [],\n  \"warnings\": []\n}\n"
+  },
+  {
+    "figure": "paper_curves_1",
+    "tool": "audit_figure_collisions",
+    "exit_code": 0,
+    "output": "Nature Figure Rendered Collision Audit\npdf: /home/yinwhcmy/differential_evolution/basic_de/output/figures/paper_curves_1.pdf\npages: 1\nvisible text boxes: 102\nstroke paths: 227\n\n\nsummary: 0 fail, 0 warn, 0 contained fill overlays, 0 contained image overlays\nverdict: PASS\nnote: contained overlays can be intentional; WARN findings need final-size visual review\n"
+  },
+  {
+    "figure": "paper_curves_2",
+    "tool": "audit_pdf_text",
+    "exit_code": 0,
+    "output": "{\n  \"pdf\": \"/home/yinwhcmy/differential_evolution/basic_de/output/figures/paper_curves_2.pdf\",\n  \"auditable\": true,\n  \"minimum_required_pt\": 5.0,\n  \"minimum_found_pt\": 6.5,\n  \"text_run_count\": 106,\n  \"below_minimum_count\": 0,\n  \"below_minimum\": [],\n  \"warnings\": []\n}\n"
+  },
+  {
+    "figure": "paper_curves_2",
+    "tool": "audit_figure_collisions",
+    "exit_code": 0,
+    "output": "Nature Figure Rendered Collision Audit\npdf: /home/yinwhcmy/differential_evolution/basic_de/output/figures/paper_curves_2.pdf\npages: 1\nvisible text boxes: 102\nstroke paths: 215\n\n\nsummary: 0 fail, 0 warn, 0 contained fill overlays, 0 contained image overlays\nverdict: PASS\nnote: contained overlays can be intentional; WARN findings need final-size visual review\n"
+  }
+]

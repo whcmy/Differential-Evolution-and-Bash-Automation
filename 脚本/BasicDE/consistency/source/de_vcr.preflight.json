@@ -1,0 +1,12 @@
+{
+  "schema": "pdf_read_preflight/1",
+  "verdict": "PASS",
+  "file": "basic_de/source/papers/DE-VCR.pdf",
+  "sha256": "f6a1447c92a313869d39f405c3a62364bb2173a281d5f71eeaae524a6ec53045",
+  "declared_page_count": 23,
+  "enumerated_page_count": 23,
+  "reader_page_count": 23,
+  "warnings": [],
+  "generated_at": "2026-11-16T12:17:09.753785+00:00",
+  "tool": "pdf_read_preflight/1.0.0"
+}

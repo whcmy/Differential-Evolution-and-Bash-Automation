@@ -1,0 +1,148 @@
+/home/yinwhcmy/differential_evolution
+-rwxrwxr-x 1 yinwhcmy yinwhcmy  349 Nov 10 11:08 automation/cron/run_scheduled.sh
+-rwxrwxr-x 1 yinwhcmy yinwhcmy 4139 Nov 10 11:07 automation/run_experiments.sh
+for: for NAME [in WORDS ... ] ; do COMMANDS; done
+    Execute commands for each member in a list.
+    
+    The `for' loop executes a sequence of commands for each member in a
+    list of items.  If `in WORDS ...;' is not present, then `in "$@"' is
+    assumed.  For each element in WORDS, NAME is set to that element, and
+    the COMMANDS are executed.
+    
+    Exit Status:
+    Returns the status of the last command executed.
+echo: echo [-neE] [arg ...]
+    Write arguments to the standard output.
+    
+    Display the ARGs, separated by a single space character and followed by a
+    newline, on the standard output.
+    
+    Options:
+      -n	do not append a newline
+      -e	enable interpretation of the following backslash escapes
+      -E	explicitly suppress interpretation of backslash escapes
+    
+    `echo' interprets the following backslash-escaped characters:
+      \a	alert (bell)
+      \b	backspace
+      \c	suppress further output
+      \e	escape character
+      \E	escape character
+      \f	form feed
+      \n	new line
+      \r	carriage return
+      \t	horizontal tab
+      \v	vertical tab
+      \\	backslash
+      \0nnn	the character whose ASCII code is NNN (octal).  NNN can be
+    		0 to 3 octal digits
+      \xHH	the eight-bit character whose value is HH (hexadecimal).  HH
+    		can be one or two hex digits
+      \uHHHH	the Unicode character whose value is the hexadecimal value HHHH.
+    		HHHH can be one to four hex digits.
+      \UHHHHHHHH the Unicode character whose value is the hexadecimal value
+    		HHHHHHHH. HHHHHHHH can be one to eight hex digits.
+    
+    Exit Status:
+    Returns success unless a write error occurs.
+CRONTAB(5)                    File Formats Manual                   CRONTAB(5)
+
+NAME
+       crontab - tables for driving cron
+
+DESCRIPTION
+       A  crontab file contains instructions to the cron(8) daemon of the gen‐
+       eral form: ``run this command at this time on this date''.   Each  user
+       has  their  own crontab, and commands in any given crontab will be exe‐
+       cuted as the user who owns the crontab.  Uucp  and  News  will  usually
+       have  their  own  crontabs, eliminating the need for explicitly running
+       su(1) as part of a cron command.
+
+       Note that comments on the same line as cron  commands  are  not  inter‐
+       preted  as  comments  in the cron sense, but are considered part of the
+       command and passed to the shell. This is similarly true for comments on
+       the same line as environment variable settings.
+
+       An active line in a crontab will be either an environment setting or  a
+       cron command.  An environment setting is of the form,
+
+           name = value
+
+       where the spaces around the equal-sign (=) are optional, and any subse‐
+       quent non-leading spaces in value will be part of the value assigned to
+       name.   The value string may be placed in quotes (single or double, but
+       matching) to preserve leading or trailing blanks.  To define  an  empty
+       variable, quotes must be used.
+
+       The  value  string is not parsed for environmental substitutions or re‐
+       placement of variables or tilde(~) expansion, thus lines like
+
+           PATH=$HOME/bin:$PATH
+           PATH=~/bin:/usr/bin
+
+       will not work as you might expect. And neither will this work
+
+           A=1
+           B=2
+           C=$A $B
+
+       There will not be any substitution for the  defined  variables  in  the
+       last value. However, with most shells you can also try e.g.,:
+
+            P=PATH=/a/b/c:$PATH
+            33 22 1 2 3 eval $P && some commands
+
+       Several  environment  variables are set up automatically by the cron(8)
+       daemon.  SHELL is set to /usr/bin/sh, and LOGNAME and HOME are set from
+       the /etc/passwd line of the crontab's owner.  HOME  and  SHELL  may  be
+       overridden by settings in the crontab; LOGNAME may not.
+
+       (Another  note:  the  LOGNAME  variable is sometimes called USER on BSD
+       systems...  on these systems, USER will be set also.)
+
+Usage: grep [OPTION]... PATTERNS [FILE]...
+Search for PATTERNS in each FILE.
+Example: grep -i 'hello world' menu.h main.c
+PATTERNS can contain multiple patterns separated by newlines.
+
+Pattern selection and interpretation:
+  -E, --extended-regexp     PATTERNS are extended regular expressions
+  -F, --fixed-strings       PATTERNS are strings
+  -G, --basic-regexp        PATTERNS are basic regular expressions
+  -P, --perl-regexp         PATTERNS are Perl regular expressions
+  -e, --regexp=PATTERNS     use PATTERNS for matching
+  -f, --file=FILE           take PATTERNS from FILE
+  -i, --ignore-case         ignore case distinctions in patterns and data
+      --no-ignore-case      do not ignore case distinctions (default)
+  -w, --word-regexp         match only whole words
+Usage: mawk [Options] [Program] [file ...]
+
+Program:
+    The -f option value is the name of a file containing program text.
+    If no -f option is given, a "--" ends option processing; the following
+    parameters are the program text.
+
+Options:
+    -f program-file  Program  text is read from file instead of from the
+                     command-line.  Multiple -f options are accepted.
+    -F value         sets the field separator, FS, to value.
+    -v var=value     assigns value to program variable var.
+    --               unambiguous end of options.
+
+    Implementation-specific options are prefixed with "-W".  They can be
+    abbreviated:
+
+    -W version       show version information and exit.
+    -W compat        pre-POSIX 2001.
+    -W dump          show assembler-like listing of program and exit.
+    -W help          show this message and exit.
+    -W interactive   set unbuffered output, line-buffered input.
+    -W exec file     use file as program as well as last option.
+    -W posix         stricter POSIX checking.
+    -W random=number set initial random seed.
+    -W sprintf=number adjust size of sprintf buffer.
+    -W usage         show this message and exit.
+Usage: ./run_experiments.sh [--output NEW_DIR] [--budget FES] [--seed N] [--workers N] [--mode manual|cron]
+Runs AdaptiveDE PGE-DE on every CEC2014 function in 10D with NP=50,100,150.
+Default: 100000 evaluations per function; a fresh timestamped directory.
+AUTOMATION_PYTHON can select a compatible numerical Python environment.

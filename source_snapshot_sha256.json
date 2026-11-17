@@ -1,0 +1,973 @@
+{
+  "author": "殷明骏",
+  "files": {
+    "脚本/AdaptiveDE/pems_native_problem.py": {
+      "sha256": "fbbbce5b9749246ea14fcaa6cec9a6d259758be6e25c48a645a898c15fd1f7f7",
+      "archived_sha256": "fbbbce5b9749246ea14fcaa6cec9a6d259758be6e25c48a645a898c15fd1f7f7"
+    },
+    "脚本/AdaptiveDE/run_pems_native.py": {
+      "sha256": "f40481a7d2f5b40836b2b972d5cae98f682dbc1293fc7a9b2234cf967f8d275f",
+      "archived_sha256": "29d431c8fc09842f80da721f694b4b1c24dfe37bb4681cc0e21c893dda4cc58f"
+    },
+    "脚本/AdaptiveDE/audit_dls_environment.py": {
+      "sha256": "b1049ee459f91e7454c61a80a37960b13b74ec3415ee3187502d768e242a2b36",
+      "archived_sha256": "2123803cf4d676a2bd8ea0e61030b17acbe3b3eb8f7d7a7a9ad010bb014a02f4"
+    },
+    "脚本/AdaptiveDE/analyze_adaptive_de.py": {
+      "sha256": "b539fc03a7309c334292d992db50d2873eb247f89d48ed44a2ef6ea99e0e5191",
+      "archived_sha256": "847bae90f75036e567159b5424270a813a1f9e9bf8ea4d921df456f3753bba76"
+    },
+    "脚本/AdaptiveDE/verify_records.py": {
+      "sha256": "daf016d5bc1c5aae1233be020cbbc99870889383f4d6612b98661f1c3e4bc7ef",
+      "archived_sha256": "daf016d5bc1c5aae1233be020cbbc99870889383f4d6612b98661f1c3e4bc7ef"
+    },
+    "脚本/BasicDE/test_basic_de.py": {
+      "sha256": "092cb016d896a3182baa9d6ffad35840ae062131b68b940e3a4db377de74be68",
+      "archived_sha256": "500665f5af5f37d7559ee8a96a3ab5383f4c0211d743e4a6a712c3cdea2b1b67"
+    },
+    "脚本/BasicDE/run_experiments.py": {
+      "sha256": "5eb8ff9931fb4ff758c37f6e81cea2c0ba2a76786aa4c0c86ceaa0a26aa147e5",
+      "archived_sha256": "b8a3693b04fd4e47e0b5b6cf7a22994aef94986dca9f1f766b1a9a8e65f12e5e"
+    },
+    "脚本/BasicDE/summarize.py": {
+      "sha256": "253e5a4c0e325bae6affb5d7987606ae6e9ec43baddf4f5ebbfa91bb1da101e7",
+      "archived_sha256": "15c86eef5bb6ac76dedeae48607f5e7fa652859ef7de28d2558a1866683473e9"
+    },
+    "脚本/BasicDE/de.py": {
+      "sha256": "9ee8743ffc023653080829a846cdbe99c630c7fca4962b8d6bbec0e482ab07bf",
+      "archived_sha256": "9ee8743ffc023653080829a846cdbe99c630c7fca4962b8d6bbec0e482ab07bf"
+    },
+    "脚本/BasicDE/verify_results.py": {
+      "sha256": "f639597021e5913705a17d2b6be6932dc2b23a1aec8e7f9984eef39f9d2f5780",
+      "archived_sha256": "d35931c093f168244cec9c582ad3930e5315b814ab257d3d44fcb4a16f801e8a"
+    },
+    "脚本/Automation/original_run_experiments.sh": {
+      "sha256": "29945b3f8ef772ab21dfa53193d2412b9fe6001072c1f97daef0714c06b896d0",
+      "archived_sha256": "caa9947332949fc17e39ec80c4cda1a3f38ac22c30e6d8f729cbc88f2107d348"
+    },
+    "脚本/Automation/verify_batch.py": {
+      "sha256": "24ad423dd151169b0fff87a21f47eb565052a85c747759fd5397415fe46dc0a8",
+      "archived_sha256": "00e19f6de791d72f6d8fbaa7cd93b4299b44bbe5b43971ede60fc5849d07f89f"
+    },
+    "脚本/Automation/run_experiments.sh": {
+      "sha256": "531c412973ce0a85bdc918b06992f44e1da91de49fadab0e97c4c3e0086b20ec",
+      "archived_sha256": "0104b5612a8ccb54911e985d42e1abb806645b667fe26555372a388eab554d8f"
+    },
+    "脚本/AdaptiveDE/improvement/run_experiments.py": {
+      "sha256": "ec5ffdacf4223c537614c3bce39a0be01d65e244a82ada594a2d8ec42891c9d8",
+      "archived_sha256": "ef7c7c7f6c58bf7314a0f6149940b0bd79ac7cedd188ec771d2b08abf29a2635"
+    },
+    "脚本/AdaptiveDE/improvement/analyze_development.py": {
+      "sha256": "9f7b1196a2879ace98a249a020e93983e15e92a4de83fc34be48ac89c0632c91",
+      "archived_sha256": "b1fff3dfc2c56b648c12567f97d0103403191cb3fd3bf8abbec72fb308ecc534"
+    },
+    "脚本/AdaptiveDE/improvement/analyze_validation.py": {
+      "sha256": "14ac4e9090a55fa5ccdbad11362c843d69bdd83fc6d9aff53a95c3d5fa10a299",
+      "archived_sha256": "c9e954309d29bd5487611a553b974f7c66f13e79bdf7750955e1f3e7e130beac"
+    },
+    "脚本/AdaptiveDE/improvement/ape_de.py": {
+      "sha256": "ac6e551a186c806a53e4d79d14409fd2d36311ef10889ca6ea53cc57ec7e56aa",
+      "archived_sha256": "ac6e551a186c806a53e4d79d14409fd2d36311ef10889ca6ea53cc57ec7e56aa"
+    },
+    "脚本/AdaptiveDE/improvement/test_ape.py": {
+      "sha256": "bbecd7585f2a2e5614a8a9b45becd995614279588ccd601a24c324fabd32de4e",
+      "archived_sha256": "bbecd7585f2a2e5614a8a9b45becd995614279588ccd601a24c324fabd32de4e"
+    },
+    "脚本/AdaptiveDE/improvement/verify_records.py": {
+      "sha256": "6db59e9ac2058f7ba988391d79a20528313ab385bfc5bca682aab223725a3a4a",
+      "archived_sha256": "6db59e9ac2058f7ba988391d79a20528313ab385bfc5bca682aab223725a3a4a"
+    },
+    "脚本/AdaptiveDE/code/dspde.py": {
+      "sha256": "b4eca36c1a348e3e18f96aa3879e5238913caee9cf919da16fae6b7454c448ac",
+      "archived_sha256": "b4eca36c1a348e3e18f96aa3879e5238913caee9cf919da16fae6b7454c448ac"
+    },
+    "脚本/AdaptiveDE/code/dls_de.py": {
+      "sha256": "4d4e9bd4b0b97a33c84dc8e14ddae487d6eb9e6374e476144bd6f45b987fdd86",
+      "archived_sha256": "4d4e9bd4b0b97a33c84dc8e14ddae487d6eb9e6374e476144bd6f45b987fdd86"
+    },
+    "脚本/AdaptiveDE/code/pems_de.py": {
+      "sha256": "887ed1e686837d71a38b6c8ffaf66c967f82a956d2cb64195839c9bebc2a64c1",
+      "archived_sha256": "887ed1e686837d71a38b6c8ffaf66c967f82a956d2cb64195839c9bebc2a64c1"
+    },
+    "脚本/AdaptiveDE/code/team_de.py": {
+      "sha256": "c72eca01029739528dcf595266211ee1313eedaeb4b044b4c519f1b6bf619846",
+      "archived_sha256": "7910d9a91689cbd0b15d8eba2f0e0b8e1d1176f6748a0053ef6bd1efb1b7b27c"
+    },
+    "脚本/AdaptiveDE/code/basic_de.py": {
+      "sha256": "9ee8743ffc023653080829a846cdbe99c630c7fca4962b8d6bbec0e482ab07bf",
+      "archived_sha256": "9ee8743ffc023653080829a846cdbe99c630c7fca4962b8d6bbec0e482ab07bf"
+    },
+    "脚本/AdaptiveDE/code/test_invariants.py": {
+      "sha256": "2623e3eca56b9cccd3d912b38cfd260d1020165b0be5287149e16f8d837cd22b",
+      "archived_sha256": "c7b312dfd771b60aa1a3a54afea9823091d8c8eb34a34c2f2506749cae228b6c"
+    },
+    "脚本/AdaptiveDE/code/run_adaptive_de.py": {
+      "sha256": "a4c50b325755895d64601bade7558db47fffa562a62b507a77a21b65bfea33e9",
+      "archived_sha256": "813e0f2fb138b0ef7e65cd8201fa13548eec2d37cd79ab9e69d88fa9326ac110"
+    },
+    "脚本/AdaptiveDE/improvement_v2/run_experiments.py": {
+      "sha256": "b8a1086ddaa3893d25cabe605299a7f28e43cb191ed3a61a6a965845f257b59a",
+      "archived_sha256": "6bfc1f98cf32d8c66039c7c5401ce38efd7a3bc009724724de8161e58918526a"
+    },
+    "脚本/AdaptiveDE/improvement_v2/analyze_development.py": {
+      "sha256": "6f350a6395c33bba950a3b855a800440eb3f470fc079cf15ec220705472554cb",
+      "archived_sha256": "e89bb6fbbc1e3ea150cd3c6cd2948f9200e022e43c5ac62c0b70d0438e85dbf2"
+    },
+    "脚本/AdaptiveDE/improvement_v2/analyze_confirmation.py": {
+      "sha256": "534e94e79494dd4fd690cc10be8969ee74e78187d12c810d2076a6624fd8a612",
+      "archived_sha256": "f3f29cffd5141d0e85579fa8279bf25d85ecae5f3c9ee506ed7ec3559772d36f"
+    },
+    "脚本/AdaptiveDE/improvement_v2/run_confirmation.py": {
+      "sha256": "94962ee023e6de47fa48583cac271f5ec0061e7e936ec4c2a8bfd464e6bde2ea",
+      "archived_sha256": "eb7316ca3f7154ce86654c1e0d93bd73d91d586ca98b368c2171071660c82232"
+    },
+    "脚本/AdaptiveDE/improvement_v2/dls_combined.py": {
+      "sha256": "b0b4f29fd8cd7adf16241280e8409befc924e3738711dea6ab331f67a360364b",
+      "archived_sha256": "b0b4f29fd8cd7adf16241280e8409befc924e3738711dea6ab331f67a360364b"
+    },
+    "脚本/AdaptiveDE/improvement_v2/test_combined.py": {
+      "sha256": "ca70db791c87d94b7b33fe4f285b1ac1be11426c1f36bf315585468c95f85a32",
+      "archived_sha256": "ca70db791c87d94b7b33fe4f285b1ac1be11426c1f36bf315585468c95f85a32"
+    },
+    "脚本/AdaptiveDE/source/cec2014_reference/benchmark_audit.py": {
+      "sha256": "2996b98a425be7e1e2cf0fb165d35bf7952dcd09086d5821426db9e9b56c19fc",
+      "archived_sha256": "2996b98a425be7e1e2cf0fb165d35bf7952dcd09086d5821426db9e9b56c19fc"
+    },
+    "脚本/AdaptiveDE/source/cec2014_reference/official_cec14_test_func.cpp": {
+      "sha256": "4228bcf7d6d8da94bab3dfdb8837251edc26952f498ae9757da57ca4b1dbd650",
+      "archived_sha256": "4228bcf7d6d8da94bab3dfdb8837251edc26952f498ae9757da57ca4b1dbd650"
+    },
+    "脚本/AdaptiveDE/source/cec2014_reference/run_reference.py": {
+      "sha256": "5d996fa3e21cc701d3add465e4cb991a65aeee1f8eefc5fcd41bef364273095a",
+      "archived_sha256": "4b81d6c969a677987dcaa17952fa43de29c5e76b565972a7265d37614667e38f"
+    },
+    "脚本/AdaptiveDE/vendor/cec2017/hybrid.py": {
+      "sha256": "323a32d643b68ffcabc59015d05784ed63db0208a79ec98991e2732734a5802a",
+      "archived_sha256": "323a32d643b68ffcabc59015d05784ed63db0208a79ec98991e2732734a5802a"
+    },
+    "脚本/AdaptiveDE/vendor/cec2017/__init__.py": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "archived_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "脚本/AdaptiveDE/vendor/cec2017/functions.py": {
+      "sha256": "ed1587cfa5391b9432039c058785a5ac176997fc86365bd8a9606e66a519715a",
+      "archived_sha256": "ed1587cfa5391b9432039c058785a5ac176997fc86365bd8a9606e66a519715a"
+    },
+    "脚本/AdaptiveDE/vendor/cec2017/utils.py": {
+      "sha256": "21668b57e5379c85ce9cc3a84773be8b1a4e11c589b6d74297bd8df060bbe0ec",
+      "archived_sha256": "21668b57e5379c85ce9cc3a84773be8b1a4e11c589b6d74297bd8df060bbe0ec"
+    },
+    "脚本/AdaptiveDE/vendor/cec2017/basic.py": {
+      "sha256": "86786751072b6c35138356cd70837afb9246d4f5b3ecb0a36c87a1599bcaec6e",
+      "archived_sha256": "86786751072b6c35138356cd70837afb9246d4f5b3ecb0a36c87a1599bcaec6e"
+    },
+    "脚本/AdaptiveDE/vendor/cec2017/composition.py": {
+      "sha256": "e6fa1ceb51d5d084756adf45bac9838850afd2c16ff934cfe3756ebe1d6a1f66",
+      "archived_sha256": "e6fa1ceb51d5d084756adf45bac9838850afd2c16ff934cfe3756ebe1d6a1f66"
+    },
+    "脚本/AdaptiveDE/vendor/cec2017/simple.py": {
+      "sha256": "99f0c9698be5e75aa3ea8997072df2dc77d10256c7f2efd4cc4d7060e064577d",
+      "archived_sha256": "99f0c9698be5e75aa3ea8997072df2dc77d10256c7f2efd4cc4d7060e064577d"
+    },
+    "脚本/AdaptiveDE/vendor/cec2017/transforms.py": {
+      "sha256": "d0172819ce8e33d03c96d929fe55e00bbc6336fd556462cef140da0c5e4f9943",
+      "archived_sha256": "d0172819ce8e33d03c96d929fe55e00bbc6336fd556462cef140da0c5e4f9943"
+    },
+    "脚本/BasicDE/consistency/analyze_validation.py": {
+      "sha256": "0aa1d1ff45d32836a8524147da8497cc4499cce6a568a07756d34e8d7c35407a",
+      "archived_sha256": "7d30ab75de570a954d065583e1bd9c735e8ab861cb0ad5832eec4a37dde01ae9"
+    },
+    "脚本/BasicDE/consistency/plot_validation.py": {
+      "sha256": "5d1c69f0008886e2733296fc11d90031a423c57c35c628234380899694221742",
+      "archived_sha256": "03eb341d50efc247f92766f803cca36d8d630b9b5b9b60ec7aa73a5e4cac069c"
+    },
+    "脚本/BasicDE/consistency/run_validation.py": {
+      "sha256": "36200cf2c8eeceff28cb4f8765f603d46e4f12e8bd067cc95eb9247d930c673d",
+      "archived_sha256": "36200cf2c8eeceff28cb4f8765f603d46e4f12e8bd067cc95eb9247d930c673d"
+    },
+    "脚本/BasicDE/reference/cec2014_audit/official_cec14_test_func.cpp": {
+      "sha256": "4228bcf7d6d8da94bab3dfdb8837251edc26952f498ae9757da57ca4b1dbd650",
+      "archived_sha256": "4228bcf7d6d8da94bab3dfdb8837251edc26952f498ae9757da57ca4b1dbd650"
+    },
+    "脚本/BasicDE/consistency/source/CEC14_RIDE_unrot.java": {
+      "sha256": "1bc60cb9561ba9c861a733278608043e473ff83e738bc7ea348b2f816b0db0c0",
+      "archived_sha256": "6b953690ed933223b6227a4dfc6f92af6e39398c678701950b744c17fdca2868"
+    },
+    "脚本/BasicDE/consistency/source/Corrections.java": {
+      "sha256": "675b537fb71414f400ca672c8ddaad20f84fd265b7110e18374c32d8603e12d7",
+      "archived_sha256": "804cc7fe74197ba16ebb30fb62590f0af8942e15b3a1b039e0b819eca8ee0617"
+    },
+    "脚本/BasicDE/consistency/source/DE.java": {
+      "sha256": "d66992ecfd38f819f2f23f63b96497e47db6266c13c55f50a117842091964084",
+      "archived_sha256": "ef9b7a370dfa154356c8f87e969df222e28067cbf8e750836fda8dc23bb1cab2"
+    },
+    "脚本/BasicDE/consistency/source/MatLab.java": {
+      "sha256": "129a2b01fd91ba0290035627a0786e74c92ee320acb1a45d57aa08d8648c72f4",
+      "archived_sha256": "3bceb90c787cbc11e066153a9a2c9aa20c897bf4e7fe399fd63318f3058945ef"
+    },
+    "脚本/BasicDE/consistency/source/DataBox.java": {
+      "sha256": "bb6dd57981386c643b3f0e474acd7b43f82b4e995e41785ead63e162c6e52c60",
+      "archived_sha256": "d6eddad0d592870fb0f881fc6b9ca73fdf18b73cc6a05ec58bf95f16be4dd4bb"
+    },
+    "脚本/BasicDE/consistency/source/Algorithm.java": {
+      "sha256": "4669b474a7fc3610bc314cd16d46957a27ac46e9ad7621b9b873138b5891fd35",
+      "archived_sha256": "2727328376752e40d85d6929f308fa10b039f1e8ba8f0b375e87d8b65e67c0dd"
+    },
+    "脚本/BasicDE/consistency/source/DEOp.java": {
+      "sha256": "68d7b402479245182cd227ba4cacfdbb4dc89ef2d7dd4adc08def84ae19bb1c2",
+      "archived_sha256": "0b6eba0cbac14678078c62d01573644a64212690e25f83e47587574d90d9f850"
+    },
+    "脚本/BasicDE/consistency/native/wrapper.cpp": {
+      "sha256": "9fb163a63d4445cba71806ff78d8c7a99f4f66877feda1042c581ff82f03be5d",
+      "archived_sha256": "9fb163a63d4445cba71806ff78d8c7a99f4f66877feda1042c581ff82f03be5d"
+    },
+    "脚本/BasicDE/consistency/native/portable.cpp": {
+      "sha256": "f3a0fec2ff78318d7926f77efba64121fcd34b5fbd3479a32b6a483aade8b360",
+      "archived_sha256": "f3a0fec2ff78318d7926f77efba64121fcd34b5fbd3479a32b6a483aade8b360"
+    },
+    "脚本/BasicDE/consistency/java/utils/RunAndStore.java": {
+      "sha256": "ad4b1c5ad179c3f37ca8f16d087f74c12404cc8adff8a46252e2d8f45aef6097",
+      "archived_sha256": "ad4b1c5ad179c3f37ca8f16d087f74c12404cc8adff8a46252e2d8f45aef6097"
+    },
+    "脚本/BasicDE/consistency/java/utils/benchmarks/ProblemsTransformations.java": {
+      "sha256": "96acf9b57cf82c60bd2b07eeceaddab71fec7bf6b6b3172f64058da42c37c7fb",
+      "archived_sha256": "5808ba0cdb9f6c72d2449fa90749789fa0abfa647c1ecf6619650c9eb887a828"
+    },
+    "脚本/BasicDE/consistency/java/benchmarks/problemsImplementation/CEC2014/CEC2014TestFuncRotInvStudy.java": {
+      "sha256": "293f54cffe1edc1f8257b73ebbbd968971024bf3c643d6ef16b2f083650ba283",
+      "archived_sha256": "293f54cffe1edc1f8257b73ebbbd968971024bf3c643d6ef16b2f083650ba283"
+    },
+    "脚本/Automation/evidence/capture_results.mjs": {
+      "sha256": "526f8e3e23c5dbfe25bef112b957953483aa1b85173cf8d3bcc942324fde4830",
+      "archived_sha256": "6065907d9c78e14bb2b6c378242df17cacb6fda287fcdeedce0ab569144c60f2"
+    },
+    "脚本/Automation/code/run_dcde.py": {
+      "sha256": "854fb0983afb967fe2cbe8623ae08bf5525973a09c53002abe2b275dbf63ca32",
+      "archived_sha256": "d7a940d7913d374c97044ef146b80df886a91643608b5c6b1fb6c1331d98bb46"
+    },
+    "脚本/Automation/code/dspde.py": {
+      "sha256": "b4eca36c1a348e3e18f96aa3879e5238913caee9cf919da16fae6b7454c448ac",
+      "archived_sha256": "b4eca36c1a348e3e18f96aa3879e5238913caee9cf919da16fae6b7454c448ac"
+    },
+    "脚本/Automation/code/dls_de.py": {
+      "sha256": "4d4e9bd4b0b97a33c84dc8e14ddae487d6eb9e6374e476144bd6f45b987fdd86",
+      "archived_sha256": "4d4e9bd4b0b97a33c84dc8e14ddae487d6eb9e6374e476144bd6f45b987fdd86"
+    },
+    "脚本/Automation/code/pems_de.py": {
+      "sha256": "887ed1e686837d71a38b6c8ffaf66c967f82a956d2cb64195839c9bebc2a64c1",
+      "archived_sha256": "887ed1e686837d71a38b6c8ffaf66c967f82a956d2cb64195839c9bebc2a64c1"
+    },
+    "脚本/Automation/code/team_de.py": {
+      "sha256": "c72eca01029739528dcf595266211ee1313eedaeb4b044b4c519f1b6bf619846",
+      "archived_sha256": "7910d9a91689cbd0b15d8eba2f0e0b8e1d1176f6748a0053ef6bd1efb1b7b27c"
+    },
+    "脚本/Automation/code/dls_combined.py": {
+      "sha256": "b0b4f29fd8cd7adf16241280e8409befc924e3738711dea6ab331f67a360364b",
+      "archived_sha256": "b0b4f29fd8cd7adf16241280e8409befc924e3738711dea6ab331f67a360364b"
+    },
+    "脚本/Automation/code/basic_de.py": {
+      "sha256": "9ee8743ffc023653080829a846cdbe99c630c7fca4962b8d6bbec0e482ab07bf",
+      "archived_sha256": "9ee8743ffc023653080829a846cdbe99c630c7fca4962b8d6bbec0e482ab07bf"
+    },
+    "脚本/Automation/code/test_invariants.py": {
+      "sha256": "2623e3eca56b9cccd3d912b38cfd260d1020165b0be5287149e16f8d837cd22b",
+      "archived_sha256": "c7b312dfd771b60aa1a3a54afea9823091d8c8eb34a34c2f2506749cae228b6c"
+    },
+    "脚本/Automation/code/run_adaptive_de.py": {
+      "sha256": "a4c50b325755895d64601bade7558db47fffa562a62b507a77a21b65bfea33e9",
+      "archived_sha256": "813e0f2fb138b0ef7e65cd8201fa13548eec2d37cd79ab9e69d88fa9326ac110"
+    },
+    "脚本/Automation/cron/scheduler.py": {
+      "sha256": "69a6aef47125388ac8c6e31e44cb3eaa8785daf328708e746ad2a48ffbe6ec4a",
+      "archived_sha256": "137ce9fd1397f438013f566bca60db3eec4a6f43c1025bc797c27adbc3ebd65f"
+    },
+    "脚本/Automation/cron/hold_awake.py": {
+      "sha256": "dd9f39e7aa3df0935a283d00ba5bce12016c398f741d292e2ccad7c24607f4b1",
+      "archived_sha256": "dd9f39e7aa3df0935a283d00ba5bce12016c398f741d292e2ccad7c24607f4b1"
+    },
+    "脚本/Automation/cron/run_scheduled.sh": {
+      "sha256": "84688b7bc6b7e17af500326d44802293ce3f43ecf08b88a07d428a71c2af1684",
+      "archived_sha256": "ee8f4a8384ca7142c3d739961b63d02cc294f1524b5dc664799a873acd75fa70"
+    },
+    "脚本/Automation/evidence/report_evidence/capture_results.mjs": {
+      "sha256": "69a2ae3cbfe2d96c7a3fb30caedf08deb6c8a8e3f6caa7542b4f06614a9e6127",
+      "archived_sha256": "ab8c6b17aec21b2e3774f976fca7db941cb6e3d502f60f3f28777ebb033f0eff"
+    },
+    "开发脚本/dls_de_reference/run_experiments.py": {
+      "sha256": "63723dc82169b31877911e9843e0c6d534cd68c38376610bf501c5c1bc4ddb00",
+      "archived_sha256": "63723dc82169b31877911e9843e0c6d534cd68c38376610bf501c5c1bc4ddb00"
+    },
+    "开发脚本/dls_de_reference/analyze.py": {
+      "sha256": "3ad1ba3b723c71cbcb09c74e8fb492813a6fee1c8955674c8ab3f8dbd5de716d",
+      "archived_sha256": "3ad1ba3b723c71cbcb09c74e8fb492813a6fee1c8955674c8ab3f8dbd5de716d"
+    },
+    "开发脚本/dls_de_reference/test_adaptive_de.py": {
+      "sha256": "b00e01963d459a8a3be10641611973cc6dffd846c2407ed1188bdb3dcc18469e",
+      "archived_sha256": "b00e01963d459a8a3be10641611973cc6dffd846c2407ed1188bdb3dcc18469e"
+    },
+    "开发脚本/dls_de_reference/benchmark_audit.py": {
+      "sha256": "2996b98a425be7e1e2cf0fb165d35bf7952dcd09086d5821426db9e9b56c19fc",
+      "archived_sha256": "2996b98a425be7e1e2cf0fb165d35bf7952dcd09086d5821426db9e9b56c19fc"
+    },
+    "开发脚本/dls_de_reference/bootstrap.py": {
+      "sha256": "f81581b37a42ebe6a73608bab840101b92444fea31a653d28d88cb77e03add4f",
+      "archived_sha256": "82ce7fdd9cfa288ff30a5df4cda9bec6c6b4e015a87aa5cea2012072b3dfae94"
+    },
+    "开发脚本/dls_de_reference/dls_de.py": {
+      "sha256": "4d4e9bd4b0b97a33c84dc8e14ddae487d6eb9e6374e476144bd6f45b987fdd86",
+      "archived_sha256": "4d4e9bd4b0b97a33c84dc8e14ddae487d6eb9e6374e476144bd6f45b987fdd86"
+    },
+    "开发脚本/dls_de_reference/make_report.py": {
+      "sha256": "032601c5379a0157e20a3cb9c0b294028cffb5f53d22efae251c7755c2f44098",
+      "archived_sha256": "35b1701e13378b425b06867ef84d3044143051ecd991ba2395d69f3b1b1553e4"
+    },
+    "开发脚本/dls_de_reference/package_delivery.py": {
+      "sha256": "3a90fab60673b6437909e26b95a5b7202d4964301dbeb0213fab2aec3e88480b",
+      "archived_sha256": "01f1a47376b86664b98751ad3b8023b3779fb0fcfa5d375c789224312989ce7c"
+    },
+    "开发脚本/dls_de_reference/run_reference.py": {
+      "sha256": "5d996fa3e21cc701d3add465e4cb991a65aeee1f8eefc5fcd41bef364273095a",
+      "archived_sha256": "4b81d6c969a677987dcaa17952fa43de29c5e76b565972a7265d37614667e38f"
+    },
+    "开发脚本/automation/presentation_timeline.py": {
+      "sha256": "b5664d090a0fdde2052927e4fbdb91e736785eaf87171cb42db4d25333af48d9",
+      "archived_sha256": "b5664d090a0fdde2052927e4fbdb91e736785eaf87171cb42db4d25333af48d9"
+    },
+    "开发脚本/automation/verify_batch.py": {
+      "sha256": "96ef92f743a1b7851b6186de4bc99da78677e897b4d570224e9c993dcf1fb321",
+      "archived_sha256": "366762e3f47146ecc7d99982faeafd48c824e26a1286ea1b8ed75cfae1b4abec"
+    },
+    "开发脚本/automation/build_report.py": {
+      "sha256": "e0d251d008dee6119c2338fb1f933c184287933b3bf7674cf967befd14744f80",
+      "archived_sha256": "e4e99b51677792e7f8586b212e7eeffbe45763a8e4b16d6f4c985fff7e149ac7"
+    },
+    "开发脚本/automation/run_experiments.sh": {
+      "sha256": "d8c2841b8fd8339ce0f2be984037ef9fb9f988684eafff574933c800b821e435",
+      "archived_sha256": "b4352e6f8393895995b5616c4cddb43cf6701445ac7fb4c330d8b2482ac0efe0"
+    },
+    "开发脚本/automation/finish_report.py": {
+      "sha256": "b8c80d415561e77d9526141d65dc0cfee1e69bbf56f8f076ff16749602d821e1",
+      "archived_sha256": "ad3a99158fac4e52db372ab62c47e54c61711b41825fce1f6834b5124ed8c25c"
+    },
+    "开发脚本/automation/clean_metadata.py": {
+      "sha256": "f27069da0c5eb50fb69f550252a8d5343ab06abcf4a02b8c89dd35d0fa20092d",
+      "archived_sha256": "f38fbf4684f60b3871e099be45d74cc2ee67f258edd0ec71bb268f74ce02f522"
+    },
+    "开发脚本/automation/report_components.py": {
+      "sha256": "62a2468d7b02e1073c8d93f0cfd867057b75367f8cb1f42c95edbfc172b43a1d",
+      "archived_sha256": "2d7de31bdad143f5aaade96b735be6f27a521e70efb6e0ba6d38036897be76c8"
+    },
+    "开发脚本/automation/collect_results.py": {
+      "sha256": "20dbd844792e5aaebcf12301567d10fb686eca86e50a47d152169babc1d13392",
+      "archived_sha256": "0f2e054f31337b05223ebd38ae8e5374cd0f16e005a160567da03bd1ff9dcead"
+    },
+    "开发脚本/automation/package_automation.py": {
+      "sha256": "c676fc832ace17d59c92f41c35e9dd7377436bdf3fdd9de50c830fe821b058e6",
+      "archived_sha256": "99da5af30dda2f9f228012ca41a7b91758cd7e1615bd6d3a414727c62182e362"
+    },
+    "开发脚本/automation/paper_layout.py": {
+      "sha256": "351773c037d7ebdee4d135b93918263e073563dd432d47062c41bf08b64bca4f",
+      "archived_sha256": "351773c037d7ebdee4d135b93918263e073563dd432d47062c41bf08b64bca4f"
+    },
+    "开发脚本/automation/audit_report.py": {
+      "sha256": "698c9ed366cc458ed8b7401ef87264d28bb8c7860f84477a4cf4c4214da138f8",
+      "archived_sha256": "814065f3e519c6ac04b698dd7b8dffafcec9c8159557819bf69d885a193a4874"
+    },
+    "开发脚本/automation/plot_report.py": {
+      "sha256": "b82d57a5fbd5259d786942cf13682d696480c092c19abaf90399b7bf6315eae6",
+      "archived_sha256": "8c327d1143bf8e727d77c42f8f9f3c04c9f0cd2a27f2f4aab9f0c14446c0fb4e"
+    },
+    "开发脚本/basic_de/test_basic_de.py": {
+      "sha256": "092cb016d896a3182baa9d6ffad35840ae062131b68b940e3a4db377de74be68",
+      "archived_sha256": "500665f5af5f37d7559ee8a96a3ab5383f4c0211d743e4a6a712c3cdea2b1b67"
+    },
+    "开发脚本/basic_de/run_experiments.py": {
+      "sha256": "5eb8ff9931fb4ff758c37f6e81cea2c0ba2a76786aa4c0c86ceaa0a26aa147e5",
+      "archived_sha256": "b8a3693b04fd4e47e0b5b6cf7a22994aef94986dca9f1f766b1a9a8e65f12e5e"
+    },
+    "开发脚本/basic_de/package_submission.py": {
+      "sha256": "28a7c3537547fed78ae4ee11eb3c12c74c2d320e5082117b4abe52668a58d01b",
+      "archived_sha256": "29129de205c29b1fa9265e1787ae9f69b3e45bdf8f7a1de5d1203860dac04d1a"
+    },
+    "开发脚本/basic_de/journal_layout.py": {
+      "sha256": "13f2408c0469588c7534569085bd4e6f5dd62da3269a5a8762240755237ccdb0",
+      "archived_sha256": "13f2408c0469588c7534569085bd4e6f5dd62da3269a5a8762240755237ccdb0"
+    },
+    "开发脚本/basic_de/build_report.py": {
+      "sha256": "0123c81f113db8184109ca4dcf623b7cdf1bb8f327851887b7e92087f448840c",
+      "archived_sha256": "3c9d10a1fb562655c29fe08453d09ee123fd386ccbf24a82303330e8ee5f8354"
+    },
+    "开发脚本/basic_de/finish_report.py": {
+      "sha256": "b1f8f73cb49e2ebdcf157c0c848205c329040afe5aeac81994d5741e0c8e0193",
+      "archived_sha256": "9528772aa32637cb5fa81a237d6ef9d16cffd52905e3dc841d2af92031657568"
+    },
+    "开发脚本/basic_de/summarize.py": {
+      "sha256": "253e5a4c0e325bae6affb5d7987606ae6e9ec43baddf4f5ebbfa91bb1da101e7",
+      "archived_sha256": "15c86eef5bb6ac76dedeae48607f5e7fa652859ef7de28d2558a1866683473e9"
+    },
+    "开发脚本/basic_de/clean_metadata.py": {
+      "sha256": "f88df992f96f401c9340c07e7a390983f10ac8a8e2bf2448f8472de74de16f34",
+      "archived_sha256": "04aa2385dd1e749151a19cc9959fa20d65922a421d570f9d1091f3f5d596b1cc"
+    },
+    "开发脚本/basic_de/report_components.py": {
+      "sha256": "cb464577f642f3b5d09c1cfc1e89eb8838ce4f9e362ef359cb8b8b6ed0476ec4",
+      "archived_sha256": "782f787683992a2aea125d490b7e70f79d08f6cbc7c20659e83dcb809cd3a671"
+    },
+    "开发脚本/basic_de/de.py": {
+      "sha256": "9ee8743ffc023653080829a846cdbe99c630c7fca4962b8d6bbec0e482ab07bf",
+      "archived_sha256": "9ee8743ffc023653080829a846cdbe99c630c7fca4962b8d6bbec0e482ab07bf"
+    },
+    "开发脚本/basic_de/render_report.py": {
+      "sha256": "9621632ad88e373b1149be20b3e2f0b0b2f37b03cc5d370077c2821a2fb82b0f",
+      "archived_sha256": "200d0bdd489526e65026f7a39fd6c4feb9ef3a66a06a06c44f9ca05f42874a47"
+    },
+    "开发脚本/basic_de/verify_results.py": {
+      "sha256": "f639597021e5913705a17d2b6be6932dc2b23a1aec8e7f9984eef39f9d2f5780",
+      "archived_sha256": "d35931c093f168244cec9c582ad3930e5315b814ab257d3d44fcb4a16f801e8a"
+    },
+    "开发脚本/basic_de/paper_layout.py": {
+      "sha256": "ed51a1c42f097add251864f36232acc74b4055c8bea7083e1e8ab15cb79bc633",
+      "archived_sha256": "cfcff2af17123e10281bfc7c6392054eca8ca10f905e0a47ac18fee2a6582b7d"
+    },
+    "开发脚本/basic_de/audit_report.py": {
+      "sha256": "68661362bb9f4a5d55bc3693cb7d29c223eddeff622f815d66995aeafdd7c46d",
+      "archived_sha256": "b38da2b8ee381245f38fd563485991797ccbf256c4424192d7fc06e9152a9619"
+    },
+    "开发脚本/basic_de/plot_report.py": {
+      "sha256": "a7af2e1571d33f1600a4cbf620309defb5454f523509209d2225dbd83f5a192c",
+      "archived_sha256": "2f66dfd51e737529c9c342cbc4b19bb5c73a603eba029d8202471a30b2d86ee5"
+    },
+    "开发脚本/basic_de/check_figure_exports.py": {
+      "sha256": "9f50628ad832dd5801d479d4ea286b65636224cd91151e4ab600514e4f214200",
+      "archived_sha256": "9f50628ad832dd5801d479d4ea286b65636224cd91151e4ab600514e4f214200"
+    },
+    "开发脚本/adaptive_de/replay_selected.py": {
+      "sha256": "2969092684958edca56ebd645786b41bc3419c7df1f29029ae2a7977db423424",
+      "archived_sha256": "8f0e01e81340c3ddde2c2f06d1ef4b02a72e1252b44f15db835000046966229c"
+    },
+    "开发脚本/adaptive_de/finish_visual_report.py": {
+      "sha256": "87b2d2ad3f15e92c7129af2addfc66ee45abca77eab30380f27d45b3fb3f226f",
+      "archived_sha256": "3ad6be3d2687f72ac8f97656bbe188dcfa6b1ffe626573143f78533e73d28632"
+    },
+    "开发脚本/adaptive_de/plot_explanatory_flows.py": {
+      "sha256": "5e858a0a234bc717f919a7409216c6ba200093406055ecd48e9f5dccddcbb407",
+      "archived_sha256": "99ecc0fd50a420b5e6f46c4da34f8157e103efe99a5f6b8a8a23f78b554cc6c3"
+    },
+    "开发脚本/adaptive_de/build_report.py": {
+      "sha256": "25344940aab945c26749195a367c3e211f2a5edb29fcb26dd5e55dbeacb040f5",
+      "archived_sha256": "25344940aab945c26749195a367c3e211f2a5edb29fcb26dd5e55dbeacb040f5"
+    },
+    "开发脚本/adaptive_de/build_english_report.py": {
+      "sha256": "08c4bfa73ae049e2d8b235c226c264a9254adad433c3e02521420d6956fbdf17",
+      "archived_sha256": "68173d3b2991757c7e0a1546c232d04f2f9a0e286d6fdb86171ca504ba74c271"
+    },
+    "开发脚本/adaptive_de/build_revision_docx.py": {
+      "sha256": "d359ca85b06dd6b4cc97d98979f50a13d52ac66748b7f3156bc5bc94ca0e2ed8",
+      "archived_sha256": "eea972a4b338998103c87afe022b3be594bfd627c768cff08c74285a4f891468"
+    },
+    "开发脚本/adaptive_de/plot_report_revision.py": {
+      "sha256": "8a7677af7e2f2b0f2f00f90dc1803cdfd8c6958ea1c40296713dacd306a9565e",
+      "archived_sha256": "7a5cf7eb69f2d2093c1e31a1692acc4740e8618fa55f867c5cae539ab0213f86"
+    },
+    "开发脚本/adaptive_de/clean_metadata.py": {
+      "sha256": "02e2e923d65b2b3760120ab5053bde4f336638adad67eab9699c61503e6c9be1",
+      "archived_sha256": "b93417c0619c32cc0f2088359b503b727a8ca829396e62a3cd89980672092bfa"
+    },
+    "开发脚本/adaptive_de/package_adaptive_de.py": {
+      "sha256": "306ee899836f0198abcab067a086713bc5c01d5bcb6ed463573132dff9a3cf4e",
+      "archived_sha256": "bcb759f40370dbc25ea361990772a7fab0380529beb5948adaffb420c627793c"
+    },
+    "开发脚本/adaptive_de/plot_adaptive_de.py": {
+      "sha256": "bb14e2d313c47eff12c28afd136ac2cab7c02ca769f31c9b2c1ba83cf3e78b1f",
+      "archived_sha256": "ec3eec41c2034bd895f6d4fc7715759c4ff8b7cf6edf54c0f108ed6147bd9aca"
+    },
+    "开发脚本/adaptive_de/audit_report_revision.py": {
+      "sha256": "28cd2342d2909b639ebe3dd23182138ba5be6f90ea5a6afeae816ef50e7ac9fd",
+      "archived_sha256": "c19a724343cf35c5ffd85cde71e10412a506284fc7f6e2b52af6287d5ba2b769"
+    },
+    "开发脚本/adaptive_de/pems_native_problem.py": {
+      "sha256": "fbbbce5b9749246ea14fcaa6cec9a6d259758be6e25c48a645a898c15fd1f7f7",
+      "archived_sha256": "fbbbce5b9749246ea14fcaa6cec9a6d259758be6e25c48a645a898c15fd1f7f7"
+    },
+    "开发脚本/adaptive_de/run_pems_native.py": {
+      "sha256": "f40481a7d2f5b40836b2b972d5cae98f682dbc1293fc7a9b2234cf967f8d275f",
+      "archived_sha256": "29d431c8fc09842f80da721f694b4b1c24dfe37bb4681cc0e21c893dda4cc58f"
+    },
+    "开发脚本/adaptive_de/finish_analysis.py": {
+      "sha256": "3fe61a35ae4c1217bfb14e44a373399e8dac029c471106ac41d744a4cccc32e1",
+      "archived_sha256": "b83d2cd83fa962d261e8fe32be20445edc9c143deaf36a26490ca16a02bca244"
+    },
+    "开发脚本/adaptive_de/plot_journal_style.py": {
+      "sha256": "4bb80356058afcd176d5e0697441bb78195b059d018ae3f323ad17ff69a400ee",
+      "archived_sha256": "05e2fde9868a70191205e1c6c8276ea28ba0e6d54ce3e5dbfc39a7cb78f0390b"
+    },
+    "开发脚本/adaptive_de/audit_dls_environment.py": {
+      "sha256": "b1049ee459f91e7454c61a80a37960b13b74ec3415ee3187502d768e242a2b36",
+      "archived_sha256": "2123803cf4d676a2bd8ea0e61030b17acbe3b3eb8f7d7a7a9ad010bb014a02f4"
+    },
+    "开发脚本/adaptive_de/build_template_docx.py": {
+      "sha256": "3c927fc559c617dbbafa8b709c455329de97a32e2d01110da758fe1b2c154817",
+      "archived_sha256": "b21f3e7e91a1e554d84ba69438f7aa8fbb102c278be517856fe49a9c883b4a66"
+    },
+    "开发脚本/adaptive_de/build_journal_docx.py": {
+      "sha256": "9b900ee76bc4d3c02a1a9804b67d25c79c9bacfca14ce06f138dcb67180ad6c7",
+      "archived_sha256": "509f10b63390e41386512ac2bb145bbc0fe411e30336bd747c3f2fea24947e89"
+    },
+    "开发脚本/adaptive_de/render_report.py": {
+      "sha256": "71aef0c437cedb564b1a70b1d7293d142364bfd6555f1d8792459949884ef9bd",
+      "archived_sha256": "3ddf9e7900604d3bddcbea15df6a9ab7a4b74bcb21f30770f3635a6572a546f4"
+    },
+    "开发脚本/adaptive_de/paper_layout.py": {
+      "sha256": "d95125853b4b49ff954d4c8e74accb86354914309419cbf1ff9f47055b24247c",
+      "archived_sha256": "d95125853b4b49ff954d4c8e74accb86354914309419cbf1ff9f47055b24247c"
+    },
+    "开发脚本/adaptive_de/analyze_adaptive_de.py": {
+      "sha256": "b539fc03a7309c334292d992db50d2873eb247f89d48ed44a2ef6ea99e0e5191",
+      "archived_sha256": "847bae90f75036e567159b5424270a813a1f9e9bf8ea4d921df456f3753bba76"
+    },
+    "开发脚本/adaptive_de/verify_records.py": {
+      "sha256": "daf016d5bc1c5aae1233be020cbbc99870889383f4d6612b98661f1c3e4bc7ef",
+      "archived_sha256": "daf016d5bc1c5aae1233be020cbbc99870889383f4d6612b98661f1c3e4bc7ef"
+    },
+    "开发脚本/adaptive_de/integrate_main_body.py": {
+      "sha256": "e8b44cc2da50983639dce7c30106cd3e00b47b0c4e6551db5bc7e544f64f1319",
+      "archived_sha256": "b60d3e05490389f3add382d0fba693dca1a13b98b760bcd0caf3ed031aeb2a51"
+    },
+    "开发脚本/dls_de_reference/reference/official_cec14_test_func.cpp": {
+      "sha256": "4228bcf7d6d8da94bab3dfdb8837251edc26952f498ae9757da57ca4b1dbd650",
+      "archived_sha256": "4228bcf7d6d8da94bab3dfdb8837251edc26952f498ae9757da57ca4b1dbd650"
+    },
+    "开发脚本/automation/rerun_20261116/verify_batch.py": {
+      "sha256": "24ad423dd151169b0fff87a21f47eb565052a85c747759fd5397415fe46dc0a8",
+      "archived_sha256": "00e19f6de791d72f6d8fbaa7cd93b4299b44bbe5b43971ede60fc5849d07f89f"
+    },
+    "开发脚本/automation/rerun_20261116/run_experiments.sh": {
+      "sha256": "29945b3f8ef772ab21dfa53193d2412b9fe6001072c1f97daef0714c06b896d0",
+      "archived_sha256": "caa9947332949fc17e39ec80c4cda1a3f38ac22c30e6d8f729cbc88f2107d348"
+    },
+    "开发脚本/automation/tests/test_pipeline.py": {
+      "sha256": "fdceab967b26317ffb5335f62cdc09ffa2f580abc897d9146733664217273c46",
+      "archived_sha256": "fdceab967b26317ffb5335f62cdc09ffa2f580abc897d9146733664217273c46"
+    },
+    "开发脚本/automation/code/dspde.py": {
+      "sha256": "b4eca36c1a348e3e18f96aa3879e5238913caee9cf919da16fae6b7454c448ac",
+      "archived_sha256": "b4eca36c1a348e3e18f96aa3879e5238913caee9cf919da16fae6b7454c448ac"
+    },
+    "开发脚本/automation/code/dls_de.py": {
+      "sha256": "4d4e9bd4b0b97a33c84dc8e14ddae487d6eb9e6374e476144bd6f45b987fdd86",
+      "archived_sha256": "4d4e9bd4b0b97a33c84dc8e14ddae487d6eb9e6374e476144bd6f45b987fdd86"
+    },
+    "开发脚本/automation/code/pems_de.py": {
+      "sha256": "887ed1e686837d71a38b6c8ffaf66c967f82a956d2cb64195839c9bebc2a64c1",
+      "archived_sha256": "887ed1e686837d71a38b6c8ffaf66c967f82a956d2cb64195839c9bebc2a64c1"
+    },
+    "开发脚本/automation/code/team_de.py": {
+      "sha256": "c72eca01029739528dcf595266211ee1313eedaeb4b044b4c519f1b6bf619846",
+      "archived_sha256": "7910d9a91689cbd0b15d8eba2f0e0b8e1d1176f6748a0053ef6bd1efb1b7b27c"
+    },
+    "开发脚本/automation/code/basic_de.py": {
+      "sha256": "9ee8743ffc023653080829a846cdbe99c630c7fca4962b8d6bbec0e482ab07bf",
+      "archived_sha256": "9ee8743ffc023653080829a846cdbe99c630c7fca4962b8d6bbec0e482ab07bf"
+    },
+    "开发脚本/automation/code/test_invariants.py": {
+      "sha256": "2623e3eca56b9cccd3d912b38cfd260d1020165b0be5287149e16f8d837cd22b",
+      "archived_sha256": "c7b312dfd771b60aa1a3a54afea9823091d8c8eb34a34c2f2506749cae228b6c"
+    },
+    "开发脚本/automation/code/run_adaptive_de.py": {
+      "sha256": "a4c50b325755895d64601bade7558db47fffa562a62b507a77a21b65bfea33e9",
+      "archived_sha256": "813e0f2fb138b0ef7e65cd8201fa13548eec2d37cd79ab9e69d88fa9326ac110"
+    },
+    "开发脚本/automation/cron/scheduler.py": {
+      "sha256": "84977f6093fb08321952da7776c2d68e6976cad0320e080d10a3e76fa1539c1d",
+      "archived_sha256": "26862f1391ea7bd48248cab30092b27bf76af372e4922a444d43055e8fac9f56"
+    },
+    "开发脚本/automation/cron/run_scheduled.sh": {
+      "sha256": "0468cfcdb3eedce077ca06a69b276cec9e6e6f23f3a73fa55e2d80901d9cc15a",
+      "archived_sha256": "e776237086f962eb66add4e8da8ffcd1fd00132e5b8205f31c739027d980b6ee"
+    },
+    "开发脚本/automation/rerun_20261116/tests/test_pipeline.py": {
+      "sha256": "06cb1666ada70add9d21d17992dc9b65eae6ef93febc8ad18e11fd03af6f577e",
+      "archived_sha256": "06cb1666ada70add9d21d17992dc9b65eae6ef93febc8ad18e11fd03af6f577e"
+    },
+    "开发脚本/automation/rerun_20261116/code/run_dcde.py": {
+      "sha256": "854fb0983afb967fe2cbe8623ae08bf5525973a09c53002abe2b275dbf63ca32",
+      "archived_sha256": "d7a940d7913d374c97044ef146b80df886a91643608b5c6b1fb6c1331d98bb46"
+    },
+    "开发脚本/automation/rerun_20261116/code/dspde.py": {
+      "sha256": "b4eca36c1a348e3e18f96aa3879e5238913caee9cf919da16fae6b7454c448ac",
+      "archived_sha256": "b4eca36c1a348e3e18f96aa3879e5238913caee9cf919da16fae6b7454c448ac"
+    },
+    "开发脚本/automation/rerun_20261116/code/dls_de.py": {
+      "sha256": "4d4e9bd4b0b97a33c84dc8e14ddae487d6eb9e6374e476144bd6f45b987fdd86",
+      "archived_sha256": "4d4e9bd4b0b97a33c84dc8e14ddae487d6eb9e6374e476144bd6f45b987fdd86"
+    },
+    "开发脚本/automation/rerun_20261116/code/pems_de.py": {
+      "sha256": "887ed1e686837d71a38b6c8ffaf66c967f82a956d2cb64195839c9bebc2a64c1",
+      "archived_sha256": "887ed1e686837d71a38b6c8ffaf66c967f82a956d2cb64195839c9bebc2a64c1"
+    },
+    "开发脚本/automation/rerun_20261116/code/team_de.py": {
+      "sha256": "c72eca01029739528dcf595266211ee1313eedaeb4b044b4c519f1b6bf619846",
+      "archived_sha256": "7910d9a91689cbd0b15d8eba2f0e0b8e1d1176f6748a0053ef6bd1efb1b7b27c"
+    },
+    "开发脚本/automation/rerun_20261116/code/dls_combined.py": {
+      "sha256": "b0b4f29fd8cd7adf16241280e8409befc924e3738711dea6ab331f67a360364b",
+      "archived_sha256": "b0b4f29fd8cd7adf16241280e8409befc924e3738711dea6ab331f67a360364b"
+    },
+    "开发脚本/automation/rerun_20261116/code/basic_de.py": {
+      "sha256": "9ee8743ffc023653080829a846cdbe99c630c7fca4962b8d6bbec0e482ab07bf",
+      "archived_sha256": "9ee8743ffc023653080829a846cdbe99c630c7fca4962b8d6bbec0e482ab07bf"
+    },
+    "开发脚本/automation/rerun_20261116/code/test_invariants.py": {
+      "sha256": "2623e3eca56b9cccd3d912b38cfd260d1020165b0be5287149e16f8d837cd22b",
+      "archived_sha256": "c7b312dfd771b60aa1a3a54afea9823091d8c8eb34a34c2f2506749cae228b6c"
+    },
+    "开发脚本/automation/rerun_20261116/code/run_adaptive_de.py": {
+      "sha256": "a4c50b325755895d64601bade7558db47fffa562a62b507a77a21b65bfea33e9",
+      "archived_sha256": "813e0f2fb138b0ef7e65cd8201fa13548eec2d37cd79ab9e69d88fa9326ac110"
+    },
+    "开发脚本/automation/rerun_20261116/cron/scheduler.py": {
+      "sha256": "69a6aef47125388ac8c6e31e44cb3eaa8785daf328708e746ad2a48ffbe6ec4a",
+      "archived_sha256": "137ce9fd1397f438013f566bca60db3eec4a6f43c1025bc797c27adbc3ebd65f"
+    },
+    "开发脚本/automation/rerun_20261116/cron/hold_awake.py": {
+      "sha256": "dd9f39e7aa3df0935a283d00ba5bce12016c398f741d292e2ccad7c24607f4b1",
+      "archived_sha256": "dd9f39e7aa3df0935a283d00ba5bce12016c398f741d292e2ccad7c24607f4b1"
+    },
+    "开发脚本/automation/rerun_20261116/cron/run_scheduled.sh": {
+      "sha256": "84688b7bc6b7e17af500326d44802293ce3f43ecf08b88a07d428a71c2af1684",
+      "archived_sha256": "ee8f4a8384ca7142c3d739961b63d02cc294f1524b5dc664799a873acd75fa70"
+    },
+    "开发脚本/automation/report_work/single_column/build_report_before_single_column.py": {
+      "sha256": "ba20e513ab7d59361dc772574d71a345140b40b3c5de4e49aa3c7e4dfc3e1470",
+      "archived_sha256": "5c800f861f439cb8854719dd324031f16097fddff4075898e51f6dd392951864"
+    },
+    "开发脚本/basic_de/revision_work/update_report.py": {
+      "sha256": "6e0010a10b601e0b2dd13b4a2ead7c2f0f98de5600266c99227501745005716d",
+      "archived_sha256": "91bb7a3fba036f52132c1e1233687498b9441a2c43eddedc8cab9b3bacc5fe27"
+    },
+    "开发脚本/basic_de/revision_work/build_report_before.py": {
+      "sha256": "3e95942598b522328ae66f2f917746cbf11587a58f96390a7068f95a3cd172ad",
+      "archived_sha256": "9c2d65912360512dd15a484fb19eabcb7344152a267cea5e16df274ab4f92a4b"
+    },
+    "开发脚本/basic_de/report_work/finalize_high_contrast.py": {
+      "sha256": "7db81f3ecf73821acbd039493a11079fb428d9a3bce324b759ff25251e4c56ef",
+      "archived_sha256": "cbaf151e99b1c0d3eec71eee0b791b1567f85cd54a8362a10eee7271d8fb7659"
+    },
+    "开发脚本/basic_de/report_work/revise_paper_style.py": {
+      "sha256": "30817123d730b6bc4948cbe3171237a9dd6ecac74ed5789ab113cd857df8ae4a",
+      "archived_sha256": "7bd9fb681f0bbcab9c718cee02f9ec9d3e2add39050c114f6d8b7c873be76bd9"
+    },
+    "开发脚本/basic_de/report_work/revise_report_structure.py": {
+      "sha256": "01e9b84ca0274ef5cbec32b4936953a47a19429771df715f4ca0d07ad94738df",
+      "archived_sha256": "dc914cd8e4c9f52295c268330f3532bf2f16ff23004b3d85176818113b1147d5"
+    },
+    "开发脚本/basic_de/report_work/compact_analysis.py": {
+      "sha256": "54d19d2b119e0df70b196f46dbf8f3d648c99646b9b80afb68dd0ebd0b43fde8",
+      "archived_sha256": "5c328719873c4b436764f29e04035c3723f5de63471c5292387514fe0560cf85"
+    },
+    "开发脚本/basic_de/report_work/rebuild_journal.py": {
+      "sha256": "6943c1c721335c1d5f8e40008d967c7d79aeeef701ff1ed64869f34868dd22f2",
+      "archived_sha256": "6943c1c721335c1d5f8e40008d967c7d79aeeef701ff1ed64869f34868dd22f2"
+    },
+    "开发脚本/basic_de/report_work/finalize_journal.py": {
+      "sha256": "dc129143b99a0690697de93a3df99295f8f22659ce93fa0b993535ab26995f1e",
+      "archived_sha256": "c8d55bf48709c64761a07df905c893b3497d5453b4598d226952c5bf034f41da"
+    },
+    "开发脚本/basic_de/consistency/analyze_validation.py": {
+      "sha256": "0aa1d1ff45d32836a8524147da8497cc4499cce6a568a07756d34e8d7c35407a",
+      "archived_sha256": "7d30ab75de570a954d065583e1bd9c735e8ab861cb0ad5832eec4a37dde01ae9"
+    },
+    "开发脚本/basic_de/consistency/plot_validation.py": {
+      "sha256": "5d1c69f0008886e2733296fc11d90031a423c57c35c628234380899694221742",
+      "archived_sha256": "03eb341d50efc247f92766f803cca36d8d630b9b5b9b60ec7aa73a5e4cac069c"
+    },
+    "开发脚本/basic_de/consistency/run_validation.py": {
+      "sha256": "36200cf2c8eeceff28cb4f8765f603d46e4f12e8bd067cc95eb9247d930c673d",
+      "archived_sha256": "36200cf2c8eeceff28cb4f8765f603d46e4f12e8bd067cc95eb9247d930c673d"
+    },
+    "开发脚本/basic_de/tools/audit_figure_collisions.py": {
+      "sha256": "841ede7dcaefa3ab11576b5ba52375d1678a71f77d39f553d5464e81b0699283",
+      "archived_sha256": "841ede7dcaefa3ab11576b5ba52375d1678a71f77d39f553d5464e81b0699283"
+    },
+    "开发脚本/basic_de/tools/audit_panel_alignment.py": {
+      "sha256": "43958e6b49d897f326ff64e73cbed0bf057e17c06533b5b57d3dededf8111e76",
+      "archived_sha256": "43958e6b49d897f326ff64e73cbed0bf057e17c06533b5b57d3dededf8111e76"
+    },
+    "开发脚本/basic_de/tools/validate_figure.py": {
+      "sha256": "c548e180d31fc1557cbfcd452ab78c7a969273a80b311068aa80acfe86ecfd90",
+      "archived_sha256": "c548e180d31fc1557cbfcd452ab78c7a969273a80b311068aa80acfe86ecfd90"
+    },
+    "开发脚本/basic_de/tools/audit_pdf_text.py": {
+      "sha256": "11b8f3ec50bc13e2bd8561eeb7cd204307f4ce5a70ac57fa24c809ce1b9c252c",
+      "archived_sha256": "11b8f3ec50bc13e2bd8561eeb7cd204307f4ce5a70ac57fa24c809ce1b9c252c"
+    },
+    "开发脚本/basic_de/reference/cec2014_audit/official_cec14_test_func.cpp": {
+      "sha256": "4228bcf7d6d8da94bab3dfdb8837251edc26952f498ae9757da57ca4b1dbd650",
+      "archived_sha256": "4228bcf7d6d8da94bab3dfdb8837251edc26952f498ae9757da57ca4b1dbd650"
+    },
+    "开发脚本/basic_de/consistency/source/CEC14_RIDE_unrot.java": {
+      "sha256": "1bc60cb9561ba9c861a733278608043e473ff83e738bc7ea348b2f816b0db0c0",
+      "archived_sha256": "6b953690ed933223b6227a4dfc6f92af6e39398c678701950b744c17fdca2868"
+    },
+    "开发脚本/basic_de/consistency/source/Corrections.java": {
+      "sha256": "675b537fb71414f400ca672c8ddaad20f84fd265b7110e18374c32d8603e12d7",
+      "archived_sha256": "804cc7fe74197ba16ebb30fb62590f0af8942e15b3a1b039e0b819eca8ee0617"
+    },
+    "开发脚本/basic_de/consistency/source/DE.java": {
+      "sha256": "d66992ecfd38f819f2f23f63b96497e47db6266c13c55f50a117842091964084",
+      "archived_sha256": "ef9b7a370dfa154356c8f87e969df222e28067cbf8e750836fda8dc23bb1cab2"
+    },
+    "开发脚本/basic_de/consistency/source/MatLab.java": {
+      "sha256": "129a2b01fd91ba0290035627a0786e74c92ee320acb1a45d57aa08d8648c72f4",
+      "archived_sha256": "3bceb90c787cbc11e066153a9a2c9aa20c897bf4e7fe399fd63318f3058945ef"
+    },
+    "开发脚本/basic_de/consistency/source/DataBox.java": {
+      "sha256": "bb6dd57981386c643b3f0e474acd7b43f82b4e995e41785ead63e162c6e52c60",
+      "archived_sha256": "d6eddad0d592870fb0f881fc6b9ca73fdf18b73cc6a05ec58bf95f16be4dd4bb"
+    },
+    "开发脚本/basic_de/consistency/source/Algorithm.java": {
+      "sha256": "4669b474a7fc3610bc314cd16d46957a27ac46e9ad7621b9b873138b5891fd35",
+      "archived_sha256": "2727328376752e40d85d6929f308fa10b039f1e8ba8f0b375e87d8b65e67c0dd"
+    },
+    "开发脚本/basic_de/consistency/source/DEOp.java": {
+      "sha256": "68d7b402479245182cd227ba4cacfdbb4dc89ef2d7dd4adc08def84ae19bb1c2",
+      "archived_sha256": "0b6eba0cbac14678078c62d01573644a64212690e25f83e47587574d90d9f850"
+    },
+    "开发脚本/basic_de/consistency/native/wrapper.cpp": {
+      "sha256": "9fb163a63d4445cba71806ff78d8c7a99f4f66877feda1042c581ff82f03be5d",
+      "archived_sha256": "9fb163a63d4445cba71806ff78d8c7a99f4f66877feda1042c581ff82f03be5d"
+    },
+    "开发脚本/basic_de/consistency/native/portable.cpp": {
+      "sha256": "f3a0fec2ff78318d7926f77efba64121fcd34b5fbd3479a32b6a483aade8b360",
+      "archived_sha256": "f3a0fec2ff78318d7926f77efba64121fcd34b5fbd3479a32b6a483aade8b360"
+    },
+    "开发脚本/basic_de/consistency/java/utils/RunAndStore.java": {
+      "sha256": "ad4b1c5ad179c3f37ca8f16d087f74c12404cc8adff8a46252e2d8f45aef6097",
+      "archived_sha256": "ad4b1c5ad179c3f37ca8f16d087f74c12404cc8adff8a46252e2d8f45aef6097"
+    },
+    "开发脚本/basic_de/consistency/java/utils/benchmarks/ProblemsTransformations.java": {
+      "sha256": "96acf9b57cf82c60bd2b07eeceaddab71fec7bf6b6b3172f64058da42c37c7fb",
+      "archived_sha256": "5808ba0cdb9f6c72d2449fa90749789fa0abfa647c1ecf6619650c9eb887a828"
+    },
+    "开发脚本/basic_de/consistency/java/benchmarks/problemsImplementation/CEC2014/CEC2014TestFuncRotInvStudy.java": {
+      "sha256": "293f54cffe1edc1f8257b73ebbbd968971024bf3c643d6ef16b2f083650ba283",
+      "archived_sha256": "293f54cffe1edc1f8257b73ebbbd968971024bf3c643d6ef16b2f083650ba283"
+    },
+    "开发脚本/basic_de/design_previews/three_directions/make_previews.py": {
+      "sha256": "87704bc3e645204be02873c4e580068ded74fb779f2299eb5be6e00a816bc990",
+      "archived_sha256": "6c20078612de2901bd77a25abc2965e03ec83f2ee6024108d8dd1389e289abd3"
+    },
+    "开发脚本/basic_de/design_previews/high_contrast/make_previews.py": {
+      "sha256": "cb22221db48428a03c5afbc33c786590927eb02258ced334344b5703b620bb7a",
+      "archived_sha256": "47e291c9b5bf1e08060c6c9e8c53f8cb963c3b0bc4e1c3f7828293b1ad3b92c9"
+    },
+    "开发脚本/adaptive_de/template_work/finalize_paper_style.py": {
+      "sha256": "d717c768cad9e478c2c7bbd2d907e5353698ad9eb5bda15d38471011a75a22cc",
+      "archived_sha256": "5d623724894f374cbf0a3c9ec072aa6a5fe4ebc20eac81493cf1012ea0e0b07e"
+    },
+    "开发脚本/adaptive_de/improvement/run_experiments.py": {
+      "sha256": "ec5ffdacf4223c537614c3bce39a0be01d65e244a82ada594a2d8ec42891c9d8",
+      "archived_sha256": "ef7c7c7f6c58bf7314a0f6149940b0bd79ac7cedd188ec771d2b08abf29a2635"
+    },
+    "开发脚本/adaptive_de/improvement/analyze_development.py": {
+      "sha256": "9f7b1196a2879ace98a249a020e93983e15e92a4de83fc34be48ac89c0632c91",
+      "archived_sha256": "b1fff3dfc2c56b648c12567f97d0103403191cb3fd3bf8abbec72fb308ecc534"
+    },
+    "开发脚本/adaptive_de/improvement/analyze_validation.py": {
+      "sha256": "14ac4e9090a55fa5ccdbad11362c843d69bdd83fc6d9aff53a95c3d5fa10a299",
+      "archived_sha256": "c9e954309d29bd5487611a553b974f7c66f13e79bdf7750955e1f3e7e130beac"
+    },
+    "开发脚本/adaptive_de/improvement/ape_de.py": {
+      "sha256": "ac6e551a186c806a53e4d79d14409fd2d36311ef10889ca6ea53cc57ec7e56aa",
+      "archived_sha256": "ac6e551a186c806a53e4d79d14409fd2d36311ef10889ca6ea53cc57ec7e56aa"
+    },
+    "开发脚本/adaptive_de/improvement/build_report.py": {
+      "sha256": "afa744ed5be2e7b69d120f26ce92698b7011a88d7723db1d5dd46a9059adba21",
+      "archived_sha256": "34854712cdc3c38275f02fc180cafcbfc92166be3ea9dee692837cec3a9d1449"
+    },
+    "开发脚本/adaptive_de/improvement/test_ape.py": {
+      "sha256": "bbecd7585f2a2e5614a8a9b45becd995614279588ccd601a24c324fabd32de4e",
+      "archived_sha256": "bbecd7585f2a2e5614a8a9b45becd995614279588ccd601a24c324fabd32de4e"
+    },
+    "开发脚本/adaptive_de/improvement/plot_validation.py": {
+      "sha256": "e29e46c8ae4e7668f11501702546ad11c21ab4cf6479c8e791045d45bede3468",
+      "archived_sha256": "45f6f5e9c660fb91cd0b212a3da097b230b5091f904dc4d5c20a16aac48731cc"
+    },
+    "开发脚本/adaptive_de/improvement/verify_records.py": {
+      "sha256": "6db59e9ac2058f7ba988391d79a20528313ab385bfc5bca682aab223725a3a4a",
+      "archived_sha256": "6db59e9ac2058f7ba988391d79a20528313ab385bfc5bca682aab223725a3a4a"
+    },
+    "开发脚本/adaptive_de/code/dspde.py": {
+      "sha256": "b4eca36c1a348e3e18f96aa3879e5238913caee9cf919da16fae6b7454c448ac",
+      "archived_sha256": "b4eca36c1a348e3e18f96aa3879e5238913caee9cf919da16fae6b7454c448ac"
+    },
+    "开发脚本/adaptive_de/code/dls_de.py": {
+      "sha256": "4d4e9bd4b0b97a33c84dc8e14ddae487d6eb9e6374e476144bd6f45b987fdd86",
+      "archived_sha256": "4d4e9bd4b0b97a33c84dc8e14ddae487d6eb9e6374e476144bd6f45b987fdd86"
+    },
+    "开发脚本/adaptive_de/code/pems_de.py": {
+      "sha256": "887ed1e686837d71a38b6c8ffaf66c967f82a956d2cb64195839c9bebc2a64c1",
+      "archived_sha256": "887ed1e686837d71a38b6c8ffaf66c967f82a956d2cb64195839c9bebc2a64c1"
+    },
+    "开发脚本/adaptive_de/code/team_de.py": {
+      "sha256": "c72eca01029739528dcf595266211ee1313eedaeb4b044b4c519f1b6bf619846",
+      "archived_sha256": "7910d9a91689cbd0b15d8eba2f0e0b8e1d1176f6748a0053ef6bd1efb1b7b27c"
+    },
+    "开发脚本/adaptive_de/code/basic_de.py": {
+      "sha256": "9ee8743ffc023653080829a846cdbe99c630c7fca4962b8d6bbec0e482ab07bf",
+      "archived_sha256": "9ee8743ffc023653080829a846cdbe99c630c7fca4962b8d6bbec0e482ab07bf"
+    },
+    "开发脚本/adaptive_de/code/test_invariants.py": {
+      "sha256": "2623e3eca56b9cccd3d912b38cfd260d1020165b0be5287149e16f8d837cd22b",
+      "archived_sha256": "c7b312dfd771b60aa1a3a54afea9823091d8c8eb34a34c2f2506749cae228b6c"
+    },
+    "开发脚本/adaptive_de/code/run_adaptive_de.py": {
+      "sha256": "a4c50b325755895d64601bade7558db47fffa562a62b507a77a21b65bfea33e9",
+      "archived_sha256": "813e0f2fb138b0ef7e65cd8201fa13548eec2d37cd79ab9e69d88fa9326ac110"
+    },
+    "开发脚本/adaptive_de/tools/audit_figure_collisions.py": {
+      "sha256": "841ede7dcaefa3ab11576b5ba52375d1678a71f77d39f553d5464e81b0699283",
+      "archived_sha256": "841ede7dcaefa3ab11576b5ba52375d1678a71f77d39f553d5464e81b0699283"
+    },
+    "开发脚本/adaptive_de/tools/audit_panel_alignment.py": {
+      "sha256": "43958e6b49d897f326ff64e73cbed0bf057e17c06533b5b57d3dededf8111e76",
+      "archived_sha256": "43958e6b49d897f326ff64e73cbed0bf057e17c06533b5b57d3dededf8111e76"
+    },
+    "开发脚本/adaptive_de/tools/validate_figure.py": {
+      "sha256": "c548e180d31fc1557cbfcd452ab78c7a969273a80b311068aa80acfe86ecfd90",
+      "archived_sha256": "c548e180d31fc1557cbfcd452ab78c7a969273a80b311068aa80acfe86ecfd90"
+    },
+    "开发脚本/adaptive_de/tools/audit_pdf_text.py": {
+      "sha256": "11b8f3ec50bc13e2bd8561eeb7cd204307f4ce5a70ac57fa24c809ce1b9c252c",
+      "archived_sha256": "11b8f3ec50bc13e2bd8561eeb7cd204307f4ce5a70ac57fa24c809ce1b9c252c"
+    },
+    "开发脚本/adaptive_de/improvement_v2/run_experiments.py": {
+      "sha256": "b8a1086ddaa3893d25cabe605299a7f28e43cb191ed3a61a6a965845f257b59a",
+      "archived_sha256": "6bfc1f98cf32d8c66039c7c5401ce38efd7a3bc009724724de8161e58918526a"
+    },
+    "开发脚本/adaptive_de/improvement_v2/prose_revision.py": {
+      "sha256": "4d336bd776396f192f949ec3663cbcbd5929a2578748a7372b319c79361e01cf",
+      "archived_sha256": "773601d56dab9a8fe82ab3837d908b55ca13026c1f0312b16ca9366ecf85fe49"
+    },
+    "开发脚本/adaptive_de/improvement_v2/compact_tables.py": {
+      "sha256": "acb1b28eacc715ebabad1e290ce3f9f87214f3a6f65567e13c136b46f2f307a0",
+      "archived_sha256": "2cac1133c783ced80dff10d40bb852fd1ed7759afcd1276a3528add6c8b4145f"
+    },
+    "开发脚本/adaptive_de/improvement_v2/analyze_development.py": {
+      "sha256": "6f350a6395c33bba950a3b855a800440eb3f470fc079cf15ec220705472554cb",
+      "archived_sha256": "e89bb6fbbc1e3ea150cd3c6cd2948f9200e022e43c5ac62c0b70d0438e85dbf2"
+    },
+    "开发脚本/adaptive_de/improvement_v2/plot_confirmation.py": {
+      "sha256": "339afdcb8afeb387edbe166d0de3cb683053683077adca5f1f4b33f339ad8882",
+      "archived_sha256": "637fe762899fc00389e17b8e4ebb2cabd5d7bec9842b1f4cfd55ad25cbc82255"
+    },
+    "开发脚本/adaptive_de/improvement_v2/analyze_confirmation.py": {
+      "sha256": "534e94e79494dd4fd690cc10be8969ee74e78187d12c810d2076a6624fd8a612",
+      "archived_sha256": "f3f29cffd5141d0e85579fa8279bf25d85ecae5f3c9ee506ed7ec3559772d36f"
+    },
+    "开发脚本/adaptive_de/improvement_v2/build_report.py": {
+      "sha256": "82beee2baee9ad55df8421a8838a8fdd60b2d3e318ef002dd2775597c4f4c7de",
+      "archived_sha256": "658e4954456e6cfcafadb2503e8a5a9e300b1a4b0085fbdf91218488e4019845"
+    },
+    "开发脚本/adaptive_de/improvement_v2/finish_report.py": {
+      "sha256": "e6fe796b67d4a8305c24034ae078a39f85d151f9c5c5cbe7ba7b2e07e38cfa7c",
+      "archived_sha256": "5e4b1956ac30f5cc3c64518383f920674c130cb883d8ce6c0b310c0b2eff4c7e"
+    },
+    "开发脚本/adaptive_de/improvement_v2/audit_figures.py": {
+      "sha256": "4fccb0be74cb70ff7706e9ea180fbfb88af22ffb43fa87979a9d34af37bad117",
+      "archived_sha256": "4fccb0be74cb70ff7706e9ea180fbfb88af22ffb43fa87979a9d34af37bad117"
+    },
+    "开发脚本/adaptive_de/improvement_v2/run_confirmation.py": {
+      "sha256": "94962ee023e6de47fa48583cac271f5ec0061e7e936ec4c2a8bfd464e6bde2ea",
+      "archived_sha256": "eb7316ca3f7154ce86654c1e0d93bd73d91d586ca98b368c2171071660c82232"
+    },
+    "开发脚本/adaptive_de/improvement_v2/report_text.py": {
+      "sha256": "ffbf900930137b856ce23e912dbf47145046b471fb9673e44089703a0741b348",
+      "archived_sha256": "2f9550b6359c7e951d68f4ed1f224dfef437ffae9326c16758247670d26ebb28"
+    },
+    "开发脚本/adaptive_de/improvement_v2/audit_final_report.py": {
+      "sha256": "d8f7d7ee9e97d1f04c759ca72e2a7aaf1cdb7d40e11014dc98845d9115480862",
+      "archived_sha256": "644722035b66a6d652b8e4db6a17cc9e9b938f7f1e8377854aa3739a8b0cc2fa"
+    },
+    "开发脚本/adaptive_de/improvement_v2/dls_combined.py": {
+      "sha256": "b0b4f29fd8cd7adf16241280e8409befc924e3738711dea6ab331f67a360364b",
+      "archived_sha256": "b0b4f29fd8cd7adf16241280e8409befc924e3738711dea6ab331f67a360364b"
+    },
+    "开发脚本/adaptive_de/improvement_v2/test_combined.py": {
+      "sha256": "ca70db791c87d94b7b33fe4f285b1ac1be11426c1f36bf315585468c95f85a32",
+      "archived_sha256": "ca70db791c87d94b7b33fe4f285b1ac1be11426c1f36bf315585468c95f85a32"
+    },
+    "开发脚本/adaptive_de/diagnostics/team_telemetry.py": {
+      "sha256": "5ef0d3948a3c38d5c965fe1bc1784bd2ddf841100602de7a935f85407043566d",
+      "archived_sha256": "bead2d3bf65c2831048490c07b627c3891fc64182dab7b4fd04ab6d34ec64fb1"
+    },
+    "开发脚本/adaptive_de/diagnostics/benchmark_closure.py": {
+      "sha256": "f2431cdb68e9fa7561f2607a81cce4357e4957dfec278b7c19e68c2c69d7934c",
+      "archived_sha256": "55e982c2a6027f8ecf72c80339a58b58f0799afc0a1f7c4a2c630c208144bca5"
+    },
+    "开发脚本/adaptive_de/diagnostics/reference_replays.py": {
+      "sha256": "aa5812eeba7ed02aa3119a9782fe73d5dabe8c84d6ec8f33f6b4637acc1d5de1",
+      "archived_sha256": "aa5812eeba7ed02aa3119a9782fe73d5dabe8c84d6ec8f33f6b4637acc1d5de1"
+    },
+    "开发脚本/adaptive_de/source/cec2014_reference/benchmark_audit.py": {
+      "sha256": "2996b98a425be7e1e2cf0fb165d35bf7952dcd09086d5821426db9e9b56c19fc",
+      "archived_sha256": "2996b98a425be7e1e2cf0fb165d35bf7952dcd09086d5821426db9e9b56c19fc"
+    },
+    "开发脚本/adaptive_de/source/cec2014_reference/official_cec14_test_func.cpp": {
+      "sha256": "4228bcf7d6d8da94bab3dfdb8837251edc26952f498ae9757da57ca4b1dbd650",
+      "archived_sha256": "4228bcf7d6d8da94bab3dfdb8837251edc26952f498ae9757da57ca4b1dbd650"
+    },
+    "开发脚本/adaptive_de/source/cec2014_reference/run_reference.py": {
+      "sha256": "5d996fa3e21cc701d3add465e4cb991a65aeee1f8eefc5fcd41bef364273095a",
+      "archived_sha256": "4b81d6c969a677987dcaa17952fa43de29c5e76b565972a7265d37614667e38f"
+    },
+    "开发脚本/adaptive_de/vendor/cec2017/hybrid.py": {
+      "sha256": "323a32d643b68ffcabc59015d05784ed63db0208a79ec98991e2732734a5802a",
+      "archived_sha256": "323a32d643b68ffcabc59015d05784ed63db0208a79ec98991e2732734a5802a"
+    },
+    "开发脚本/adaptive_de/vendor/cec2017/__init__.py": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "archived_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "开发脚本/adaptive_de/vendor/cec2017/functions.py": {
+      "sha256": "ed1587cfa5391b9432039c058785a5ac176997fc86365bd8a9606e66a519715a",
+      "archived_sha256": "ed1587cfa5391b9432039c058785a5ac176997fc86365bd8a9606e66a519715a"
+    },
+    "开发脚本/adaptive_de/vendor/cec2017/utils.py": {
+      "sha256": "21668b57e5379c85ce9cc3a84773be8b1a4e11c589b6d74297bd8df060bbe0ec",
+      "archived_sha256": "21668b57e5379c85ce9cc3a84773be8b1a4e11c589b6d74297bd8df060bbe0ec"
+    },
+    "开发脚本/adaptive_de/vendor/cec2017/basic.py": {
+      "sha256": "86786751072b6c35138356cd70837afb9246d4f5b3ecb0a36c87a1599bcaec6e",
+      "archived_sha256": "86786751072b6c35138356cd70837afb9246d4f5b3ecb0a36c87a1599bcaec6e"
+    },
+    "开发脚本/adaptive_de/vendor/cec2017/composition.py": {
+      "sha256": "e6fa1ceb51d5d084756adf45bac9838850afd2c16ff934cfe3756ebe1d6a1f66",
+      "archived_sha256": "e6fa1ceb51d5d084756adf45bac9838850afd2c16ff934cfe3756ebe1d6a1f66"
+    },
+    "开发脚本/adaptive_de/vendor/cec2017/simple.py": {
+      "sha256": "99f0c9698be5e75aa3ea8997072df2dc77d10256c7f2efd4cc4d7060e064577d",
+      "archived_sha256": "99f0c9698be5e75aa3ea8997072df2dc77d10256c7f2efd4cc4d7060e064577d"
+    },
+    "开发脚本/adaptive_de/vendor/cec2017/transforms.py": {
+      "sha256": "d0172819ce8e33d03c96d929fe55e00bbc6336fd556462cef140da0c5e4f9943",
+      "archived_sha256": "d0172819ce8e33d03c96d929fe55e00bbc6336fd556462cef140da0c5e4f9943"
+    },
+    "开发脚本/adaptive_de/template_work/native_cec14/portable_cec14.cpp": {
+      "sha256": "d122deee7fa9ccd1985933cd6422dcc1cac21d3c3e63c5523e52d8b07230e5b0",
+      "archived_sha256": "d122deee7fa9ccd1985933cd6422dcc1cac21d3c3e63c5523e52d8b07230e5b0"
+    },
+    "开发脚本/adaptive_de/template_work/native_cec14/wrapper.cpp": {
+      "sha256": "f112b02f4b4f4c6dca7451c9fdb64a53182d5ff98b93c04a4da4c766a0716b34",
+      "archived_sha256": "f112b02f4b4f4c6dca7451c9fdb64a53182d5ff98b93c04a4da4c766a0716b34"
+    },
+    "开发脚本/adaptive_de/template_work/revision_baseline/build_english_report.py": {
+      "sha256": "08c4bfa73ae049e2d8b235c226c264a9254adad433c3e02521420d6956fbdf17",
+      "archived_sha256": "68173d3b2991757c7e0a1546c232d04f2f9a0e286d6fdb86171ca504ba74c271"
+    },
+    "开发脚本/adaptive_de/template_work/revision_baseline/build_template_docx.py": {
+      "sha256": "3c927fc559c617dbbafa8b709c455329de97a32e2d01110da758fe1b2c154817",
+      "archived_sha256": "b21f3e7e91a1e554d84ba69438f7aa8fbb102c278be517856fe49a9c883b4a66"
+    }
+  }
+}

@@ -1,8 +1,0 @@
-/home/yinwhcmy/embedded system/project2_final/.venv/lib/python3.12/site-packages/opfunu/cec_based/cec.py:8: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
-  import pkg_resources
-PENDING 4 workers=2
-RESULT algorithm=DLC_no_phase function=F01 run=01 seed=3279923786 fes=503 error=2.548580859493e+07 completed=1/4
-RESULT algorithm=DLC_no_learning function=F01 run=01 seed=3279923786 fes=503 error=4.764586200583e+07 completed=2/4
-RESULT algorithm=DUAL_no_phase function=F01 run=01 seed=3279923786 fes=503 error=3.613312960483e+07 completed=3/4
-RESULT algorithm=DUAL_no_learning function=F01 run=01 seed=3279923786 fes=503 error=4.419132299414e+07 completed=4/4
-COMPLETE 4

@@ -1,0 +1,14 @@
+WHO                          UID  USER     PID   COMM            WHAT                                                     WHY                                                         MODE
+ModemManager                 0    root     1354  ModemManager    sleep                                                    ModemManager needs to reset devices                         delay
+NetworkManager               0    root     1285  NetworkManager  sleep                                                    NetworkManager needs to turn off networks                   delay
+UPower                       0    root     1523  upowerd         sleep                                                    Pause device polling                                        delay
+Unattended Upgrades Shutdown 0    root     1613  unattended-upgr shutdown                                                 Stop ongoing upgrades or perform upgrades before shutdown   delay
+GNOME Shell                  1000 yinwhcmy 2446  gnome-shell     sleep                                                    GNOME 需要锁定屏幕                                          delay
+Automation                     1000 yinwhcmy 42071 systemd-inhibit sleep:idle                                               DC-DE hourly experiment                                     block
+yinwhcmy                     1000 yinwhcmy 2589  gsd-power       handle-lid-switch                                        External monitor attached or configuration changed recently block
+yinwhcmy                     1000 yinwhcmy 2588  gsd-media-keys  handle-power-key:handle-suspend-key:handle-hibernate-key GNOME handling keypresses                                   block
+yinwhcmy                     1000 yinwhcmy 2588  gsd-media-keys  sleep                                                    GNOME handling keypresses                                   delay
+yinwhcmy                     1000 yinwhcmy 2589  gsd-power       sleep                                                    GNOME needs to lock the screen                              delay
+yinwhcmy                     1000 yinwhcmy 2400  gnome-session-b sleep                                                    user session inhibited                                      block
+
+11 inhibitors listed.

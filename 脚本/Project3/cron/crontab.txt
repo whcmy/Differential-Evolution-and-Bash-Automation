@@ -1,1 +1,0 @@
-20 * * * * /bin/bash "/home/yinwhcmy/embedded system/project3/rerun_20261116/cron/run_scheduled.sh" >> "/home/yinwhcmy/embedded system/project3/rerun_20261116/cron/scheduled.log" 2>&1 # PROJECT3_DCDE_20261116_HOURLY

@@ -1,0 +1,1 @@
+4 16-22 * * * /bin/bash "/home/yinwhcmy/differential_evolution/automation/cron/run_scheduled.sh" >> "/home/yinwhcmy/differential_evolution/automation/cron/scheduled.log" 2>&1 # AUTOMATION_YINMINGJUN_HOURLY

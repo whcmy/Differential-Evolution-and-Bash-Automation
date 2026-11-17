@@ -1,0 +1,11 @@
+/home/yinwhcmy/differential_evolution/adaptive_de/.venv/lib/python3.12/site-packages/opfunu/cec_based/cec.py:8: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+Running precompute_seed20261113_np50: PGE-DE, NP=50, FEs=100000, seed=20261113, CEC2014 F01-F30
+Running precompute_seed20261113_np100: PGE-DE, NP=100, FEs=100000, seed=20261113, CEC2014 F01-F30
+Running precompute_seed20261113_np150: PGE-DE, NP=150, FEs=100000, seed=20261113, CEC2014 F01-F30
+Automation mean absolute errors across CEC2014 F01-F30
+run_id population budget seed functions mean_absolute_error
+precompute_seed20261113_np50 50 100000 20261113 30 1.93474905389393884e+05
+precompute_seed20261113_np100 100 100000 20261113 30 1.95014444884905941e+05
+precompute_seed20261113_np150 150 100000 20261113 30 1.95155284756542678e+05
+Validated batch: /home/yinwhcmy/differential_evolution/automation/output/precompute_seed20261113

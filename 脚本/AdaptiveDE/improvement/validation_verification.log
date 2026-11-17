@@ -1,0 +1,15 @@
+/home/yinwhcmy/differential_evolution/adaptive_de/.venv/lib/python3.12/site-packages/opfunu/cec_based/cec.py:8: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+{
+  "author": "殷明骏",
+  "passed": true,
+  "records": 4800,
+  "complete_matrix": true,
+  "all_budgets_exact": true,
+  "all_solutions_reevaluated": true,
+  "all_histories_checked": true,
+  "all_seeds_checked": true,
+  "source_hashes_match": true,
+  "frozen_original_files_unchanged": 8151,
+  "max_absolute_reevaluation_difference": 0.0
+}

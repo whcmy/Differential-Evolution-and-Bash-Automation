@@ -1,0 +1,119 @@
+BATCH_START timestamp=2026-11-16T21:20:02+08:00 batch=cron_2_20261116T212002 mode=cron seed=2026111602 functions=30 dimension=10 budget=100000
+RUN_START timestamp=2026-11-16T21:20:02+08:00 run_id=cron_2_20261116T212002_np50 algorithm=DUAL population=50 budget=100000 seed=2026111602
+/home/yinwhcmy/differential_evolution/adaptive_de/.venv/lib/python3.12/site-packages/opfunu/cec_based/cec.py:8: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+PENDING 30 workers=6
+RESULT algorithm=DUAL function=F25 run=01 seed=78718673 fes=100000 error=2.004320104846e+02 completed=1/30
+RESULT algorithm=DUAL function=F24 run=01 seed=2828703688 fes=100000 error=1.000000000000e+02 completed=2/30
+RESULT algorithm=DUAL function=F29 run=01 seed=680268463 fes=100000 error=5.311033843405e+06 completed=3/30
+RESULT algorithm=DUAL function=F28 run=01 seed=2222135888 fes=100000 error=3.806273662581e+02 completed=4/30
+RESULT algorithm=DUAL function=F23 run=01 seed=3044257628 fes=100000 error=2.422283797499e+02 completed=5/30
+RESULT algorithm=DUAL function=F27 run=01 seed=1715683281 fes=100000 error=3.000000000000e+02 completed=6/30
+RESULT algorithm=DUAL function=F21 run=01 seed=1053953915 fes=100000 error=4.844801770237e-01 completed=7/30
+RESULT algorithm=DUAL function=F26 run=01 seed=971837358 fes=100000 error=1.000292177551e+02 completed=8/30
+RESULT algorithm=DUAL function=F20 run=01 seed=653050778 fes=100000 error=1.418614839890e-01 completed=9/30
+RESULT algorithm=DUAL function=F18 run=01 seed=3238517893 fes=100000 error=4.190470662841e-01 completed=10/30
+RESULT algorithm=DUAL function=F30 run=01 seed=3460001143 fes=100000 error=6.056460772667e+04 completed=11/30
+RESULT algorithm=DUAL function=F15 run=01 seed=2371759534 fes=100000 error=3.954139779746e-01 completed=12/30
+RESULT algorithm=DUAL function=F14 run=01 seed=1744601663 fes=100000 error=4.819794115338e-02 completed=13/30
+RESULT algorithm=DUAL function=F17 run=01 seed=2719063870 fes=100000 error=2.081429846455e-01 completed=14/30
+RESULT algorithm=DUAL function=F13 run=01 seed=3943934548 fes=100000 error=1.611334393374e-02 completed=15/30
+RESULT algorithm=DUAL function=F22 run=01 seed=301300458 fes=100000 error=2.024584868096e+01 completed=16/30
+RESULT algorithm=DUAL function=F19 run=01 seed=15506115 fes=100000 error=4.420298275686e-01 completed=17/30
+RESULT algorithm=DUAL function=F09 run=01 seed=4160159357 fes=100000 error=0.000000000000e+00 completed=18/30
+RESULT algorithm=DUAL function=F08 run=01 seed=2140289219 fes=100000 error=0.000000000000e+00 completed=19/30
+RESULT algorithm=DUAL function=F11 run=01 seed=3125338865 fes=100000 error=6.892375816423e+00 completed=20/30
+RESULT algorithm=DUAL function=F16 run=01 seed=4137537302 fes=100000 error=4.001853925731e-01 completed=21/30
+RESULT algorithm=DUAL function=F07 run=01 seed=2649510872 fes=100000 error=7.396040334129e-03 completed=22/30
+RESULT algorithm=DUAL function=F10 run=01 seed=1638193633 fes=100000 error=6.245444103934e-02 completed=23/30
+RESULT algorithm=DUAL function=F05 run=01 seed=3722633007 fes=100000 error=1.999171934344e+01 completed=24/30
+RESULT algorithm=DUAL function=F04 run=01 seed=1674021493 fes=100000 error=3.478027487472e+01 completed=25/30
+RESULT algorithm=DUAL function=F03 run=01 seed=3518023118 fes=100000 error=0.000000000000e+00 completed=26/30
+RESULT algorithm=DUAL function=F02 run=01 seed=3622219985 fes=100000 error=0.000000000000e+00 completed=27/30
+RESULT algorithm=DUAL function=F01 run=01 seed=588845067 fes=100000 error=0.000000000000e+00 completed=28/30
+RESULT algorithm=DUAL function=F06 run=01 seed=2862382519 fes=100000 error=0.000000000000e+00 completed=29/30
+RESULT algorithm=DUAL function=F12 run=01 seed=1572103539 fes=100000 error=5.352474133861e-02 completed=30/30
+COMPLETE 30
+/home/yinwhcmy/differential_evolution/adaptive_de/.venv/lib/python3.12/site-packages/opfunu/cec_based/cec.py:8: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+SUITE_RESULT run_id=cron_2_20261116T212002_np50 population=50 budget=100000 seed=2026111602 functions=30 score=1.79100211905726290e+05
+RUN_START timestamp=2026-11-16T21:21:11+08:00 run_id=cron_2_20261116T212002_np100 algorithm=DUAL population=100 budget=100000 seed=2026111602
+/home/yinwhcmy/differential_evolution/adaptive_de/.venv/lib/python3.12/site-packages/opfunu/cec_based/cec.py:8: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+PENDING 30 workers=6
+RESULT algorithm=DUAL function=F25 run=01 seed=78718673 fes=100000 error=2.004072954876e+02 completed=1/30
+RESULT algorithm=DUAL function=F24 run=01 seed=2828703688 fes=100000 error=1.053569872077e+02 completed=2/30
+RESULT algorithm=DUAL function=F29 run=01 seed=680268463 fes=100000 error=5.311033843405e+06 completed=3/30
+RESULT algorithm=DUAL function=F28 run=01 seed=2222135888 fes=100000 error=3.693714382863e+02 completed=4/30
+RESULT algorithm=DUAL function=F23 run=01 seed=3044257628 fes=100000 error=2.422283797499e+02 completed=5/30
+RESULT algorithm=DUAL function=F21 run=01 seed=1053953915 fes=100000 error=3.554002445640e-01 completed=6/30
+RESULT algorithm=DUAL function=F27 run=01 seed=1715683281 fes=100000 error=1.579726518080e+00 completed=7/30
+RESULT algorithm=DUAL function=F20 run=01 seed=653050778 fes=100000 error=4.031360058200e-01 completed=8/30
+RESULT algorithm=DUAL function=F26 run=01 seed=971837358 fes=100000 error=1.000200193589e+02 completed=9/30
+RESULT algorithm=DUAL function=F30 run=01 seed=3460001143 fes=100000 error=2.312051865118e+03 completed=10/30
+RESULT algorithm=DUAL function=F18 run=01 seed=3238517893 fes=100000 error=3.050448110873e-01 completed=11/30
+RESULT algorithm=DUAL function=F14 run=01 seed=1744601663 fes=100000 error=1.181762167851e-01 completed=12/30
+RESULT algorithm=DUAL function=F15 run=01 seed=2371759534 fes=100000 error=3.773072948140e-01 completed=13/30
+RESULT algorithm=DUAL function=F17 run=01 seed=2719063870 fes=100000 error=0.000000000000e+00 completed=14/30
+RESULT algorithm=DUAL function=F22 run=01 seed=301300458 fes=100000 error=1.316298705915e+00 completed=15/30
+RESULT algorithm=DUAL function=F13 run=01 seed=3943934548 fes=100000 error=1.419837914568e-02 completed=16/30
+RESULT algorithm=DUAL function=F09 run=01 seed=4160159357 fes=100000 error=2.040899051908e-01 completed=17/30
+RESULT algorithm=DUAL function=F19 run=01 seed=15506115 fes=100000 error=3.894679684340e-01 completed=18/30
+RESULT algorithm=DUAL function=F11 run=01 seed=3125338865 fes=100000 error=1.439474521163e+02 completed=19/30
+RESULT algorithm=DUAL function=F08 run=01 seed=2140289219 fes=100000 error=0.000000000000e+00 completed=20/30
+RESULT algorithm=DUAL function=F07 run=01 seed=2649510872 fes=100000 error=0.000000000000e+00 completed=21/30
+RESULT algorithm=DUAL function=F10 run=01 seed=1638193633 fes=100000 error=6.251240025813e-02 completed=22/30
+RESULT algorithm=DUAL function=F16 run=01 seed=4137537302 fes=100000 error=4.395992344030e-01 completed=23/30
+RESULT algorithm=DUAL function=F05 run=01 seed=3722633007 fes=100000 error=2.600162657224e+00 completed=24/30
+RESULT algorithm=DUAL function=F03 run=01 seed=3518023118 fes=100000 error=0.000000000000e+00 completed=25/30
+RESULT algorithm=DUAL function=F02 run=01 seed=3622219985 fes=100000 error=0.000000000000e+00 completed=26/30
+RESULT algorithm=DUAL function=F04 run=01 seed=1674021493 fes=100000 error=3.478027487472e+01 completed=27/30
+RESULT algorithm=DUAL function=F01 run=01 seed=588845067 fes=100000 error=0.000000000000e+00 completed=28/30
+RESULT algorithm=DUAL function=F06 run=01 seed=2862382519 fes=100000 error=0.000000000000e+00 completed=29/30
+RESULT algorithm=DUAL function=F12 run=01 seed=1572103539 fes=100000 error=4.970292474286e-02 completed=30/30
+COMPLETE 30
+/home/yinwhcmy/differential_evolution/adaptive_de/.venv/lib/python3.12/site-packages/opfunu/cec_based/cec.py:8: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+SUITE_RESULT run_id=cron_2_20261116T212002_np100 population=100 budget=100000 seed=2026111602 functions=30 score=1.77151674064673396e+05
+RUN_START timestamp=2026-11-16T21:22:21+08:00 run_id=cron_2_20261116T212002_np150 algorithm=DUAL population=150 budget=100000 seed=2026111602
+/home/yinwhcmy/differential_evolution/adaptive_de/.venv/lib/python3.12/site-packages/opfunu/cec_based/cec.py:8: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+PENDING 30 workers=6
+RESULT algorithm=DUAL function=F25 run=01 seed=78718673 fes=100000 error=2.004072954876e+02 completed=1/30
+RESULT algorithm=DUAL function=F24 run=01 seed=2828703688 fes=100000 error=1.023502647648e+02 completed=2/30
+RESULT algorithm=DUAL function=F29 run=01 seed=680268463 fes=100000 error=4.499876575556e+06 completed=3/30
+RESULT algorithm=DUAL function=F28 run=01 seed=2222135888 fes=100000 error=3.693714382863e+02 completed=4/30
+RESULT algorithm=DUAL function=F23 run=01 seed=3044257628 fes=100000 error=2.422283797499e+02 completed=5/30
+RESULT algorithm=DUAL function=F21 run=01 seed=1053953915 fes=100000 error=3.172791235256e-01 completed=6/30
+RESULT algorithm=DUAL function=F20 run=01 seed=653050778 fes=100000 error=5.599450954699e-01 completed=7/30
+RESULT algorithm=DUAL function=F27 run=01 seed=1715683281 fes=100000 error=1.852206519556e+00 completed=8/30
+RESULT algorithm=DUAL function=F26 run=01 seed=971837358 fes=100000 error=1.000436303001e+02 completed=9/30
+RESULT algorithm=DUAL function=F18 run=01 seed=3238517893 fes=100000 error=6.749960084062e-02 completed=10/30
+RESULT algorithm=DUAL function=F30 run=01 seed=3460001143 fes=100000 error=2.312323143495e+03 completed=11/30
+RESULT algorithm=DUAL function=F15 run=01 seed=2371759534 fes=100000 error=5.174483127423e-01 completed=12/30
+RESULT algorithm=DUAL function=F14 run=01 seed=1744601663 fes=100000 error=9.886280912224e-02 completed=13/30
+RESULT algorithm=DUAL function=F17 run=01 seed=2719063870 fes=100000 error=0.000000000000e+00 completed=14/30
+RESULT algorithm=DUAL function=F13 run=01 seed=3943934548 fes=100000 error=3.438698906962e-02 completed=15/30
+RESULT algorithm=DUAL function=F22 run=01 seed=301300458 fes=100000 error=2.143308103356e+01 completed=16/30
+RESULT algorithm=DUAL function=F19 run=01 seed=15506115 fes=100000 error=1.717326809311e+00 completed=17/30
+RESULT algorithm=DUAL function=F09 run=01 seed=4160159357 fes=100000 error=2.234814162629e+00 completed=18/30
+RESULT algorithm=DUAL function=F08 run=01 seed=2140289219 fes=100000 error=2.707452040340e-09 completed=19/30
+RESULT algorithm=DUAL function=F11 run=01 seed=3125338865 fes=100000 error=1.205792672593e+02 completed=20/30
+RESULT algorithm=DUAL function=F10 run=01 seed=1638193633 fes=100000 error=2.221447703437e+00 completed=21/30
+RESULT algorithm=DUAL function=F16 run=01 seed=4137537302 fes=100000 error=4.659588473746e-01 completed=22/30
+RESULT algorithm=DUAL function=F07 run=01 seed=2649510872 fes=100000 error=7.505613459557e-03 completed=23/30
+RESULT algorithm=DUAL function=F05 run=01 seed=3722633007 fes=100000 error=1.320239064639e+01 completed=24/30
+RESULT algorithm=DUAL function=F03 run=01 seed=3518023118 fes=100000 error=0.000000000000e+00 completed=25/30
+RESULT algorithm=DUAL function=F04 run=01 seed=1674021493 fes=100000 error=3.478027487472e+01 completed=26/30
+RESULT algorithm=DUAL function=F02 run=01 seed=3622219985 fes=100000 error=0.000000000000e+00 completed=27/30
+RESULT algorithm=DUAL function=F01 run=01 seed=588845067 fes=100000 error=0.000000000000e+00 completed=28/30
+RESULT algorithm=DUAL function=F06 run=01 seed=2862382519 fes=100000 error=8.738252662965e-03 completed=29/30
+RESULT algorithm=DUAL function=F12 run=01 seed=1572103539 fes=100000 error=2.321265808189e-01 completed=30/30
+COMPLETE 30
+/home/yinwhcmy/differential_evolution/adaptive_de/.venv/lib/python3.12/site-packages/opfunu/cec_based/cec.py:8: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+SUITE_RESULT run_id=cron_2_20261116T212002_np150 population=150 budget=100000 seed=2026111602 functions=30 score=1.50113454342271871e+05
+/home/yinwhcmy/differential_evolution/adaptive_de/.venv/lib/python3.12/site-packages/opfunu/cec_based/cec.py:8: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+VALIDATION_SUCCESS records=90 summary_matches_log=true solutions_recomputed=true
+BATCH_SUCCESS timestamp=2026-11-16T21:23:28+08:00 batch=cron_2_20261116T212002 mode=cron combinations=3 functions_per_combination=30

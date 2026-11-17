@@ -1,0 +1,35 @@
+Script started on 2026-11-10 11:11:12+08:00 [COMMAND="vi automation/run_experiments.sh" TERM="dumb" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+[24;1H"automation/run_experiments.sh" 75 lines, 4139 bytes[1;1H#!/usr/bin/env bash
+# Author and last editor: 殷明骏
+set -Eeuo pipefail
+export LC_ALL=C TZ=Asia/Shanghai
+export OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 MKL_NUM_THREADS=1
+ROOT=$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd)
+PYTHON=${AUTOMATION_PYTHON:-"$ROOT/../adaptive_de/.venv/bin/python"}
+OUTPUT=""; BUDGET=100000; SEED=20261110; WORKERS=6; MODE=manual
+POPULATIONS=(50 100 150)
+usage() {
+    echo 'Usage: ./run_experiments.sh [--output NEW_DIR] [--budget FES] [--seed  [12;1HN] [--workers N] [--mode manual|cron]'
+    echo 'Runs AdaptiveDE PGE-DE on every CEC2014 function in 10D with NP=50,100,11[14;1H50.'
+    echo 'Default: 100000 evaluations per function; a fresh timestamped directorr[16;1Hy.'
+    echo 'AUTOMATION_PYTHON can select a compatible numerical Python environment.'[18;1H}
+while (($#)); do
+    case "$1" in[21;9H--help|-h) usage; exit 0 ;;[22;9H--output|--budget|--seed|--workers|--mode)[23;13H(($# >= 2)) || { echo "Missing value for $1" >&2; exit 2; }[1;1H[24;1H                                                  
+/SUITE_RESULT
+[1;1H        --suite cec2014 --algorithms TEAM --runs 1 --dimension 10 \
+        --population-size "$NP" --population-mode fixed --max-fes "$BUDGET" \
+        --seed "$SEED" --workers "$WORKERS" --output "$OUTPUT/np$NP" >> "$LOG" 22[4;1H>&1                             
+    "$PYTHON" "$ROOT/verify_batch.py" score "$OUTPUT/np$NP" --run-id "$RUN" >> ""[6;1H$LOG" 2>&1                                              
+done                                                                 
+echo 'Automation mean absolute errors across CEC2014 F01-F30' > "$OUTPUT/summary_rr[9;1Heport.txt"              
+echo 'run_id population budget seed functions mean_absolute_error' >> "$OUTPUT/ss[11;1Hummary_report.txt"                                                             
+grep '^SUITE_RESULT ' "$LOG" | awk '  
+function die() { print "Invalid SUITE_RESULT line" > "/dev/stderr"; exit 1 }    [14;1H{   
+    delete v                                                                    [16;1H    for (i=2; i<=NF; i++) {
+        if (split($i, pair, "=") != 2 || pair[1] in v) die()                    [18;1H [18;9Hv[pair[1]]=pair[2]
+    }           
+    if (v["functions"] != 30 || v["score"] !~ /^[0-9]+([.][0-9]+)?[eE][+-][0-9]++[21;1H$/) die()                          
+    if (v["run_id"] == "" || v["population"] !~ /^[0-9]+$/ || v["budget"] !~ /^[[[23;1H0-9]+$/ || v["seed"] !~ /^[0-9]+$/) die()                              [12;8H[24;1H             
+:q!
+[24;1H   
+Script done on 2026-11-10 11:11:57+08:00 [COMMAND_EXIT_CODE="0"]

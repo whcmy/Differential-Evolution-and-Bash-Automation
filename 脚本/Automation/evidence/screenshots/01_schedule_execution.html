@@ -1,0 +1,15 @@
+<!doctype html><meta charset="utf-8"><title>Recorded cron execution evidence</title><style>
+      body{font:24px Georgia,serif;margin:28px;color:#152331;background:#fff}h1{font-size:32px;margin:0 0 12px}p{margin:0 0 22px;color:#425466}h2{font:600 24px Arial;margin:24px 0 10px}pre{font:24px/1.35 monospace;white-space:pre-wrap;overflow-wrap:anywhere;background:#f3f5f7;border:1px solid #d9dfe5;padding:16px;margin:0}footer{margin-top:24px;font-size:18px;color:#425466}
+      </style><h1>Recorded cron execution evidence</h1><p>Automation | Three scheduled executions validated</p>
+      <h2>Recorded scheduler events</h2><pre>CRON_START timestamp=2026-11-10T16:04:01+08:00 sequence=1 directory=cron_1_20261110T160401
+CRON_SUCCESS timestamp=2026-11-10T16:08:16+08:00 sequence=1 validated_records=90
+CRON_START timestamp=2026-11-10T17:04:01+08:00 sequence=2 directory=cron_2_20261110T170401
+CRON_SUCCESS timestamp=2026-11-10T17:08:05+08:00 sequence=2 validated_records=90
+CRON_START timestamp=2026-11-10T18:44:22+08:00 sequence=3 directory=cron_3_20261110T184422
+CRON_SUCCESS timestamp=2026-11-10T18:48:33+08:00 sequence=3 validated_records=90
+SCHEDULE_COMPLETE timestamp=2026-11-10T18:48:33+08:00 successful_executions=3</pre><h2>Cron ancestry and actual timestamps</h2><pre>Execution 1: 2026-11-10T16:04:01+08:00 to 2026-11-10T16:08:16+08:00; 90 records
+PID 1159, PPID 1: /usr/sbin/cron -f -P
+Execution 2: 2026-11-10T17:04:01+08:00 to 2026-11-10T17:08:05+08:00; 90 records
+PID 1159, PPID 1: /usr/sbin/cron -f -P
+Execution 3: 2026-11-10T18:44:22+08:00 to 2026-11-10T18:48:33+08:00; 90 records
+PID 1159, PPID 1: /usr/sbin/cron -f -P</pre><footer>Reformatted saved execution records; workspace paths normalized.</footer>

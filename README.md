@@ -1,19 +1,13 @@
-# Differential Evolution and Bash Automation
+# Differential Evolution and Reproducible Optimization
 
-嵌入式系统课程三个实验的报告、源代码和保存的实验记录。
+差分进化算法改进与可复现实验研究
 
-| 实验 | 内容 | 报告 |
+围绕差分进化算法的性能改进与实验可复现性开展研究。在团队完成 DSPDE、DLS-DE 与 PEMS-DE 复现的基础上，负责 PEMS-DE 复现、跨算法对比、策略消融与 DC-DE 改进方法的实现和验证。构建基于成功反馈的指数／二项交叉自适应混合机制，在 CEC2014 的 30 个十维函数上完成 4,800 次独立确认运行，DC-DE 在六种完整算法中的平均排名为 2.367；经 Holm 校正的配对检验，相对基础 DE 在 14 个函数上显著改善、1 个函数上显著下降。同时完成参考评价器核验，并搭建 Bash 与 cron 驱动的实验流程，支持参数扫描、结构化日志、保存解的独立重算与结果追溯；三次定时执行产生并核验 270 条结果。
+
+| 研究内容 | 报告 | 代码与记录 |
 | --- | --- | --- |
-| Project 1 | Basic Differential Evolution | [PDF](实验报告/Project%201%20Basic%20Differential%20Evolution.pdf) · [Word](实验报告/Project%201%20Basic%20Differential%20Evolution.docx) |
-| Project 2 | Differential Evolution | [PDF](实验报告/Project%202%20Differential%20Evolution.pdf) · [Word](实验报告/Project%202%20Differential%20Evolution.docx) |
-| Project 3 | Bash Automation | [PDF](实验报告/Project%203%20Bash%20Automation.pdf) · [Word](实验报告/Project%203%20Bash%20Automation.docx) |
+| DE 基线、评价器一致性与文献对照 | [PDF](研究报告/Differential%20Evolution%20Baseline%20and%20Evaluator%20Validation.pdf) · [Word](研究报告/Differential%20Evolution%20Baseline%20and%20Evaluator%20Validation.docx) | [basic_de](脚本/BasicDE/) |
+| 自适应差分进化复现、策略消融与 DC-DE 验证 | [PDF](研究报告/Adaptive%20Differential%20Evolution%20and%20DC-DE%20Validation.pdf) · [Word](研究报告/Adaptive%20Differential%20Evolution%20and%20DC-DE%20Validation.docx) | [adaptive_de](脚本/AdaptiveDE/) |
+| 优化实验自动化、参数扫描与独立核验 | [PDF](研究报告/Reproducible%20Optimization%20Experiment%20Automation.pdf) · [Word](研究报告/Reproducible%20Optimization%20Experiment%20Automation.docx) | [automation](脚本/Automation/) |
 
-报告删除课程封面第一页，保留正文、图表和原有正文页码。
-
-- `实验报告/`：三份报告的 PDF 和可编辑 Word。
-- `脚本/`：完整提交副本中的实验代码、依赖说明、参考评价器和冻结结果；运行入口见[运行说明](脚本/运行说明.md)。
-- `开发脚本/`：补充的实验开发、验证、分析、绘图、报告生成和打包源代码，按原路径保存。
-
-Project1、Project2/3 的依赖版本不同，请分别建立环境。最终 Project2 方法为 DC-DE；Project3 使用该方法的 Bash 自动化流程。早期算法和历史实验保留用于追溯。
-
-报告和仓库内容从最终提交文件夹复制整理，原版提交文件夹及原提交压缩包保持原样。
+实验运行入口与依赖见[运行说明](脚本/运行说明.md)。`开发脚本/` 保留算法开发、分析、绘图、文档构建和打包脚本。基线验证与自适应算法使用不同 NumPy 版本，分别配置环境。保存的历史实现、消融结果和执行记录用于复核研究过程。

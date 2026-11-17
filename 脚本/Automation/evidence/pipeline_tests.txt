@@ -1,0 +1,14 @@
+/home/yinwhcmy/differential_evolution/adaptive_de/.venv/lib/python3.12/site-packages/opfunu/cec_based/cec.py:8: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+test_changed_solution_rejected (test_pipeline.PipelineChecks.test_changed_solution_rejected) ... ok
+test_invalid_inputs_rejected (test_pipeline.PipelineChecks.test_invalid_inputs_rejected) ... ok
+test_manual_process_chain_has_no_cron (test_pipeline.PipelineChecks.test_manual_process_chain_has_no_cron) ... ok
+test_missing_function_rejected (test_pipeline.PipelineChecks.test_missing_function_rejected) ... ok
+test_stale_output_rejected (test_pipeline.PipelineChecks.test_stale_output_rejected) ... ok
+test_tampered_summary_rejected (test_pipeline.PipelineChecks.test_tampered_summary_rejected) ... ok
+test_valid_complete_batch (test_pipeline.PipelineChecks.test_valid_complete_batch) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.566s
+
+OK
